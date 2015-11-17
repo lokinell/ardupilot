@@ -1,0 +1,36 @@
+digraph "mavlink_msg_gimbal_set_factory_parameters_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_magic_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a054626d41e9ac9209bebbfceffb8fe42",tooltip="Get field magic_1 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_magic_2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#aecdfabc9129f73793fbc3c1b07e42579",tooltip="Get field magic_2 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_magic_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a2f5a85e6aeb5115f1f775f661e908315",tooltip="Get field magic_3 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_serial_number_pt_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a3cfaecf4890f034bb386a1998dbc4d9a",tooltip="Get field serial_number_pt_1 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_serial_number_pt_2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a970c2eec2b2f95cd62bdf27fb7ccfba8",tooltip="Get field serial_number_pt_2 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_serial_number_pt_3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a46fa74b0f1b30a9ca330b42a2252b172",tooltip="Get field serial_number_pt_3 from gimbal_set_factory_parameters message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_year",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a6ff90b9107c27e3d8f65156a00ed8a47",tooltip="Get field assembly_year from gimbal_set_factory_parameters message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a3e4f5ac3865c1468b027b76064f84795",tooltip="Send a gimbal_set_factory_parameters message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_target_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#aa930021be438ca58edd99d03592bc6a6",tooltip="Get field target_component from gimbal_set_factory_parameters message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_month",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#a2e4eb2afd18270c2b375f7b7048834ad",tooltip="Get field assembly_month from gimbal_set_factory_parameters message. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_day",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#aee63bfb7089641d196ba7b0aaebe1bf7",tooltip="Get field assembly_day from gimbal_set_factory_parameters message. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_hour",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#af245fc6f4187a4b3489892176f1dfbef",tooltip="Get field assembly_hour from gimbal_set_factory_parameters message. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_minute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#aee6bfefc569863bfcbbe11c17b9aafee",tooltip="Get field assembly_minute from gimbal_set_factory_parameters message. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="mavlink_msg_gimbal\l_set_factory_parameters\l_get_assembly_second",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__set__factory__parameters_8h.html#ac87ea263f0b4f5ebff709ee6b811e177",tooltip="Get field assembly_second from gimbal_set_factory_parameters message. "];
+}

@@ -1,0 +1,16 @@
+digraph "mavlink_msg_set_attitude_target_get_body_roll_rate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_set_attitude\l_target_get_body_roll_rate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_set_attitude\l_target_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__attitude__target_8h.html#a1f76d6c03d1ed721c7c8b1e7adb7a499",tooltip="Decode a set_attitude_target message into a struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_test_set_attitude\l_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#a98e1eec52789e1cdaea2d63c5ae4655d"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_test_common",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#af349432601ac003d2c80a69c100c70a4"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+}

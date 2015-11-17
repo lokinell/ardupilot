@@ -1,0 +1,15 @@
+digraph "AP_HAL::RCInput::new_input"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::RCInput::new\l_input",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="individualread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$FLYMAPLE_2examples_2RCInput_2RCInput_8cpp.html#aeb998f1761a28e512e2dcbc829983e06"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$FLYMAPLE_2examples_2RCInput_2RCInput_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="multiread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$FLYMAPLE_2examples_2RCInput_2RCInput_8cpp.html#a3386c13c098492e383d289443c48e1c0"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,26 @@
+digraph "mavlink_msg_limits_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_limits\l_status_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_limits\l_status_get_last_trigger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a422a91e75f608ffa9a574af4bbd2d58b",tooltip="Get field last_trigger from limits_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_limits\l_status_get_last_action",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#ae6dbe3d9f7d818fb3ee96bb433d2a559",tooltip="Get field last_action from limits_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_limits\l_status_get_last_recovery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#ad4bdf42519a8114537026318ec02149f",tooltip="Get field last_recovery from limits_status message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_limits\l_status_get_last_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a0fff3f0834bd999c57c34abe0af1f828",tooltip="Get field last_clear from limits_status message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_limits\l_status_get_breach_count",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#abf73bec81c95100594538fe8db695cbc",tooltip="Get field breach_count from limits_status message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_limits\l_status_get_limits_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a76491efd1b4cee8f28913e9d118b3c22",tooltip="Send a limits_status message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_limits\l_status_get_mods_enabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a0415762c31979f3bab99cd80bec96400",tooltip="Get field mods_enabled from limits_status message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_limits\l_status_get_mods_required",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a4909738e8709b6f4fd1cc80cf690f585",tooltip="Get field mods_required from limits_status message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_limits\l_status_get_mods_triggered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__limits__status_8h.html#a3bd4ba2be74ac32b8580cf001b019f46",tooltip="Get field mods_triggered from limits_status message. "];
+}

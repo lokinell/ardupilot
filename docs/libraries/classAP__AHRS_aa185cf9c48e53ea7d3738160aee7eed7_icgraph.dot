@@ -1,0 +1,19 @@
+digraph "AP_AHRS::getLastPosNorthEastReset"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AHRS::getLastPosNorth\lEastReset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_WPNav::check_for\l_ekf_position_reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#ae1bf3013f0e3c72b74c7da114d945d1b",tooltip="check for ekf position reset and adjust loiter or brake target position "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_WPNav::update_loiter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a0a434270245fd8641352af387700dc82",tooltip="update_loiter - run the loiter controller - should be called at 10hz "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_WPNav::init_ekf\l_position_reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#ac82ab98a01fe72d461922b15133ca86d",tooltip="initialise and check for ekf position reset and adjust loiter or brake target position ..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_WPNav::init_brake\l_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a2ed86e41fc51c2ea822711ea95d055f0",tooltip="init_brake_target - initializes stop position from current position and velocity "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_WPNav::init_loiter\l_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#aeff9bc9c5ec596b91408145d615b236f",tooltip="init_loiter_target - initialize&#39;s loiter position and feed-forward velocity from current pos and velo..."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

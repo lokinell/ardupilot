@@ -1,0 +1,16 @@
+<map id="libraries/AP_Motors/AP_Motors.h" name="libraries/AP_Motors/AP_Motors.h">
+<area shape="rect" id="node2" href="$AC__AttitudeControl_8h.html" title="ArduCopter attitude control library. " alt="" coords="468,105,654,144"/>
+<area shape="rect" id="node8" href="$AC__PosControl_8h.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.h" alt="" coords="698,205,884,244"/>
+<area shape="rect" id="node14" href="$AP__Motors__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_test/AP_Motors_test.cpp" alt="" coords="794,99,968,151"/>
+<area shape="rect" id="node15" href="$AP__Motors__Time__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_Time_test/AP_Motors\l_Time_test.cpp" alt="" coords="992,92,1149,157"/>
+<area shape="rect" id="node3" href="$AC__AttitudeControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl.cpp" alt="" coords="436,205,622,244"/>
+<area shape="rect" id="node4" href="$AC__AttitudeControl__Heli_8h.html" title="ArduCopter attitude control library for traditional helicopters. " alt="" coords="12,205,198,244"/>
+<area shape="rect" id="node6" href="$AC__AttitudeControl__Multi_8h.html" title="ArduCopter attitude control library. " alt="" coords="227,205,413,244"/>
+<area shape="rect" id="node12" href="$AC__WPNav_8h.html" title="libraries/AC_WPNav\l/AC_WPNav.h" alt="" coords="570,292,713,331"/>
+<area shape="rect" id="node5" href="$AC__AttitudeControl__Heli_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Heli.cpp" alt="" coords="5,292,200,331"/>
+<area shape="rect" id="node7" href="$AC__AttitudeControl__Multi_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Multi.cpp" alt="" coords="224,292,424,331"/>
+<area shape="rect" id="node9" href="$AC__PosControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.cpp" alt="" coords="903,292,1089,331"/>
+<area shape="rect" id="node10" href="$AC__Circle_8h.html" title="libraries/AC_WPNav\l/AC_Circle.h" alt="" coords="737,292,879,331"/>
+<area shape="rect" id="node11" href="$AC__Circle_8cpp.html" title="libraries/AC_WPNav\l/AC_Circle.cpp" alt="" coords="737,379,879,417"/>
+<area shape="rect" id="node13" href="$AC__WPNav_8cpp.html" title="libraries/AC_WPNav\l/AC_WPNav.cpp" alt="" coords="570,379,713,417"/>
+</map>

@@ -1,0 +1,13 @@
+digraph "libraries/AP_NavEKF/Models" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_46edeb859ac943c9ceb605f4bae14ade {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AP_NavEKF" fontname="Helvetica", fontsize="10", URL="dir_46edeb859ac943c9ceb605f4bae14ade.html"]
+  subgraph clusterdir_adbf5c07d9715789829ecb7fc2c0e077 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_adbf5c07d9715789829ecb7fc2c0e077.html"];
+    dir_adbf5c07d9715789829ecb7fc2c0e077 [shape=plaintext label="Models"];
+    dir_79589d4fef78b921be0e8e2c37e72346 [shape=box label="GimbalEstimatorExample" color="black" fillcolor="white" style="filled" URL="dir_79589d4fef78b921be0e8e2c37e72346.html"];
+  }
+  }
+}

@@ -1,0 +1,6 @@
+<map id="mavlink_msg_ahrs2_pack" name="mavlink_msg_ahrs2_pack">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs2_8h.html#aa92fa31335a7d9fb21e1d544a49b9379" title="Encode a ahrs2 struct. " alt="" coords="229,5,420,31"/>
+<area shape="rect" id="node3" href="$ardupilotmega_2testsuite_8h.html#a9ecd1acaa442cd5c423461cfc9d648a2" title="mavlink_test_ahrs2" alt="" coords="468,31,604,56"/>
+<area shape="rect" id="node4" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="652,31,839,56"/>
+<area shape="rect" id="node5" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="887,31,1004,56"/>
+</map>

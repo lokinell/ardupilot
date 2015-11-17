@@ -1,0 +1,14 @@
+digraph "libraries/AP_ADC_AnalogSource" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_2890775853a43f967b43a1add8667c26 [shape=box, label="AP_ADC_AnalogSource", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2890775853a43f967b43a1add8667c26.html"];
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_996e8670f125f81a54035ee10c7e09eb [shape=box label="AP_ADC" fillcolor="white" style="filled" color="red" URL="dir_996e8670f125f81a54035ee10c7e09eb.html"];
+  dir_996e8670f125f81a54035ee10c7e09eb->dir_1cbc10423b2512b31103883361e0123b [headlabel="5", labeldistance=1.5 headhref="dir_000010_000046.html"];
+  dir_2890775853a43f967b43a1add8667c26->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000013_000046.html"];
+  dir_2890775853a43f967b43a1add8667c26->dir_996e8670f125f81a54035ee10c7e09eb [headlabel="1", labeldistance=1.5 headhref="dir_000013_000010.html"];
+}

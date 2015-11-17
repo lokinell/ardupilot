@@ -1,0 +1,14 @@
+digraph "mavlink_msg_set_mode_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_set_mode\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_set_mode\l_get_custom_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a85ba55d9647280a436b75e850d0aec13",tooltip="Get field custom_mode from set_mode message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_set_mode\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a7d367c4cd9fadb093d9919c5bd0e7af7",tooltip="Send a set_mode message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_set_mode\l_get_base_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a52e9176db9c1895da52d5877baa4f1da",tooltip="Get field base_mode from set_mode message. "];
+}

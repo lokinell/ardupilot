@@ -1,0 +1,14 @@
+digraph "FLASH_GetStatus"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="FLASH_GetStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FLASH_WaitForLastOperation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash__stm32F1_8h.html#a32f1f24182bcef29414d7b59c1669595",tooltip="Waits for a Flash operation to complete or a TIMEOUT to occur. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FLASH_ErasePage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash__stm32F1_8h.html#ab10d4a1c191d1d7f5b3a3b70927e6e69",tooltip="Erases a specified FLASH page. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FLASH_ProgramHalfWord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash__stm32F1_8h.html#a67623617a6efb2676988073df8b08b23",tooltip="Programs a half word at a specified address. "];
+}

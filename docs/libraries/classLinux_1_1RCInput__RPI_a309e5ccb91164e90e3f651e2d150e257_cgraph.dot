@@ -1,0 +1,12 @@
+digraph "Linux::RCInput_RPI::init_ctrl_data"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::RCInput_RPI\l::init_ctrl_data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Memory_table::get_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMemory__table.html#a2b4856f2bee04a2a38de1a389fdf619e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::RCInput_RPI\l::init_dma_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput__RPI.html#a554591bfa86b8a9a4b6e29c4ed466882"];
+}

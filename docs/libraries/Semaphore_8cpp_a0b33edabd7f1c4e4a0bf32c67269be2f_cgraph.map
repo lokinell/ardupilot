@@ -1,0 +1,7 @@
+<map id="loop" name="loop">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Semaphore.html#abd3a0affad8bb211981a979f30386589" title="AP_HAL::Semaphore::take" alt="" coords="100,5,281,31"/>
+<area shape="rect" id="node3" href="$Semaphore_8cpp.html#aa7111f1280e1d20089f2e1e4fd73f25e" title="blink_a2" alt="" coords="155,55,226,80"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Semaphore.html#afcdbf03d5bea9d83037acc93bfaea7ce" title="AP_HAL::Semaphore::give" alt="" coords="100,104,281,129"/>
+<area shape="rect" id="node6" href="$Semaphore_8cpp.html#a6d72fc68f0df4276eb0415cfabfe389c" title="blink_a3" alt="" coords="155,153,226,179"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1GPIO.html#a2b0664bdab1876e3b0bbcd9064eec88e" title="AP_HAL::GPIO::write" alt="" coords="329,104,478,129"/>
+</map>

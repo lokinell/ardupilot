@@ -1,0 +1,21 @@
+digraph "AP_HAL::I2CDriver::setHighSpeed"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::I2CDriver::\lsetHighSpeed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Baro_BMP085::ReadPress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a18bb599496f0605476c4202c65b75b50"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Baro_BMP085::accumulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a17a0aef961a4ce8aa39073d889f678d6"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Baro__BMP085__test_8cpp.html#afe461d27b9c48d5921c00d521181f12f"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Baro_BMP085::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a2aa3463e9e908fef68b1f5ab699f1357"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Baro_BMP085::ReadTemp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a0ec56f9abd3f65696fe3d75209079685"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_HMC5843_SerialBus\l_I2C::set_high_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HMC5843__SerialBus__I2C.html#afc4c9d6f3391550b95004bff52f8d0db"];
+}

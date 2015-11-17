@@ -1,0 +1,24 @@
+digraph "mavlink_msg_distance_sensor_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_distance\l_sensor_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_distance\l_sensor_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a73dedb3bbfe892024fe928fbc2459cc2",tooltip="Send a distance_sensor message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_distance\l_sensor_get_min_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a8bad024d2dededc8104e842f849cec0d",tooltip="Get field min_distance from distance_sensor message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_distance\l_sensor_get_max_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#aa0b2d3b2dfe638bd92c700d1e46acdfe",tooltip="Get field max_distance from distance_sensor message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_distance\l_sensor_get_current_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a096ed39b2c75352af5112a12c909e6a3",tooltip="Get field current_distance from distance_sensor message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_distance\l_sensor_get_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a35d224ae2644c5d4e1716d1485173fbc",tooltip="Get field type from distance_sensor message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_distance\l_sensor_get_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a5ea6ba5f608f879b6d9301b75f651f47",tooltip="Get field id from distance_sensor message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_distance\l_sensor_get_orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#ac4a70d7020819811dedd96f8c8e57adf",tooltip="Get field orientation from distance_sensor message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_distance\l_sensor_get_covariance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__distance__sensor_8h.html#a47e3842bc0834c47fa8c01e3208bef9a",tooltip="Get field covariance from distance_sensor message. "];
+}

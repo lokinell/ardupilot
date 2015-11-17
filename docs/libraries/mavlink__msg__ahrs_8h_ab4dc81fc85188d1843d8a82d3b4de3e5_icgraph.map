@@ -1,0 +1,6 @@
+<map id="mavlink_msg_ahrs_pack_chan" name="mavlink_msg_ahrs_pack_chan">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs_8h.html#ac7f95c110a4598416a0c0b9ad6c14e09" title="Encode a ahrs struct on a channel. " alt="" coords="258,5,478,31"/>
+<area shape="rect" id="node3" href="$ardupilotmega_2testsuite_8h.html#aa6892a55bb6a312967d765e9f7e551a0" title="mavlink_test_ahrs" alt="" coords="303,55,432,80"/>
+<area shape="rect" id="node4" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="526,55,713,80"/>
+<area shape="rect" id="node5" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="761,55,877,80"/>
+</map>

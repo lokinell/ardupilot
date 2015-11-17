@@ -1,0 +1,20 @@
+digraph "mavlink_msg_attitude_quaternion_cov_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_attitude\l_quaternion_cov_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_attitude\l_quaternion_cov_get_time\l_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#a09e622d66c4d13e772fdd2e95e68b0de",tooltip="Send a attitude_quaternion_cov message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_attitude\l_quaternion_cov_get_q",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#a037e18683ae6fa46ab68cec85bf91f71",tooltip="Get field q from attitude_quaternion_cov message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_attitude\l_quaternion_cov_get_rollspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#ae2b31621c12f54524646ffeb706907ac",tooltip="Get field rollspeed from attitude_quaternion_cov message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_attitude\l_quaternion_cov_get_pitchspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#a3ed0e6915c1e0cb94bfadf61e33250ae",tooltip="Get field pitchspeed from attitude_quaternion_cov message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_attitude\l_quaternion_cov_get_yawspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#a17f7f1702fd19fb24a41810901da4d7e",tooltip="Get field yawspeed from attitude_quaternion_cov message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_attitude\l_quaternion_cov_get_covariance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__quaternion__cov_8h.html#a25a306e1daab8b38471d516db10033c3",tooltip="Get field covariance from attitude_quaternion_cov message. "];
+}

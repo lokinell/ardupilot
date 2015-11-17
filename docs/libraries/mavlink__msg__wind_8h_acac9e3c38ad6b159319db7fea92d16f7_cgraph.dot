@@ -1,0 +1,14 @@
+digraph "mavlink_msg_wind_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_wind_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_wind_get\l_direction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__wind_8h.html#a6ff24f746800dd3f6f8da8309ff9af9b",tooltip="Send a wind message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_wind_get\l_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__wind_8h.html#aa9bcfca072624f76708720f52f40340f",tooltip="Get field speed from wind message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_wind_get\l_speed_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__wind_8h.html#ab7521575e756b3610643fba71b8aee8d",tooltip="Get field speed_z from wind message. "];
+}

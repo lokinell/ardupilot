@@ -1,0 +1,16 @@
+digraph "AP_Frsky_Telem::send_gps_lon_ew"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Frsky_Telem::send\l_gps_lon_ew",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Frsky_Telem::send\l_hub_frame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Frsky__Telem.html#ae386d05deadb794547df5a4e22edcc8a"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Frsky_Telem::send\l_frames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Frsky__Telem.html#a9c09b9a14c083f48e845d81484de9c0e"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Frsky_Telem::sport_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Frsky__Telem.html#a89ada57d816dfa4246726c17aa7fd32f"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Frsky_Telem::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Frsky__Telem.html#a081d1787f8ec08ca8c489fb5dc86393c"];
+}

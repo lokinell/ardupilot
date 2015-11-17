@@ -1,0 +1,23 @@
+<map id="libraries/AP_HAL/AP_HAL.h" name="libraries/AP_HAL/AP_HAL.h">
+<area shape="rect" id="node4" href="$AP__HAL__Namespace_8h.html" title="AP_HAL_Namespace.h" alt="" coords="605,532,767,557"/>
+<area shape="rect" id="node7" href="$AP__HAL__Boards_8h.html" title="AP_HAL_Boards.h" alt="" coords="1299,385,1432,411"/>
+<area shape="rect" id="node8" href="$AP__HAL__Macros_8h.html" title="AP_HAL_Macros.h" alt="" coords="313,92,448,117"/>
+<area shape="rect" id="node9" href="$AP__HAL__Main_8h.html" title="AP_HAL_Main.h" alt="" coords="778,92,898,117"/>
+<area shape="rect" id="node10" href="$HAL_8h.html" title="HAL.h" alt="" coords="763,165,822,191"/>
+<area shape="rect" id="node11" href="$AnalogIn_8h.html" title="AnalogIn.h" alt="" coords="101,312,186,337"/>
+<area shape="rect" id="node13" href="$GPIO_8h.html" title="GPIO.h" alt="" coords="676,312,741,337"/>
+<area shape="rect" id="node14" href="$RCInput_8h.html" title="RCInput.h" alt="" coords="469,239,551,264"/>
+<area shape="rect" id="node15" href="$RCOutput_8h.html" title="RCOutput.h" alt="" coords="1025,239,1117,264"/>
+<area shape="rect" id="node16" href="$SPIDriver_8h.html" title="SPIDriver.h" alt="" coords="1520,239,1609,264"/>
+<area shape="rect" id="node17" href="$Storage_8h.html" title="Storage.h" alt="" coords="1141,239,1220,264"/>
+<area shape="rect" id="node18" href="$UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="778,239,882,264"/>
+<area shape="rect" id="node21" href="$BetterStream_8h.html" title="utility/BetterStream.h" alt="" coords="336,312,481,337"/>
+<area shape="rect" id="node23" href="$Stream_8h.html" title="Stream.h" alt="" coords="179,385,254,411"/>
+<area shape="rect" id="node24" href="$Print_8h.html" title="Print.h" alt="" coords="48,459,108,484"/>
+<area shape="rect" id="node25" href="$I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="1507,385,1595,411"/>
+<area shape="rect" id="node26" href="$Scheduler_8h.html" title="Scheduler.h" alt="" coords="1232,312,1324,337"/>
+<area shape="rect" id="node27" href="$Semaphores_8h.html" title="Semaphores.h" alt="" coords="1721,165,1829,191"/>
+<area shape="rect" id="node28" href="$Util_8h.html" title="Util.h" alt="" coords="260,312,312,337"/>
+<area shape="rect" id="node6" href="$functor_8h.html" title="utility/functor.h" alt="" coords="633,605,739,631"/>
+<area shape="rect" id="node19" href="$AP__Common_8h.html" title="Common definitions and utility routines for the ArduPilot libraries. " alt="" coords="726,385,921,411"/>
+</map>

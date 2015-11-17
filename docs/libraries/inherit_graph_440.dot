@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="HALSITL::SITL_State\l::gps_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHALSITL_1_1SITL__State_1_1gps__data.html"];
+}

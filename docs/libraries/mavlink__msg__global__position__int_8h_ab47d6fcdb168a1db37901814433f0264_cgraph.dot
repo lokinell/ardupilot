@@ -1,0 +1,26 @@
+digraph "mavlink_msg_global_position_int_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_global\l_position_int_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_global\l_position_int_get_time\l_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#af810b5299251871bd3a978c174c3cb03",tooltip="Send a global_position_int message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_global\l_position_int_get_lat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a678306cd8783393c319eb36e3b6aac9d",tooltip="Get field lat from global_position_int message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_global\l_position_int_get_lon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a24c0bdcadc7650de300716305ef45605",tooltip="Get field lon from global_position_int message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_global\l_position_int_get_alt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a78a1ab97bee3c70ae8151d1bc15827f5",tooltip="Get field alt from global_position_int message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_global\l_position_int_get_relative_alt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a1fe63f3e036a311b8223296f6891b3be",tooltip="Get field relative_alt from global_position_int message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_global\l_position_int_get_vx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a745812359380e03966844fda90c63e2b",tooltip="Get field vx from global_position_int message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_global\l_position_int_get_vy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a76aec5e0d87a984d1cd999b626a21e6f",tooltip="Get field vy from global_position_int message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_global\l_position_int_get_vz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a568d0824d6a6b51eb43d2bef78c6509c",tooltip="Get field vz from global_position_int message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_global\l_position_int_get_hdg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__global__position__int_8h.html#a44bd2ea79b69f2243c4badeee60865ba",tooltip="Get field hdg from global_position_int message. "];
+}

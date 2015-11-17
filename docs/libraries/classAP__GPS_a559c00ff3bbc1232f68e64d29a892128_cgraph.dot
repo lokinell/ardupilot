@@ -1,0 +1,28 @@
+digraph "AP_GPS::send_mavlink_gps2_raw"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_GPS::send_mavlink\l_gps2_raw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_GPS::num_sensors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ab9242bd37b2fccdfbb76b42d9ea4a302"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_GPS::status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ae306f6cf545ee9f1f61cc38301ef76ca"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_GPS::last_message\l_time_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a99be30769d9ebba8b0184a5635012198"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_GPS::location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a98307dafca6849d38b983258a0ab361c"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_GPS::last_fix_time_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ad9057eb7d0fa2a0fcf39fee4d2d1036b"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_GPS::get_hdop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a4e2f4adf4afb5c25bcf8cea537ec1221"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_GPS::get_vdop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#aff725a10762e8edc0871c522c0f7cfac"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_GPS::ground_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a7424d6be88b259250ee31e9897f98f36"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_GPS::ground_course_cd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#adfa5cff731a1b7f144b521083d056671"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_GPS::num_sats",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#afcc2442ab71102ddabde55e6fb58bf0a"];
+}

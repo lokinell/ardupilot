@@ -1,0 +1,42 @@
+digraph "AP_Baro_BMP085::update"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Baro_BMP085::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Baro_BMP085::accumulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a17a0aef961a4ce8aa39073d889f678d6"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::I2CDriver::\lget_semaphore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1I2CDriver.html#a373424b46be08ef36d53844f88b5398e"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::Semaphore::take",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#abd3a0affad8bb211981a979f30386589"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Baro_BMP085::ReadTemp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a0ec56f9abd3f65696fe3d75209079685"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::I2CDriver::\lreadRegisters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1I2CDriver.html#a5826f44fd0ab5a87db1c14f5a3d55561"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_HAL::I2CDriver::\lsetHighSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1I2CDriver.html#a687bb56361cf0ee839b4df36cf756952"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_Baro_BMP085::ReadPress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a18bb599496f0605476c4202c65b75b50"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_HAL::Scheduler::\lmillis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_Baro_BMP085::Calculate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a488126e28b54146b71039c5354583688"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_Baro_BMP085::Command\l_ReadTemp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a1d67783c485f23ca9c80a97bd5722c21"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_HAL::I2CDriver::\lwriteRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1I2CDriver.html#a8e28e01b86bd1cb03efb7162f340444e"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_Baro_BMP085::Command\l_ReadPress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html#a3e1a7692b1f37a05939ba7c42bc63fc8"];
+  Node13 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_HAL::Semaphore::give",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#afcdbf03d5bea9d83037acc93bfaea7ce"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_Baro_Backend::_copy\l_to_frontend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__Backend.html#ad70c9cb450b4a7f5085d5b118ad90325"];
+  Node15 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

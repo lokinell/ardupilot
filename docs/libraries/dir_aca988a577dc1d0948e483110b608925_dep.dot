@@ -1,0 +1,11 @@
+digraph "libraries/AP_HAL/examples/Printf" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f7f5157e56f55124705528a97fcdff61 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_f7f5157e56f55124705528a97fcdff61.html"]
+  dir_aca988a577dc1d0948e483110b608925 [shape=box, label="Printf", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_aca988a577dc1d0948e483110b608925.html"];
+  }
+  dir_df3f4256615fd4197927a84a019a8bd8 [shape=box label="AP_Common" fillcolor="white" style="filled" color="red" URL="dir_df3f4256615fd4197927a84a019a8bd8.html"];
+  dir_aca988a577dc1d0948e483110b608925->dir_df3f4256615fd4197927a84a019a8bd8 [headlabel="1", labeldistance=1.5 headhref="dir_000057_000030.html"];
+}

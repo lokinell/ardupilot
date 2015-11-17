@@ -1,0 +1,26 @@
+digraph "mavlink_msg_camera_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_camera\l_status_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_camera\l_status_get_time_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#ac1ba2d71ff59aa3dcd548d87af127f5b",tooltip="Send a camera_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_camera\l_status_get_p1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#a7604522d7c77b75590a1495a0607da9a",tooltip="Get field p1 from camera_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_camera\l_status_get_p2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#aa64e4949ebc180df55bb63c4e4a2eaef",tooltip="Get field p2 from camera_status message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_camera\l_status_get_p3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#ad58f9f2fe6ad28d7faf87f27216d797e",tooltip="Get field p3 from camera_status message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_camera\l_status_get_p4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#ab6e3b6060b037b1db141abc5a2c3a04c",tooltip="Get field p4 from camera_status message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_camera\l_status_get_img_idx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#a9928be63876744e9c9a6bf1aed0f3942",tooltip="Get field img_idx from camera_status message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_camera\l_status_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#a34770fffbaabc5a5e4537d89466730fa",tooltip="Get field target_system from camera_status message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_camera\l_status_get_cam_idx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#a498df40ccc68856676f24aba767bdc50",tooltip="Get field cam_idx from camera_status message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_camera\l_status_get_event_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__status_8h.html#a494c105acd063d975d32e178638caf89",tooltip="Get field event_id from camera_status message. "];
+}

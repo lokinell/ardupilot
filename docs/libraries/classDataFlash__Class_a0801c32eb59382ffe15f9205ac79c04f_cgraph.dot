@@ -1,0 +1,24 @@
+digraph "DataFlash_Class::StartNewLog"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Class::StartNewLog",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DataFlash_Class::start\l_new_log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#aed3a1ee8a55500987fd326c687d62a4b"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DataFlash_Backend::\lstart_new_log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a5ff05c4c6461f5bfe61798adb4205a38"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DFMessageWriter_DFLogStart\l::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDFMessageWriter__DFLogStart.html#a298284c23dd9bb5f2010169d9fe3dc72"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DFMessageWriter::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDFMessageWriter.html#aaed0c60da70c5d7057dc29bd7edabeae"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="DFMessageWriter_WriteSys\lInfo::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDFMessageWriter__WriteSysInfo.html#ac0611dec2227deff4927ffa51089d79c"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="DFMessageWriter_WriteEntire\lMission::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDFMessageWriter__WriteEntireMission.html#aa91680967fb86ffb09b3169f23bb0496"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_Param::first",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Param.html#adc0c44f152f0e3cbb12703b2a58d8f6b"];
+}

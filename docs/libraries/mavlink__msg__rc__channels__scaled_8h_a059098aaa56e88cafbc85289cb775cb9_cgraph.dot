@@ -1,0 +1,30 @@
+digraph "mavlink_msg_rc_channels_scaled_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_rc_channels\l_scaled_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_rc_channels\l_scaled_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a8b168a8694a530aafc6cfdde420d98a1",tooltip="Send a rc_channels_scaled message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_rc_channels\l_scaled_get_chan1_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a31f8cd110ffc2337f5ec5e7b72d27509",tooltip="Get field chan1_scaled from rc_channels_scaled message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_rc_channels\l_scaled_get_chan2_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a89f6918b90e63c8cfb3f267e964be590",tooltip="Get field chan2_scaled from rc_channels_scaled message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_rc_channels\l_scaled_get_chan3_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a5e3551a501c459a76f53093af1424e88",tooltip="Get field chan3_scaled from rc_channels_scaled message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_rc_channels\l_scaled_get_chan4_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a6cbfe34017f586b86b4f22ff9dcc5930",tooltip="Get field chan4_scaled from rc_channels_scaled message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_rc_channels\l_scaled_get_chan5_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#aa20ca2ce0c302c25f800b21f80c34425",tooltip="Get field chan5_scaled from rc_channels_scaled message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_rc_channels\l_scaled_get_chan6_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#aad755ec05a67bf98bfb5811e9db04345",tooltip="Get field chan6_scaled from rc_channels_scaled message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_rc_channels\l_scaled_get_chan7_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#af91463d71b4e901ac4eda31d951c04e6",tooltip="Get field chan7_scaled from rc_channels_scaled message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_rc_channels\l_scaled_get_chan8_scaled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#aae2d70ed993628e0939c9f4a1c38f9ef",tooltip="Get field chan8_scaled from rc_channels_scaled message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_rc_channels\l_scaled_get_port",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a2002e842e62c1d25959a9d5e24494cc9",tooltip="Get field port from rc_channels_scaled message. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_rc_channels\l_scaled_get_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__rc__channels__scaled_8h.html#a5d9c6791e29ec8c087c472f31e502a13",tooltip="Get field rssi from rc_channels_scaled message. "];
+}

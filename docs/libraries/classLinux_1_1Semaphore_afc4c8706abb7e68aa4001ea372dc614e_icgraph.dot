@@ -1,0 +1,23 @@
+digraph "Linux::Semaphore::take"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::Semaphore::take",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::Scheduler::\l_run_io",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a524ba3c71858c062519762122f50d826"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::Scheduler::\l_io_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a5409cba3340e32c4c4ed8bcf86746b3c"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::Scheduler::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a58e61fba523c82d8c0f7f26f4e1b0ff8"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Linux::Scheduler::stop\l_clock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a392aebafcdfe9a812e4db4b7a9dcce9c"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Linux::Scheduler::\l_run_timers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a29fdddcbf0524bf6f47e9d206c02dadd"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Linux::Scheduler::\l_timer_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a1d66358f539e2d6a483e72465ee89db4"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Linux::Scheduler::suspend\l_timer_procs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#abba967d02c28cb0b16a7cebbff9bc6d6"];
+}

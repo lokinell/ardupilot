@@ -1,0 +1,28 @@
+<map id="libraries/AP_Motors/AP_MotorsMatrix.h" name="libraries/AP_Motors/AP_MotorsMatrix.h">
+<area shape="rect" id="node2" href="$AP__Motors_8h.html" title="libraries/AP_Motors\l/AP_Motors.h" alt="" coords="737,179,875,217"/>
+<area shape="rect" id="node17" href="$AP__MotorsQuad_8h.html" title="Motor control class for Quadcopters. " alt="" coords="469,92,607,131"/>
+<area shape="rect" id="node19" href="$AP__MotorsHexa_8h.html" title="Motor control class for Hexacopters. " alt="" coords="631,92,768,131"/>
+<area shape="rect" id="node21" href="$AP__MotorsY6_8h.html" title="Motor control class for Y6 frames. " alt="" coords="844,92,982,131"/>
+<area shape="rect" id="node23" href="$AP__MotorsOcta_8h.html" title="Motor control class for Octacopters. " alt="" coords="1005,92,1143,131"/>
+<area shape="rect" id="node25" href="$AP__MotorsOctaQuad_8h.html" title="Motor control class for OctaQuadcopters. " alt="" coords="1167,92,1330,131"/>
+<area shape="rect" id="node27" href="$AP__MotorsMatrix_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsMatrix.cpp" alt="" coords="1354,92,1507,131"/>
+<area shape="rect" id="node3" href="$AC__AttitudeControl_8h.html" title="ArduCopter attitude control library. " alt="" coords="456,279,642,317"/>
+<area shape="rect" id="node9" href="$AC__PosControl_8h.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.h" alt="" coords="685,379,871,417"/>
+<area shape="rect" id="node15" href="$AP__Motors__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_test/AP_Motors_test.cpp" alt="" coords="782,272,956,324"/>
+<area shape="rect" id="node16" href="$AP__Motors__Time__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_Time_test/AP_Motors\l_Time_test.cpp" alt="" coords="980,265,1136,331"/>
+<area shape="rect" id="node4" href="$AC__AttitudeControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl.cpp" alt="" coords="5,379,191,417"/>
+<area shape="rect" id="node5" href="$AC__AttitudeControl__Heli_8h.html" title="ArduCopter attitude control library for traditional helicopters. " alt="" coords="215,379,401,417"/>
+<area shape="rect" id="node7" href="$AC__AttitudeControl__Multi_8h.html" title="ArduCopter attitude control library. " alt="" coords="424,379,610,417"/>
+<area shape="rect" id="node13" href="$AC__WPNav_8h.html" title="libraries/AC_WPNav\l/AC_WPNav.h" alt="" coords="610,465,752,504"/>
+<area shape="rect" id="node6" href="$AC__AttitudeControl__Heli_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Heli.cpp" alt="" coords="166,465,361,504"/>
+<area shape="rect" id="node8" href="$AC__AttitudeControl__Multi_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Multi.cpp" alt="" coords="385,465,585,504"/>
+<area shape="rect" id="node10" href="$AC__PosControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.cpp" alt="" coords="943,465,1129,504"/>
+<area shape="rect" id="node11" href="$AC__Circle_8h.html" title="libraries/AC_WPNav\l/AC_Circle.h" alt="" coords="776,465,919,504"/>
+<area shape="rect" id="node12" href="$AC__Circle_8cpp.html" title="libraries/AC_WPNav\l/AC_Circle.cpp" alt="" coords="776,552,919,591"/>
+<area shape="rect" id="node14" href="$AC__WPNav_8cpp.html" title="libraries/AC_WPNav\l/AC_WPNav.cpp" alt="" coords="610,552,752,591"/>
+<area shape="rect" id="node18" href="$AP__MotorsQuad_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsQuad.cpp" alt="" coords="393,179,542,217"/>
+<area shape="rect" id="node20" href="$AP__MotorsHexa_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsHexa.cpp" alt="" coords="566,179,713,217"/>
+<area shape="rect" id="node22" href="$AP__MotorsY6_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsY6.cpp" alt="" coords="899,179,1036,217"/>
+<area shape="rect" id="node24" href="$AP__MotorsOcta_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsOcta.cpp" alt="" coords="1061,179,1205,217"/>
+<area shape="rect" id="node26" href="$AP__MotorsOctaQuad_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsOctaQuad.cpp" alt="" coords="1228,179,1405,217"/>
+</map>

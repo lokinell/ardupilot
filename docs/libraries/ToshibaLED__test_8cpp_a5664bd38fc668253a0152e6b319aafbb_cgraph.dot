@@ -1,0 +1,12 @@
+digraph "blink"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="blink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RGBLed::set_rgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRGBLed.html#ac226b0a197dc8535b9a12fa43ac3eb57"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RGBLed::hw_set_rgb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRGBLed.html#af048bc2b0da82e9599945910aac07aa6"];
+}

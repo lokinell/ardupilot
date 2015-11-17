@@ -1,0 +1,24 @@
+digraph "NavEKF2_core::detectOptFlowTakeoff"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF2_core::detectOptFlow\lTakeoff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_AHRS::get_ins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a14398c5d2ae68bbe1c67482a91909ad9"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NavEKF2_core::getGyroBias",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2__core.html#aa7c5a7c26d96ea7f9a6ad74fed9a37cb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Vector3::zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#adf1769d5ee5df2f8585df2f540fa5efe"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_InertialSensor::\lget_gyro_health",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#abc8c1aea2c3bc58a05d8d9832a9d1194"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_InertialSensor::\lget_gyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#a6df2d8ad956d4f375bdee541102f16af"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Vector3::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#ac1fd5514e368a1e1c2d13f71eda18345"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="pythagorous3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a6b05ff3296c2ed55b1cd74262a7330f6"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="sq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c"];
+}

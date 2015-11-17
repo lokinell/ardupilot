@@ -1,0 +1,28 @@
+digraph "Matrix3::is_nan"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Matrix3::is_nan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_AHRS_DCM::check\l_matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__DCM.html#aa7cd5fe913c090673b3dcaa3da9eacb3"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS_DCM::drift\l_correction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__DCM.html#a8c3304b59bc6a27f24c686985c100549"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_AHRS_DCM::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__DCM.html#a6bf59b99999767fdbf4dfd363bc51bfd"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_AHRS_NavEKF::update_DCM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a95d351e1c2bc77147bb535a28261cf23"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_AHRS_NavEKF::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a9d5f47f1bc0e3864bbc4c6c6e2ca8b1c"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="test_conversion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eulers_8cpp.html#ada3aa00f3fc83688f3bb0c2c847b7e50"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eulers_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="test_conversions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eulers_8cpp.html#ac5851b63c32809e725e1fadbec137224"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

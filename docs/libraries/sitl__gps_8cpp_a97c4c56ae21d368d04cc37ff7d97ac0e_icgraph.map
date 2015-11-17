@@ -1,0 +1,6 @@
+<map id="gps_time" name="gps_time">
+<area shape="rect" id="node2" href="$classHALSITL_1_1SITL__State.html#aadf357ffa283bbacb6d43df78ad032ba" title="HALSITL::SITL_State\l::_update_gps_sbp" alt="" coords="130,5,280,44"/>
+<area shape="rect" id="node4" href="$classHALSITL_1_1SITL__State.html#ae951381abd36ab24c6a4311ebf78a8e9" title="HALSITL::SITL_State\l::_update_gps_ubx" alt="" coords="130,68,280,107"/>
+<area shape="rect" id="node5" href="$classDataFlash__Class.html#aedee68bf7de37e2ce874dce5651ae5a4" title="DataFlash_Class::Log\l_Write_Camera" alt="" coords="129,131,281,169"/>
+<area shape="rect" id="node3" href="$classHALSITL_1_1SITL__State.html#a09b6857a6f87a51390d4e045cb671207" title="HALSITL::SITL_State\l::_update_gps" alt="" coords="329,37,479,76"/>
+</map>

@@ -1,0 +1,10 @@
+digraph "ADS1115AnalogIn::ADS1115AnalogIn"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ADS1115AnalogIn::ADS1115\lAnalogIn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_ADC_ADS1115::get\l_channels_number",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__ADS1115.html#ab7fa2c745d9e36ef8fd3f4dc49f1c347"];
+}

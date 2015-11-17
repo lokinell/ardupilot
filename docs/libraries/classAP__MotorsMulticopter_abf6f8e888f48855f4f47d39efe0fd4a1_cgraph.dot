@@ -1,0 +1,18 @@
+digraph "AP_MotorsMulticopter::update_throttle_filter"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MotorsMulticopter\l::update_throttle_filter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Motors::armed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Motors.html#abb781661db2b685644795dfe8f5a655f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LowPassFilter::apply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html#aa390849d2e18ff3287f92b89d8657841"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LowPassFilter::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html#adad51ea3b156f167fff0fb586a912cb5"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LowPassFilter::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html#af4fadecd2b4865888d6262f2fe67f8d1"];
+}

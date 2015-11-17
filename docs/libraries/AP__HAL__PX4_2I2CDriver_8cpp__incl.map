@@ -1,0 +1,44 @@
+<map id="libraries/AP_HAL_PX4/I2CDriver.cpp" name="libraries/AP_HAL_PX4/I2CDriver.cpp">
+<area shape="rect" id="node2" href="$AP__HAL_8h.html" title="AP_HAL/AP_HAL.h" alt="" coords="981,559,1120,584"/>
+<area shape="rect" id="node30" href="$PX4_2I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="969,92,1057,117"/>
+<area shape="rect" id="node5" href="$AP__HAL__Namespace_8h.html" title="AP_HAL_Namespace.h" alt="" coords="818,1072,980,1097"/>
+<area shape="rect" id="node8" href="$AP__HAL__Boards_8h.html" title="AP_HAL_Boards.h" alt="" coords="1512,925,1645,951"/>
+<area shape="rect" id="node9" href="$AP__HAL__Macros_8h.html" title="AP_HAL_Macros.h" alt="" coords="525,632,659,657"/>
+<area shape="rect" id="node10" href="$AP__HAL__Main_8h.html" title="AP_HAL_Main.h" alt="" coords="991,632,1111,657"/>
+<area shape="rect" id="node11" href="$HAL_8h.html" title="HAL.h" alt="" coords="976,705,1035,731"/>
+<area shape="rect" id="node12" href="$AnalogIn_8h.html" title="AnalogIn.h" alt="" coords="313,852,399,877"/>
+<area shape="rect" id="node14" href="$GPIO_8h.html" title="GPIO.h" alt="" coords="888,852,954,877"/>
+<area shape="rect" id="node15" href="$RCInput_8h.html" title="RCInput.h" alt="" coords="682,779,763,804"/>
+<area shape="rect" id="node16" href="$RCOutput_8h.html" title="RCOutput.h" alt="" coords="1254,779,1346,804"/>
+<area shape="rect" id="node17" href="$SPIDriver_8h.html" title="SPIDriver.h" alt="" coords="1733,779,1822,804"/>
+<area shape="rect" id="node18" href="$Storage_8h.html" title="Storage.h" alt="" coords="1370,779,1449,804"/>
+<area shape="rect" id="node19" href="$UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="991,779,1094,804"/>
+<area shape="rect" id="node22" href="$BetterStream_8h.html" title="utility/BetterStream.h" alt="" coords="549,852,694,877"/>
+<area shape="rect" id="node24" href="$Stream_8h.html" title="Stream.h" alt="" coords="392,925,467,951"/>
+<area shape="rect" id="node25" href="$Print_8h.html" title="Print.h" alt="" coords="261,999,321,1024"/>
+<area shape="rect" id="node26" href="$I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="1720,925,1808,951"/>
+<area shape="rect" id="node27" href="$Scheduler_8h.html" title="Scheduler.h" alt="" coords="1445,852,1537,877"/>
+<area shape="rect" id="node28" href="$Semaphores_8h.html" title="Semaphores.h" alt="" coords="1934,705,2042,731"/>
+<area shape="rect" id="node29" href="$Util_8h.html" title="Util.h" alt="" coords="473,852,525,877"/>
+<area shape="rect" id="node7" href="$functor_8h.html" title="utility/functor.h" alt="" coords="845,1145,952,1171"/>
+<area shape="rect" id="node20" href="$AP__Common_8h.html" title="Common definitions and utility routines for the ArduPilot libraries. " alt="" coords="939,925,1133,951"/>
+<area shape="rect" id="node31" href="$AP__HAL__PX4_8h.html" title="AP_HAL_PX4.h" alt="" coords="1161,405,1277,431"/>
+<area shape="rect" id="node36" href="$AP__HAL__Empty_8h.html" title="AP_HAL_Empty/AP_HAL\l_Empty.h" alt="" coords="602,399,774,437"/>
+<area shape="rect" id="node40" href="$AP__HAL__Empty__Private_8h.html" title="AP_HAL_Empty/AP_HAL\l_Empty_Private.h" alt="" coords="407,165,580,204"/>
+<area shape="rect" id="node32" href="$HAL__PX4__Class_8h.html" title="HAL_PX4_Class.h" alt="" coords="1182,485,1314,511"/>
+<area shape="rect" id="node33" href="$AP__HAL__PX4__Namespace_8h.html" title="AP_HAL_PX4_Namespace.h" alt="" coords="1144,559,1339,584"/>
+<area shape="rect" id="node37" href="$HAL__Empty__Class_8h.html" title="HAL_Empty_Class.h" alt="" coords="749,485,894,511"/>
+<area shape="rect" id="node38" href="$AP__HAL__Empty__Namespace_8h.html" title="AP_HAL_Empty_Namespace.h" alt="" coords="750,559,957,584"/>
+<area shape="rect" id="node39" href="$PrivateMember_8h.html" title="PrivateMember.h" alt="" coords="603,559,725,584"/>
+<area shape="rect" id="node41" href="$Empty_2UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="43,325,146,351"/>
+<area shape="rect" id="node42" href="$Empty_2I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="171,325,259,351"/>
+<area shape="rect" id="node43" href="$Empty_2SPIDriver_8h.html" title="SPIDriver.h" alt="" coords="530,252,619,277"/>
+<area shape="rect" id="node44" href="$Empty_2Semaphores_8h.html" title="Semaphores.h" alt="" coords="547,325,655,351"/>
+<area shape="rect" id="node45" href="$Empty_2AnalogIn_8h.html" title="AnalogIn.h" alt="" coords="283,325,368,351"/>
+<area shape="rect" id="node46" href="$Empty_2Storage_8h.html" title="Storage.h" alt="" coords="392,325,472,351"/>
+<area shape="rect" id="node47" href="$Empty_2GPIO_8h.html" title="GPIO.h" alt="" coords="390,252,456,277"/>
+<area shape="rect" id="node48" href="$Empty_2RCInput_8h.html" title="RCInput.h" alt="" coords="643,252,725,277"/>
+<area shape="rect" id="node49" href="$Empty_2RCOutput_8h.html" title="RCOutput.h" alt="" coords="749,252,841,277"/>
+<area shape="rect" id="node50" href="$Empty_2Scheduler_8h.html" title="Scheduler.h" alt="" coords="865,252,957,277"/>
+<area shape="rect" id="node51" href="$Empty_2Util_8h.html" title="Util.h" alt="" coords="955,485,1007,511"/>
+</map>

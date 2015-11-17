@@ -1,0 +1,17 @@
+digraph "mavlink_msg_set_mag_offsets_pack"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_set_mag\l_offsets_pack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_set_mag\l_offsets_encode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#af4182dd38a774c74a6886453e4c5d4c9",tooltip="Encode a set_mag_offsets struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_test_set_mag\l_offsets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#aeacb80a96dfa8155aa0693d545e31eac"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_test_ardupilotmega",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

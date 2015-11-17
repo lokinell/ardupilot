@@ -1,0 +1,14 @@
+digraph "NavEKF2::getEulerAngles"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF2::getEulerAngles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GCS_MAVLINK::send_ahrs2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a558ba3447048b78cb9dde460053e2741"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS_NavEKF::update_EKF2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a0187c6d3d4348b002a204c05d3e94b07"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_AHRS_NavEKF::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a9d5f47f1bc0e3864bbc4c6c6e2ca8b1c"];
+}

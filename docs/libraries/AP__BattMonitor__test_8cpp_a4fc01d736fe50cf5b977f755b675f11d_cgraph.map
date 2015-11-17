@@ -1,0 +1,11 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="107,5,258,31"/>
+<area shape="rect" id="node6" href="$classAP__BattMonitor.html#a7938723e960e4dcddbb22e8589adb4be" title="set_monitoring &#45; sets the monitor type (used for example sketch only) " alt="" coords="113,55,253,93"/>
+<area shape="rect" id="node7" href="$classAP__BattMonitor.html#ac1a8593b0b20f9316f22084947bae7fe" title="AP_BattMonitor::init" alt="" coords="113,117,252,143"/>
+<area shape="rect" id="node9" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="109,167,256,205"/>
+<area shape="rect" id="node10" href="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1" title="AP_HAL::Scheduler::\lmillis" alt="" coords="109,229,256,268"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="528,5,669,31"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="318,31,469,56"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="717,5,860,31"/>
+<area shape="rect" id="node8" href="$classAP__BattMonitor__Backend.html#a333708b23c3532575284833ca4e4f058" title="AP_BattMonitor_Backend\l::init" alt="" coords="306,111,480,149"/>
+</map>

@@ -1,0 +1,52 @@
+digraph "AP_InertialSensor_LSM9DS0::_poll_data"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_LSM9DS0\l::_poll_data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL::Semaphore::\ltake_nonblocking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#a266e91db5eecb64d8b934d09f5e972cf"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_InertialSensor_LSM9DS0\l::_gyro_data_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#ad7f55ec578a4b246947539cf8ed5b0a5"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::DigitalSource\l::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1DigitalSource.html#a6d155c0e1088e7b045b075c34bc2a13e"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_InertialSensor_LSM9DS0\l::_register_read_xm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#ab9f65816db245bc851eee9ef4548295e"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::SPIDeviceDriver\l::transaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1SPIDeviceDriver.html#acb3739821064a2bebc3015b817978724"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_InertialSensor_LSM9DS0\l::_accel_data_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#aec37c46f246a7d601507f1d533e4f7b5"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_InertialSensor_LSM9DS0\l::_read_data_transaction_g",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a8d90205092ed9e6b959fe3da5f4f6477"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_InertialSensor_LSM9DS0\l::_gyro_raw_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#acd57ef12b3b1e54b37e4931506c64ffb"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_InertialSensor_Backend\l::_rotate_and_correct_gyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a6b5d3fdd263b6737d8116257d2ea05c4"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Vector3::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#a53d5701ae2db9492944550927279b7b8"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_InertialSensor_Backend\l::_notify_new_gyro_raw_sample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a645e524ed783fe355af538d58966e4a9"];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="LowPassFilter2p::apply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter2p.html#a98a931a77f5b12f13ecb84fd57a4b7d4"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_InertialSensor_LSM9DS0\l::_read_data_transaction_a",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a9e083338c81500c744790115250d5207"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_InertialSensor_LSM9DS0\l::_accel_raw_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a6a7a223ca08ab2ccf4b3e3ec84d762f5"];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="AP_InertialSensor_Backend\l::_rotate_and_correct_accel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a12e2c1d206fcd62c683165312c836a50"];
+  Node16 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="AP_InertialSensor_Backend\l::_notify_new_accel_raw_sample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#aade30ee28ab57ee50a9c98b7815f67e2"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="AP_InertialSensor::\lcalc_vibration_and_clipping",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#a49643a308463775eb7f7f3d8be13a034"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="LowPassFilter::apply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html#aa390849d2e18ff3287f92b89d8657841"];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="AP_HAL::Semaphore::give",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#afcdbf03d5bea9d83037acc93bfaea7ce"];
+}

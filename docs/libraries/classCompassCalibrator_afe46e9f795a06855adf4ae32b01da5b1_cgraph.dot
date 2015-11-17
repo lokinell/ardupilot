@@ -1,0 +1,14 @@
+digraph "CompassCalibrator::reset_state"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CompassCalibrator::\lreset_state",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Vector3::zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#adf1769d5ee5df2f8585df2f540fa5efe"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CompassCalibrator::\linitialize_fit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a4c0461903e1830066d9f005bac85a389"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CompassCalibrator::\lcalc_mean_squared_residuals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a7d57ef4510c26724890f4f820bf2d160"];
+}

@@ -1,0 +1,21 @@
+digraph "AP_GPS_SBP::logging_write_headers"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_GPS_SBP::logging\l_write_headers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_GPS_SBP::logging\l_log_full_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#af5d2846c5c8368ab5d6d9456f78cb04d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_GPS_SBP::_attempt\l_state_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#af9e1e7cae1c58891c9a47a6ae6425491"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_GPS_SBP::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#a3fa95c1c1f83ad45a11a61d604e61d8d"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_GPS_SBP::logging\l_log_raw_sbp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#a03c2f3629f94e7b6df5989cc33d9d59a"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_GPS_SBP::_sbp_process\l_message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#a95d51866fda5a620229c74d5684acce4"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_GPS_SBP::_sbp_process",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__SBP.html#ad6291fa91e5c338da770ffdfefb6cd8a"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

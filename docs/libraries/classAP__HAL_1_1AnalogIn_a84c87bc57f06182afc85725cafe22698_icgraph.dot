@@ -1,0 +1,20 @@
+digraph "AP_HAL::AnalogIn::board_voltage"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::AnalogIn::board\l_voltage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Arming::board_voltage\l_checks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a3a7732a0c5ed5b5ccbb97e72c2a6587c"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Arming::pre_arm\l_checks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a73c03baf7f22b7124a2ac9e9286a850a"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Arming::arm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a47b859d9929a736df2f08a1cad03efcb"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DataFlash_Class::Log\l_Write_Current",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a1a8930525fbd06f38f6ea6bd3df25334"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="DataFlash_Class::Log\l_Write_Power",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a0244745bcbf21252169dbca26be44557"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GCS_MAVLINK::send_power\l_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a731179362dc1cb1bbd2fd77eec523d8b"];
+}

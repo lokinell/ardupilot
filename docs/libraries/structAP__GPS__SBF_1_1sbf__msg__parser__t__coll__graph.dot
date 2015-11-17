@@ -1,0 +1,13 @@
+digraph "AP_GPS_SBF::sbf_msg_parser_t"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AP_GPS_SBF::sbf_msg\l_parser_t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node2 [label="AP_GPS_SBF::msgbuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unionAP__GPS__SBF_1_1msgbuffer.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" msg4001u" ,fontname="Helvetica"];
+  Node3 [label="AP_GPS_SBF::msg4001",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__GPS__SBF_1_1msg4001.html"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" msg4007u" ,fontname="Helvetica"];
+  Node4 [label="AP_GPS_SBF::msg4007",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__GPS__SBF_1_1msg4007.html"];
+}

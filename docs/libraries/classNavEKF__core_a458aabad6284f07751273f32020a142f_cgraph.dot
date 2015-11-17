@@ -1,0 +1,25 @@
+digraph "NavEKF_core::ResetHeight"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF_core::ResetHeight",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF_core::readHgtData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a194995f9b532747d2c0d30f458f50d8f"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Baro::healthy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro.html#afdb3b202976bb59dfcc20e6d799029e0"];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Baro::get_last_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro.html#aae5b3ae28aca807eb20b722a04685061"];
+  Node4 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Baro::get_altitude",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro.html#a984b4dbc11e276e832467253590da933"];
+  Node5 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NavEKF_core::RecallStates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a1013a96c1014abbc538d78c21bb8a769"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NavEKF_core::getTakeoffExpected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a56c0f99f381b53230f111f90e001804f"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+}

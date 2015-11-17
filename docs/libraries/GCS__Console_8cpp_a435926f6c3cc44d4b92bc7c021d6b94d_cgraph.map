@@ -1,0 +1,7 @@
+<map id="gcs_console_handle_data32" name="gcs_console_handle_data32">
+<area shape="rect" id="node2" href="$mavlink__msg__data32_8h.html#a823bdc8c2d3f7b67fc5aad141d565680" title="Decode a data32 message into a struct. " alt="" coords="196,68,344,107"/>
+<area shape="rect" id="node3" href="$mavlink__msg__data32_8h.html#a7b53104f75efbf1544af5e269a3dd547" title="Send a data32 message. " alt="" coords="392,5,539,44"/>
+<area shape="rect" id="node4" href="$mavlink__msg__data32_8h.html#a38fea47cfa9a383a7b15379e504decd1" title="Get field len from data32 message. " alt="" coords="392,68,539,107"/>
+<area shape="rect" id="node5" href="$mavlink__msg__data32_8h.html#a5e5c5cd756d0594be37cd9b12bec60a8" title="Get field data from data32 message. " alt="" coords="392,131,539,169"/>
+<area shape="rect" id="node6" href="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3" title="_MAV_RETURN_uint8_t\l_array" alt="" coords="587,131,754,169"/>
+</map>

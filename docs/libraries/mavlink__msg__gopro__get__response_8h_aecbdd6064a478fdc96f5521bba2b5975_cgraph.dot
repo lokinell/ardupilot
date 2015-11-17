@@ -1,0 +1,12 @@
+digraph "mavlink_msg_gopro_get_response_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gopro_get\l_response_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gopro_get\l_response_get_cmd_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gopro__get__response_8h.html#a4c0ee6bc60c20043ccfc22efbb30a6f1",tooltip="Send a gopro_get_response message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gopro_get\l_response_get_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gopro__get__response_8h.html#a54ee5313e2db98f38fccc4837674c39c",tooltip="Get field value from gopro_get_response message. "];
+}

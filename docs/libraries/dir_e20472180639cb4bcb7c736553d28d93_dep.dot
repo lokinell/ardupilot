@@ -1,0 +1,15 @@
+digraph "libraries/GCS_MAVLink/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_be870cb78c6e1bc08f9e4388e1828b4d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GCS_MAVLink" fontname="Helvetica", fontsize="10", URL="dir_be870cb78c6e1bc08f9e4388e1828b4d.html"]
+  subgraph clusterdir_e20472180639cb4bcb7c736553d28d93 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e20472180639cb4bcb7c736553d28d93.html"];
+    dir_e20472180639cb4bcb7c736553d28d93 [shape=plaintext label="examples"];
+    dir_3511213e520209d7b337634fe937427a [shape=box label="routing" color="black" fillcolor="white" style="filled" URL="dir_3511213e520209d7b337634fe937427a.html"];
+  }
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_3511213e520209d7b337634fe937427a->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000164_000046.html"];
+}

@@ -1,0 +1,22 @@
+digraph "VRBRAIN::VRBRAINScheduler::micros64"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="VRBRAIN::VRBRAINScheduler\l::micros64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="VRBRAIN::VRBRAINScheduler\l::delay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a20360f74ca9912d424c5c6800a85efef"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="VRBRAIN::VRBRAINScheduler\l::delay_microseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#adb60346f5a91eee3812dfed4ba2fb094"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="VRBRAIN::VRBRAINScheduler\l::micros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a920a5d8d521c3f4c41ed9ebaa39f70dc"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="VRBRAIN::VRBRAINScheduler\l::millis64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a9fcfda1476927950fd4e2d7a1914e8b1"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="VRBRAIN::VRBRAINScheduler\l::millis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a7ed5e2767f92a978bd2376bee4dcdf8e"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="VRBRAIN::VRBRAINScheduler\l::_timer_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a4b175d260d414b70bd02a334ad4db6f0"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="VRBRAIN::VRBRAINScheduler\l::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINScheduler.html#a588119520d7b68e248e103d32fdf6b2f"];
+}

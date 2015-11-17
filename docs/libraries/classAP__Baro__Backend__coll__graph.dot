@@ -1,0 +1,24 @@
+digraph "AP_Baro_Backend"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Baro_Backend",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _frontend" ,fontname="Helvetica"];
+  Node2 [label="AP_Baro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sensors" ,fontname="Helvetica"];
+  Node3 [label="AP_Baro::sensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Baro_1_1sensor.html"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" temp_buffer\npress_buffer" ,fontname="Helvetica"];
+  Node4 [label="AP_Buffer\< float, 10 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Buffer.html"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _climb_rate_filter" ,fontname="Helvetica"];
+  Node5 [label="DerivativeFilter\< float, 7 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDerivativeFilter.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FilterWithBuffer\< float,\l FILTER_SIZE \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classFilterWithBuffer.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Filter\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classFilter.html"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var_info" ,fontname="Helvetica"];
+  Node8 [label="AP_Param::GroupInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1GroupInfo.html"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group_info" ,fontname="Helvetica"];
+  Node1 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" drivers" ,fontname="Helvetica"];
+}

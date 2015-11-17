@@ -1,0 +1,12 @@
+digraph "AP_AutoTune::stop"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AutoTune::stop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_PitchController\l::autotune_restore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__PitchController.html#a4794b464d67c5257b6d1eb889f372d82"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_RollController::\lautotune_restore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RollController.html#a717204938ed9e8698aa728c04c9dcc83"];
+}

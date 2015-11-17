@@ -1,0 +1,22 @@
+digraph "mavlink_msg_radio_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_radio_status\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_radio_status\l_get_rxerrors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#afd00162ff2818ce04d69e4f4e5afcff3",tooltip="Get field rxerrors from radio_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_radio_status\l_get_fixed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#a63a23b873f7d345778cffd5c3c6639dd",tooltip="Get field fixed from radio_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_radio_status\l_get_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#abeaffebbc89cbd1445c5a141c833b5be",tooltip="Send a radio_status message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_radio_status\l_get_remrssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#adf040d5c81bae9265eda71200d864080",tooltip="Get field remrssi from radio_status message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_radio_status\l_get_txbuf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#abc4c7ece3b481318c3559401b912571f",tooltip="Get field txbuf from radio_status message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_radio_status\l_get_noise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#ab578809eb68793e9448857ffb50cad59",tooltip="Get field noise from radio_status message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_radio_status\l_get_remnoise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__radio__status_8h.html#afc53fb249908c05b0283fcea9430ad55",tooltip="Get field remnoise from radio_status message. "];
+}

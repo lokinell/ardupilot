@@ -1,0 +1,12 @@
+digraph "NavEKF2_core::send_status_report"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF2_core::send\l_status_report",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF2::send_status\l_report",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2.html#ab6b10031b8ef73d2707aa54e46e5a43d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS_NavEKF::send\l_ekf_status_report",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a485acca0d81766837300bc1c8feecf90"];
+}

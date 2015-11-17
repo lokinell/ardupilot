@@ -1,0 +1,10 @@
+digraph "Empty::EmptySemaphore::take_nonblocking"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Empty::EmptySemaphore\l::take_nonblocking",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Empty::EmptySemaphore\l::take",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEmpty_1_1EmptySemaphore.html#a92ccd1f89940ce1a16d86b76fe451efb"];
+}

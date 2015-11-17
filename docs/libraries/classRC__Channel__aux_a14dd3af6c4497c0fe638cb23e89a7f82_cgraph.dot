@@ -1,0 +1,22 @@
+digraph "RC_Channel_aux::set_servo_out"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RC_Channel_aux::set\l_servo_out",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RC_Channel_aux::function\l_assigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a423accc4de40960cf7ef2c4755e8a9d1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RC_Channel::calc_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a5876259d8fb8c1c475322a236bae7819"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RC_Channel::range_to_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#ac50875b55ac524f9d0b2ee50174bd300"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RC_Channel::angle_to_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#abcf4a69f7323c85306e8a25b34e929b3"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="constrain_int16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#abd026c0672c617e3092c9b3e1fcb847f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RC_Channel::output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#aabaff8233192d5f2a20e2207914ca3e3"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_HAL::RCOutput::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#ade509cf82dfb1f6fab3eba0c026c5d60"];
+}

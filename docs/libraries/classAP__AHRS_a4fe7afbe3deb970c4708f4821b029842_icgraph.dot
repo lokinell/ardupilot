@@ -1,0 +1,15 @@
+digraph "AP_AHRS::groundspeed"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AHRS::groundspeed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_SteerController\l::get_steering_out_lat_accel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SteerController.html#a6285aeb38fd5614ecd53ae0b83d162ba"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_SteerController\l::get_steering_out_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SteerController.html#aaf42965b867c847976199bb550f7a529"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_SteerController\l::get_steering_out_angle_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SteerController.html#a58fa2b841c4507318c4560ff237b4db9"];
+}

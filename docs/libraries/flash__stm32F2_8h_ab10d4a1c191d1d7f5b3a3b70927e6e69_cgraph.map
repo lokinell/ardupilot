@@ -1,0 +1,6 @@
+<map id="FLASH_ErasePage" name="FLASH_ErasePage">
+<area shape="rect" id="node2" href="$flash__stm32F2_8h.html#ae687b99f868242c3478fe2f070861abc" title="Erases a specified FLASH Sector. " alt="" coords="191,31,336,56"/>
+<area shape="rect" id="node3" href="$flash__stm32F2_8h.html#a32f1f24182bcef29414d7b59c1669595" title="Waits for a Flash operation to complete or a TIMEOUT to occur. " alt="" coords="384,31,586,56"/>
+<area shape="rect" id="node4" href="$flash__stm32F2_8h.html#ac265b8d1e7ea11e44ceee28797c3debb" title="Returns the FLASH Status. " alt="" coords="634,5,765,31"/>
+<area shape="rect" id="node5" href="$flash__stm32F2_8h.html#a6cb8040e5f4a9a8ac17286fd20c740ae" title="Inserts a time delay. " alt="" coords="673,55,726,80"/>
+</map>

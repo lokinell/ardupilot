@@ -1,0 +1,16 @@
+digraph "RGBLed::set_rgb"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RGBLed::set_rgb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="blink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ToshibaLED__test_8cpp.html#a5664bd38fc668253a0152e6b319aafbb"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="full_spectrum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ToshibaLED__test_8cpp.html#ad67671ab8984d9ed8e667c740735dd94"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RGBLed::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRGBLed.html#ab945365164159e3bce17c7fe88e83afc"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ToshibaLED__test_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f"];
+}

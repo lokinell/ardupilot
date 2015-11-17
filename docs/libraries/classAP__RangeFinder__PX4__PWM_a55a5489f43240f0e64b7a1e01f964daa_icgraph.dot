@@ -1,0 +1,14 @@
+digraph "AP_RangeFinder_PX4_PWM::detect"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_RangeFinder_PX4\l_PWM::detect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RangeFinder::detect\l_instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a7f7f9dce880eb37d53df67cba39bdda9"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RangeFinder::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a1c2d6a488e35a856814b5d48ca3d5d9e"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RFIND__test_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d"];
+}

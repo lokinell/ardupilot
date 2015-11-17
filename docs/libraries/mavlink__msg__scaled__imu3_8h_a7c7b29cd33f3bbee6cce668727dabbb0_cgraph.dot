@@ -1,0 +1,28 @@
+digraph "mavlink_msg_scaled_imu3_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_scaled\l_imu3_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_scaled\l_imu3_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#ae929e8aab2046eab8a5da77dd6b68764",tooltip="Send a scaled_imu3 message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_scaled\l_imu3_get_xacc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a1e9474bed75d53152759ff554e8e390a",tooltip="Get field xacc from scaled_imu3 message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_scaled\l_imu3_get_yacc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#ac6c9615cd503fc4fa35e0635307bf501",tooltip="Get field yacc from scaled_imu3 message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_scaled\l_imu3_get_zacc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#aba7dd9705837bed56c424e586afb419d",tooltip="Get field zacc from scaled_imu3 message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_scaled\l_imu3_get_xgyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a960116b68298ed7e9870d175f8f4443c",tooltip="Get field xgyro from scaled_imu3 message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_scaled\l_imu3_get_ygyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a94b824660d96c445439f10cb9111255b",tooltip="Get field ygyro from scaled_imu3 message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_scaled\l_imu3_get_zgyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a241caba03dd03438027f9d0e8a00232b",tooltip="Get field zgyro from scaled_imu3 message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_scaled\l_imu3_get_xmag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a0416ab90a8135632bf25b711fac1cc84",tooltip="Get field xmag from scaled_imu3 message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_scaled\l_imu3_get_ymag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a2b478ec6637b45ed3518129d5785c619",tooltip="Get field ymag from scaled_imu3 message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_scaled\l_imu3_get_zmag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__scaled__imu3_8h.html#a2ca311a2fc60b1c42da98ab424960dc0",tooltip="Get field zmag from scaled_imu3 message. "];
+}

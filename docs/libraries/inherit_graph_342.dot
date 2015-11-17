@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Mount_SToRM32_serial\l::cmd_set_angles_struct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Mount__SToRM32__serial_1_1cmd__set__angles__struct.html"];
+}

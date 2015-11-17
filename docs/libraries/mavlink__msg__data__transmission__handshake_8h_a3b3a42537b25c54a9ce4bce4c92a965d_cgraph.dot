@@ -1,0 +1,22 @@
+digraph "mavlink_msg_data_transmission_handshake_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_data_transmission\l_handshake_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_data_transmission\l_handshake_get_size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#ac0c3bcf553e25f4c74af6b254a9c84ce",tooltip="Get field size from data_transmission_handshake message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_data_transmission\l_handshake_get_width",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#acc0f8e01e860584cbb06302092ef76d9",tooltip="Get field width from data_transmission_handshake message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_data_transmission\l_handshake_get_height",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#a9548bcc83244cd65ce861b4475dbec1b",tooltip="Get field height from data_transmission_handshake message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_data_transmission\l_handshake_get_packets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#a5170bb055c8c05e8253eeb6056241eca",tooltip="Get field packets from data_transmission_handshake message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_data_transmission\l_handshake_get_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#a1cbb63acef29b887e795ac10ca16e665",tooltip="Send a data_transmission_handshake message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_data_transmission\l_handshake_get_payload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#a4edf6f7a2a633b610fd88db04c7bd014",tooltip="Get field payload from data_transmission_handshake message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_data_transmission\l_handshake_get_jpg_quality",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data__transmission__handshake_8h.html#a055ce0a42f818b3aa456e8c8a2eb9320",tooltip="Get field jpg_quality from data_transmission_handshake message. "];
+}

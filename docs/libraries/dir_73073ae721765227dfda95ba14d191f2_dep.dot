@@ -1,0 +1,9 @@
+digraph "libraries/APM_OBC/Failsafe_Board" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7857f9bf49fe240b397ac53449a50bdf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="APM_OBC" fontname="Helvetica", fontsize="10", URL="dir_7857f9bf49fe240b397ac53449a50bdf.html"]
+  dir_73073ae721765227dfda95ba14d191f2 [shape=box, label="Failsafe_Board", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_73073ae721765227dfda95ba14d191f2.html"];
+  }
+}

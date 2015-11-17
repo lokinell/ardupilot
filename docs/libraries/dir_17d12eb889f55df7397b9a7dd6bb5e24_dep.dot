@@ -1,0 +1,15 @@
+digraph "libraries/GCS_MAVLink/include/mavlink/v1.0" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cc84fd29c175fa24a5d5ecd8f2aac653 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mavlink" fontname="Helvetica", fontsize="10", URL="dir_cc84fd29c175fa24a5d5ecd8f2aac653.html"]
+  subgraph clusterdir_17d12eb889f55df7397b9a7dd6bb5e24 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_17d12eb889f55df7397b9a7dd6bb5e24.html"];
+    dir_17d12eb889f55df7397b9a7dd6bb5e24 [shape=plaintext label="v1.0"];
+    dir_249e89038885ec2564b4621c173e813e [shape=box label="ardupilotmega" color="black" fillcolor="white" style="filled" URL="dir_249e89038885ec2564b4621c173e813e.html"];
+    dir_4c6633e0f0b8753e4add589a428fa8e1 [shape=box label="common" color="black" fillcolor="white" style="filled" URL="dir_4c6633e0f0b8753e4add589a428fa8e1.html"];
+  }
+  }
+  dir_249e89038885ec2564b4621c173e813e->dir_4c6633e0f0b8753e4add589a428fa8e1 [headlabel="2", labeldistance=1.5 headhref="dir_000168_000169.html"];
+}

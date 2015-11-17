@@ -26,7 +26,7 @@ sudo usermod -a -G dialout $USER
 sudo apt-get -y remove modemmanager
 sudo apt-get -y update
 sudo apt-get -y install dos2unix g++-4.7 ccache python-lxml screen
-sudo apt-get -y install $BASE_PKGS $SITL_PKGS $PX4_PKGS $UBUNTU64_PKGS
+sudo apt-get -y install $BASE_PKGS $SITL_PKGS $PX4_PKGS $UBUNTU64_PKGS realpath
 sudo pip -q install $PYTHON_PKGS
 sudo pip install catkin_pkg
 

@@ -1,0 +1,14 @@
+digraph "NavEKF::use_compass"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF::use_compass",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF_core::use_compass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#ae658a4b394c1b3e5b3aa6b30c84b8db1"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS::get_compass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#adf808841de62499bc8c388fc798d47f1"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Compass::use_for_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a97437729a583cd900e4dd1d6d84a4a0e",tooltip="return true if the compass should be used for yaw calculations "];
+}

@@ -1,0 +1,18 @@
+digraph "gcs_console_handle_data16"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gcs_console_handle\l_data16",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_data16\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data16_8h.html#a959ffbaae72e58055efeacf684fd6605",tooltip="Decode a data16 message into a struct. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_data16\l_get_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data16_8h.html#aa1f47c3f0244e9feaed0bc9df065057f",tooltip="Send a data16 message. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_data16\l_get_len",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data16_8h.html#a053e7dfeecb2454ac50b3771284339de",tooltip="Get field len from data16 message. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_data16\l_get_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__data16_8h.html#a8edf3995092ef99f907bc322c5812f5a",tooltip="Get field data from data16 message. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="_MAV_RETURN_uint8_t\l_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3"];
+}

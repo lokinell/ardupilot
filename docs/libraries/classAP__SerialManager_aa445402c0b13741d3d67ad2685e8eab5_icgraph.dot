@@ -1,0 +1,20 @@
+digraph "AP_SerialManager::map_baudrate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_SerialManager::map\l_baudrate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_SerialManager::find\l_baudrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#a98789d2356587b32dd3507578ca1d89d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_RangeFinder_LightWare\lSerial::AP_RangeFinder\l_LightWareSerial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RangeFinder__LightWareSerial.html#a1e1c2db82dc21ab575aeaa8e1bc878da"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GCS_MAVLINK::setup_uart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a0680c93d81d7de3273931c5bccc890f5"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_SerialManager::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#a4f6d491b1538d6d2513af7375825f35e"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_SerialManager::set\l_console_baud",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#acad9b72c3b313f4e551be9f4861ffbf2"];
+}

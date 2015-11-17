@@ -1,0 +1,14 @@
+digraph "AP_MPU6000_AuxiliaryBusSlave::_set_passthrough"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MPU6000_AuxiliaryBusSlave\l::_set_passthrough",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MPU6000_AuxiliaryBus\l::_configure_periodic_read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU6000__AuxiliaryBus.html#a51add51e2994b21bea2890e2822f14e9"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MPU6000_AuxiliaryBusSlave\l::passthrough_read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU6000__AuxiliaryBusSlave.html#a66d7937e6a854f7dc7629eb3ec3c4a74"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_MPU6000_AuxiliaryBusSlave\l::passthrough_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU6000__AuxiliaryBusSlave.html#a31fd36082845fb932c67cc284d1d6467"];
+}

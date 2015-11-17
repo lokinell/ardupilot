@@ -1,0 +1,22 @@
+digraph "RC_Channel_aux::disable_aux_channel"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RC_Channel_aux::disable\l_aux_channel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsMatrix::add\l_motor_raw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a7845148fb3e5acb078d0dc121d75470b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsMatrix::add\l_motor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#acee5f69304786deff28075ae14eb6a46"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_MotorsOcta::setup\l_motors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsOcta.html#aa267beaa15465ccef1e0e7f5acd66f89"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_MotorsY6::setup\l_motors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsY6.html#a37e573aceb14ac281b878bd005f5b559"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_MotorsHeli_Single\l::enable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__Single.html#ada8092d601b0465739076bc03d96919e"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_MotorsTri::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#a7236a6f04df2048a325e0e144cec7c9e"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_MotorsSingle::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsSingle.html#af5dde6531e240a179f0812874f9fa681"];
+}

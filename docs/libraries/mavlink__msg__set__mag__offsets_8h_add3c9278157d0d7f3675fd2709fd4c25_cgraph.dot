@@ -1,0 +1,18 @@
+digraph "mavlink_msg_set_mag_offsets_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_set_mag\l_offsets_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_set_mag\l_offsets_get_mag_ofs_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#a42eec2bcd1fd15442f00b652af42ed27",tooltip="Get field mag_ofs_x from set_mag_offsets message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_set_mag\l_offsets_get_mag_ofs_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#a767d8a0f6be8350368d536c9f86b5eb4",tooltip="Get field mag_ofs_y from set_mag_offsets message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_set_mag\l_offsets_get_mag_ofs_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#a8c805a90c59c980b2144496c7290bbf2",tooltip="Get field mag_ofs_z from set_mag_offsets message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_set_mag\l_offsets_get_target\l_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#a91a71a3c880b57c0d8718744954749c2",tooltip="Send a set_mag_offsets message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_set_mag\l_offsets_get_target\l_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mag__offsets_8h.html#a18167f142e670b000f7b991b4e9cf9cb",tooltip="Get field target_component from set_mag_offsets message. "];
+}

@@ -182,10 +182,10 @@ fi
 trap kill_tasks SIGINT
 
 # setup ports for this instance
-MAVLINK_PORT="tcp:127.0.0.1:"$((5760+10*$INSTANCE))
-SIMIN_PORT="127.0.0.1:"$((5502+10*$INSTANCE))
-SIMOUT_PORT="127.0.0.1:"$((5501+10*$INSTANCE))
-FG_PORT="127.0.0.1:"$((5503+10*$INSTANCE))
+MAVLINK_PORT="tcp:192.168.1.104:"$((5760+10*$INSTANCE))
+SIMIN_PORT="192.168.1.104:"$((5502+10*$INSTANCE))
+SIMOUT_PORT="192.168.1.104:"$((5501+10*$INSTANCE))
+FG_PORT="192.168.1.104:"$((5503+10*$INSTANCE))
 
 [ -z "$VEHICLE" ] && {
     CDIR="$PWD"
@@ -364,7 +364,7 @@ if [ $START_ANTENNA_TRACKER == 1 ]; then
         make sitl-debug -j$NUM_PROCS
     }
     TRACKER_INSTANCE=1
-    TRACKER_UARTA="tcp:127.0.0.1:"$((5760+10*$TRACKER_INSTANCE))
+    TRACKER_UARTA="tcp:192.168.1.104:"$((5760+10*$TRACKER_INSTANCE))
     cmd="nice /tmp/AntennaTracker.build/AntennaTracker.elf -I1 --model=tracker --home=$TRACKER_HOME"
     $autotest/run_in_terminal_window.sh "AntennaTracker" $cmd || exit 1
     popd
@@ -418,7 +418,7 @@ fi
 
 trap kill_tasks SIGINT
 
-# mavproxy.py --master tcp:127.0.0.1:5760 --sitl 127.0.0.1:5501 --out 127.0.0.1:14550 --out 127.0.0.1:14551 
+# mavproxy.py --master tcp:192.168.1.104:5760 --sitl 192.168.1.104:5501 --out 192.168.1.104:14550 --out 192.168.1.104:14551 
 options=""
 if [ $START_HIL == 0 ]; then
 options="--master $MAVLINK_PORT --sitl $SIMOUT_PORT"
@@ -428,7 +428,7 @@ fi
 if [ $USER == "vagrant" ]; then
 options="$options --out 10.0.2.2:14550"
 fi
-options="$options --out 127.0.0.1:14550 --out 127.0.0.1:14551"
+options="$options --out 192.168.1.104:14550 --out 192.168.1.104:14551"
 extra_cmd1=""
 if [ $WIPE_EEPROM == 1 ]; then
     extra_cmd="param forceload $autotest/$PARMS; $EXTRA_PARM; param fetch"

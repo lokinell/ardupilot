@@ -1,0 +1,21 @@
+digraph "libraries/AP_Math/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_93fb9127672489656ce87df72f6e986d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AP_Math" fontname="Helvetica", fontsize="10", URL="dir_93fb9127672489656ce87df72f6e986d.html"]
+  subgraph clusterdir_248b267c5d10617be876c6ca117cf55c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_248b267c5d10617be876c6ca117cf55c.html"];
+    dir_248b267c5d10617be876c6ca117cf55c [shape=plaintext label="examples"];
+    dir_e3c6febba45ba63f15c90e997a742ff4 [shape=box label="eulers" color="black" fillcolor="white" style="filled" URL="dir_e3c6febba45ba63f15c90e997a742ff4.html"];
+    dir_ee0dd37485736c8aeaca704a88e8442a [shape=box label="location" color="black" fillcolor="white" style="filled" URL="dir_ee0dd37485736c8aeaca704a88e8442a.html"];
+    dir_0d63c3686f8d3b51a56dcfcd6113214c [shape=box label="polygon" color="black" fillcolor="white" style="filled" URL="dir_0d63c3686f8d3b51a56dcfcd6113214c.html"];
+    dir_b0779f04a86e36c088731c394a1d0c73 [shape=box label="rotations" color="black" fillcolor="white" style="filled" URL="dir_b0779f04a86e36c088731c394a1d0c73.html"];
+  }
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_e3c6febba45ba63f15c90e997a742ff4->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000097_000046.html"];
+  dir_0d63c3686f8d3b51a56dcfcd6113214c->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000099_000046.html"];
+  dir_b0779f04a86e36c088731c394a1d0c73->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000100_000046.html"];
+  dir_ee0dd37485736c8aeaca704a88e8442a->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000098_000046.html"];
+}

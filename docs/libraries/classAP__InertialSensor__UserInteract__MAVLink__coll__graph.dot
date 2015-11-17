@@ -1,0 +1,40 @@
+digraph "AP_InertialSensor_UserInteract_MAVLink"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_UserInteract\l_MAVLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_InertialSensor_UserInteract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__UserInteract.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _gcs" ,fontname="Helvetica"];
+  Node3 [label="GCS_MAVLINK",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html",tooltip="MAVLink transport control class. "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _queued_parameter_token" ,fontname="Helvetica"];
+  Node4 [label="AP_Param::ParamToken",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1ParamToken.html"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" routing" ,fontname="Helvetica"];
+  Node5 [label="MAVLink_routing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMAVLink__routing.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" routes" ,fontname="Helvetica"];
+  Node6 [label="MAVLink_routing::route",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structMAVLink__routing_1_1route.html"];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _port" ,fontname="Helvetica"];
+  Node7 [label="AP_HAL::UARTDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1UARTDriver.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_HAL::BetterStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1BetterStream.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_HAL::Stream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Stream.html"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_HAL::Print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html"];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _queued_parameter" ,fontname="Helvetica"];
+  Node11 [label="AP_Param",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Param.html"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _storage" ,fontname="Helvetica"];
+  Node12 [label="StorageAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classStorageAccess.html"];
+  Node13 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _var_info" ,fontname="Helvetica"];
+  Node13 [label="AP_Param::Info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1Info.html"];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group_info" ,fontname="Helvetica"];
+  Node14 [label="AP_Param::GroupInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1GroupInfo.html"];
+  Node14 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group_info" ,fontname="Helvetica"];
+  Node15 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" param_overrides" ,fontname="Helvetica"];
+  Node15 [label="AP_Param::param_override",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1param__override.html"];
+  Node16 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pending_status" ,fontname="Helvetica"];
+  Node16 [label="__mavlink_statustext_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct____mavlink__statustext__t.html"];
+  Node14 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var_info" ,fontname="Helvetica"];
+}

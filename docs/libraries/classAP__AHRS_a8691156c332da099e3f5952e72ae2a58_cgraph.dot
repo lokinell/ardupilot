@@ -1,0 +1,12 @@
+digraph "AP_AHRS::airspeed_sensor_enabled"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AHRS::airspeed_sensor\l_enabled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Airspeed::use",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Airspeed.html#a6162295b433e3a863c0d4b9086b19014"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Airspeed::healthy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Airspeed.html#acddaade777fa87d5b8c904c79be01204"];
+}

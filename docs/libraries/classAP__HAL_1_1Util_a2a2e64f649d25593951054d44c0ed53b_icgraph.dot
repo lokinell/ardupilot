@@ -1,0 +1,28 @@
+digraph "AP_HAL::Util::available_memory"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::Util::available\l_memory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF2::InitialiseFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2.html#a9c447b8d84abf2dfc845ddbbbad46a2b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS_NavEKF::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#abdb5e9bc0803f733ab1b0a423baad8d1"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_AHRS_NavEKF::reset\l_attitude",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#ae76a84b4b941df4d8a4304ff242d18a5"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS_NavEKF::update_EKF2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a0187c6d3d4348b002a204c05d3e94b07"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_AHRS_NavEKF::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a9d5f47f1bc0e3864bbc4c6c6e2ca8b1c"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GCS_MAVLINK::send_meminfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#af4e400a4a17773e5a8bbae3993911bf8"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PX4::NSHShellStream\l::start_shell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1NSHShellStream.html#af55f10bc033220186de41f075d139098"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="PX4::NSHShellStream\l::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1NSHShellStream.html#a19be4482626985fb9a396c2eb7cff4fc"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="PX4::NSHShellStream\l::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1NSHShellStream.html#a853e3baaf59cd28fb833cbb707c227ad"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="PX4::NSHShellStream\l::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1NSHShellStream.html#a23c5a6e993710af675160269f7864ebc"];
+}

@@ -1,0 +1,26 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::AnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1AnalogSource.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ADS1115AnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classADS1115AnalogSource.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_ADC_AnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEAnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEAnalogSource.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Empty::EmptyAnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEmpty_1_1EmptyAnalogSource.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="HALSITL::ADCSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHALSITL_1_1ADCSource.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Linux::AnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1AnalogSource.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PX4::PX4AnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4AnalogSource.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="RaspilotAnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRaspilotAnalogSource.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="VRBRAIN::VRBRAINAnalogSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVRBRAIN_1_1VRBRAINAnalogSource.html"];
+}

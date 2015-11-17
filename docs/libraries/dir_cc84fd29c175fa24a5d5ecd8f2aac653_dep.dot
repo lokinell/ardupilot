@@ -1,0 +1,13 @@
+digraph "libraries/GCS_MAVLink/include/mavlink" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c81f1383b11af3af0a1f9cecceb76475 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_c81f1383b11af3af0a1f9cecceb76475.html"]
+  subgraph clusterdir_cc84fd29c175fa24a5d5ecd8f2aac653 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_cc84fd29c175fa24a5d5ecd8f2aac653.html"];
+    dir_cc84fd29c175fa24a5d5ecd8f2aac653 [shape=plaintext label="mavlink"];
+    dir_17d12eb889f55df7397b9a7dd6bb5e24 [shape=box label="v1.0" color="red" fillcolor="white" style="filled" URL="dir_17d12eb889f55df7397b9a7dd6bb5e24.html"];
+  }
+  }
+}

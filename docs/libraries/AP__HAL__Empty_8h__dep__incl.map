@@ -1,0 +1,33 @@
+<map id="libraries/AP_HAL_Empty/AP_HAL_Empty.h" name="libraries/AP_HAL_Empty/AP_HAL_Empty.h">
+<area shape="rect" id="node2" href="$Empty_2AnalogIn_8h.html" title="libraries/AP_HAL_Empty\l/AnalogIn.h" alt="" coords="1064,92,1232,131"/>
+<area shape="rect" id="node6" href="$HAL__Linux__Class_8cpp.html" title="libraries/AP_HAL_Linux\l/HAL_Linux_Class.cpp" alt="" coords="780,352,942,391"/>
+<area shape="rect" id="node7" href="$PX4_2I2CDriver_8h.html" title="libraries/AP_HAL_PX4\l/I2CDriver.h" alt="" coords="1645,352,1800,391"/>
+<area shape="rect" id="node8" href="$HAL__PX4__Class_8cpp.html" title="libraries/AP_HAL_PX4\l/HAL_PX4_Class.cpp" alt="" coords="1317,439,1472,477"/>
+<area shape="rect" id="node10" href="$HAL__SITL__Class_8cpp.html" title="libraries/AP_HAL_SITL\l/HAL_SITL_Class.cpp" alt="" coords="1122,352,1281,391"/>
+<area shape="rect" id="node11" href="$HAL__VRBRAIN__Class_8cpp.html" title="libraries/AP_HAL_VRBRAIN\l/HAL_VRBRAIN_Class.cpp" alt="" coords="1432,352,1621,391"/>
+<area shape="rect" id="node12" href="$PrivateMember_8h.html" title="libraries/AP_HAL_Empty\l/PrivateMember.h" alt="" coords="260,92,428,131"/>
+<area shape="rect" id="node15" href="$Empty_2UARTDriver_8h.html" title="libraries/AP_HAL_Empty\l/UARTDriver.h" alt="" coords="1448,92,1616,131"/>
+<area shape="rect" id="node17" href="$Empty_2I2CDriver_8h.html" title="libraries/AP_HAL_Empty\l/I2CDriver.h" alt="" coords="2408,92,2576,131"/>
+<area shape="rect" id="node19" href="$Empty_2SPIDriver_8h.html" title="libraries/AP_HAL_Empty\l/SPIDriver.h" alt="" coords="579,179,747,217"/>
+<area shape="rect" id="node21" href="$Empty_2Semaphores_8h.html" title="libraries/AP_HAL_Empty\l/Semaphores.h" alt="" coords="791,92,959,131"/>
+<area shape="rect" id="node23" href="$Empty_2Storage_8h.html" title="libraries/AP_HAL_Empty\l/Storage.h" alt="" coords="1731,92,1899,131"/>
+<area shape="rect" id="node25" href="$Empty_2GPIO_8h.html" title="libraries/AP_HAL_Empty\l/GPIO.h" alt="" coords="2216,92,2384,131"/>
+<area shape="rect" id="node27" href="$Empty_2RCInput_8h.html" title="libraries/AP_HAL_Empty\l/RCInput.h" alt="" coords="1923,92,2091,131"/>
+<area shape="rect" id="node29" href="$Empty_2RCOutput_8h.html" title="libraries/AP_HAL_Empty\l/RCOutput.h" alt="" coords="2641,92,2809,131"/>
+<area shape="rect" id="node31" href="$Empty_2Scheduler_8h.html" title="libraries/AP_HAL_Empty\l/Scheduler.h" alt="" coords="1256,92,1424,131"/>
+<area shape="rect" id="node3" href="$Empty_2AnalogIn_8cpp.html" title="libraries/AP_HAL_Empty\l/AnalogIn.cpp" alt="" coords="1064,179,1232,217"/>
+<area shape="rect" id="node4" href="$AP__HAL__Empty__Private_8h.html" title="libraries/AP_HAL_Empty\l/AP_HAL_Empty_Private.h" alt="" coords="1371,265,1552,304"/>
+<area shape="rect" id="node5" href="$HAL__Empty__Class_8cpp.html" title="libraries/AP_HAL_Empty\l/HAL_Empty_Class.cpp" alt="" coords="277,352,445,391"/>
+<area shape="rect" id="node9" href="$AP__HAL__PX4_2I2CDriver_8cpp.html" title="libraries/AP_HAL_PX4\l/I2CDriver.cpp" alt="" coords="1645,439,1800,477"/>
+<area shape="rect" id="node13" href="$HAL__Empty__Class_8h.html" title="libraries/AP_HAL_Empty\l/HAL_Empty_Class.h" alt="" coords="43,179,211,217"/>
+<area shape="rect" id="node14" href="$PrivateMember_8cpp.html" title="libraries/AP_HAL_Empty\l/PrivateMember.cpp" alt="" coords="235,179,403,217"/>
+<area shape="rect" id="node16" href="$Empty_2UARTDriver_8cpp.html" title="libraries/AP_HAL_Empty\l/UARTDriver.cpp" alt="" coords="1549,179,1717,217"/>
+<area shape="rect" id="node18" href="$AP__HAL__Empty_2I2CDriver_8cpp.html" title="libraries/AP_HAL_Empty\l/I2CDriver.cpp" alt="" coords="2520,179,2688,217"/>
+<area shape="rect" id="node20" href="$AP__HAL__Empty_2SPIDriver_8cpp.html" title="libraries/AP_HAL_Empty\l/SPIDriver.cpp" alt="" coords="579,265,747,304"/>
+<area shape="rect" id="node22" href="$AP__HAL__Empty_2Semaphores_8cpp.html" title="libraries/AP_HAL_Empty\l/Semaphores.cpp" alt="" coords="821,179,989,217"/>
+<area shape="rect" id="node24" href="$Empty_2Storage_8cpp.html" title="libraries/AP_HAL_Empty\l/Storage.cpp" alt="" coords="1741,179,1909,217"/>
+<area shape="rect" id="node26" href="$AP__HAL__Empty_2GPIO_8cpp.html" title="libraries/AP_HAL_Empty\l/GPIO.cpp" alt="" coords="2227,179,2395,217"/>
+<area shape="rect" id="node28" href="$Empty_2RCInput_8cpp.html" title="libraries/AP_HAL_Empty\l/RCInput.cpp" alt="" coords="2035,179,2203,217"/>
+<area shape="rect" id="node30" href="$Empty_2RCOutput_8cpp.html" title="libraries/AP_HAL_Empty\l/RCOutput.cpp" alt="" coords="2763,179,2931,217"/>
+<area shape="rect" id="node32" href="$AP__HAL__Empty_2Scheduler_8cpp.html" title="libraries/AP_HAL_Empty\l/Scheduler.cpp" alt="" coords="1256,179,1424,217"/>
+</map>

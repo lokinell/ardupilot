@@ -1,0 +1,7 @@
+<map id="gcs_console_handle_data16" name="gcs_console_handle_data16">
+<area shape="rect" id="node2" href="$mavlink__msg__data16_8h.html#a959ffbaae72e58055efeacf684fd6605" title="Decode a data16 message into a struct. " alt="" coords="196,68,344,107"/>
+<area shape="rect" id="node3" href="$mavlink__msg__data16_8h.html#aa1f47c3f0244e9feaed0bc9df065057f" title="Send a data16 message. " alt="" coords="392,5,539,44"/>
+<area shape="rect" id="node4" href="$mavlink__msg__data16_8h.html#a053e7dfeecb2454ac50b3771284339de" title="Get field len from data16 message. " alt="" coords="392,68,539,107"/>
+<area shape="rect" id="node5" href="$mavlink__msg__data16_8h.html#a8edf3995092ef99f907bc322c5812f5a" title="Get field data from data16 message. " alt="" coords="392,131,539,169"/>
+<area shape="rect" id="node6" href="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3" title="_MAV_RETURN_uint8_t\l_array" alt="" coords="587,131,754,169"/>
+</map>

@@ -1,0 +1,39 @@
+digraph "AC_WPNav::calc_loiter_desired_velocity"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_WPNav::calc_loiter\l_desired_velocity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_PosControl::set\l_speed_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#aeb636a56d87a2495d86e394ff6ac7549"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_PosControl::calc\l_leash_length_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#ac4f923c39399266568b9ae9419a0596f"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_PosControl::calc\l_leash_length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a92e0998be57c8a917a7a7514c542e314",tooltip="calc_leash_length - calculates the horizontal leash length given a maximum speed, acceleration and po..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_P::kP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__P.html#a9378b33d8cfb4bf2417880c038f1b7a2"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_PosControl::set\l_accel_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a5e47fd89f68af7f00d9bd59cfcb422a8"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AC_PosControl::set\l_jerk_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#adfe1243326de1130e9a5a7d031c00ebb",tooltip="set_jerk_xy - set max horizontal jerk in cm/s/s/s "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_AHRS::cos_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a1aaffcffc239930cb651fad539362fa0"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_AHRS::sin_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#ae559b9d6fdd1e8ed3001258f58c98c39"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="pythagorous2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a4a065531591469723bec18f9034a91c3"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="sq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AC_PosControl::get\l_desired_velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a3d9cd8d29a9ce76bb5b6d757aac7626f",tooltip="get_desired_velocity - returns xy desired velocity (i.e. feed forward) in cm/s in lat and lon directi..."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Vector2::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structVector2.html#ad8ebafde96f43521d3647e2552387529",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node13 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AC_PosControl::set\l_desired_velocity_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a86db328ce60f79e07a417e55bb5deb5f"];
+}

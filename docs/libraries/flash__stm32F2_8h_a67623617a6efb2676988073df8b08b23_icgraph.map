@@ -1,0 +1,16 @@
+<map id="FLASH_ProgramHalfWord" name="FLASH_ProgramHalfWord">
+<area shape="rect" id="node2" href="$classEEPROMClass.html#ad3725e57079ea532ce74bb4e76b211dd" title="Erase page with increment erase counter (page + 2) " alt="" coords="232,92,443,118"/>
+<area shape="rect" id="node4" href="$classEEPROMClass.html#a3d12060444d8cc649f0264ce23f7bbaf" title="Transfers last updated variables data from the full Page to an empty one. " alt="" coords="787,42,1013,67"/>
+<area shape="rect" id="node5" href="$classEEPROMClass.html#a1ec32c6c58e3845274ab08e8944d2f46" title="Verify if active page is full and Writes variable in EEPROM. " alt="" coords="1061,7,1270,46"/>
+<area shape="rect" id="node9" href="$classEEPROMClass.html#a9e3825e66fd8112ed3768f726537c8c6" title="EEPROMClass::init" alt="" coords="1097,131,1234,156"/>
+<area shape="rect" id="node15" href="$classEEPROMClass.html#ac7d841bc2db8825c19444dff0a7409c5" title="Erases PAGE0 and PAGE1 and writes EEPROM_VALID_PAGE / 0 header to PAGE0. " alt="" coords="821,143,979,168"/>
+<area shape="rect" id="node3" href="$classEEPROMClass.html#a42fc5632d6e320e5c08b8acc86a144d6" title="Check page for blank and erase it. " alt="" coords="491,92,739,118"/>
+<area shape="rect" id="node6" href="$classEEPROMClass.html#a94dfba95e7cbc16dd5cbfeb344a749c1" title="Writes/upadtes variable data in EEPROM. " alt="" coords="1332,14,1480,39"/>
+<area shape="rect" id="node7" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a0aa3116d7a310753eea45c784330aa37" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::write_byte" alt="" coords="1541,7,1753,46"/>
+<area shape="rect" id="node8" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a3cebced9065ea52b7c7684aed8f3435b" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::write_block" alt="" coords="1801,7,2019,46"/>
+<area shape="rect" id="node10" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a25a3355ea68af27fd28ec211b93ec2ca" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::init" alt="" coords="1318,112,1493,151"/>
+<area shape="rect" id="node11" href="$classEEPROMClass.html#aa2aa9b1e1f3f7ec3924aacc22e7de722" title="EEPROMClass::init" alt="" coords="1337,175,1474,200"/>
+<area shape="rect" id="node12" href="$classEEPROMClass.html#a7b4057d24e48bfad9b294d5acd9e7b56" title="Returns the erase counter for current page. " alt="" coords="1326,224,1486,250"/>
+<area shape="rect" id="node13" href="$classEEPROMClass.html#a039849dd231854ce6b71bb558684d54e" title="Returns the last stored variable data, if found, which correspond to the passed virtual address..." alt="" coords="1332,274,1479,299"/>
+<area shape="rect" id="node14" href="$classEEPROMClass.html#a11daf35eb9821e9c9761533f555bb1ed" title="Return number of variable. " alt="" coords="1329,63,1482,88"/>
+</map>

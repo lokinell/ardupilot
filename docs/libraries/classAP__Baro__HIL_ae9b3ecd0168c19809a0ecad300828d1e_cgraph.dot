@@ -1,0 +1,12 @@
+digraph "AP_Baro_HIL::AP_Baro_HIL"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Baro_HIL::AP_Baro_HIL",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Baro::register_sensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro.html#a2679b96d8c843053af9c658ff3efad73"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lpanic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101"];
+}

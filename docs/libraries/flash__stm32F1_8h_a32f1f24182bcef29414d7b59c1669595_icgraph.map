@@ -1,0 +1,4 @@
+<map id="FLASH_WaitForLastOperation" name="FLASH_WaitForLastOperation">
+<area shape="rect" id="node2" href="$flash__stm32F1_8h.html#ab10d4a1c191d1d7f5b3a3b70927e6e69" title="Erases a specified FLASH page. " alt="" coords="275,5,413,31"/>
+<area shape="rect" id="node3" href="$flash__stm32F1_8h.html#a67623617a6efb2676988073df8b08b23" title="Programs a half word at a specified address. " alt="" coords="255,55,433,80"/>
+</map>

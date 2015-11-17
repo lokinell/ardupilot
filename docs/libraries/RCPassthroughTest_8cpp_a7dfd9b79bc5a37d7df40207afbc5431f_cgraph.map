@@ -1,0 +1,16 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1GPIO.html#a3dfc60214bd1aa4936d51ca72c045b95" title="AP_HAL::GPIO::pinMode" alt="" coords="125,5,297,31"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1GPIO.html#a2b0664bdab1876e3b0bbcd9064eec88e" title="AP_HAL::GPIO::write" alt="" coords="137,55,286,80"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1RCOutput.html#a25196bb820266d4afcae14d0acdb7e1c" title="AP_HAL::RCOutput::enable_ch" alt="" coords="107,104,315,129"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1RCOutput.html#ae7903398aa18e2472dd34081e626dcb7" title="AP_HAL::RCOutput::set_freq" alt="" coords="114,153,309,179"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56" title="AP_HAL::UARTDriver\l::printf" alt="" coords="136,203,287,241"/>
+<area shape="rect" id="node14" href="$classAP__HAL_1_1RCOutput.html#aec09c5df84cf2006606a058c78f9a87a" title="AP_HAL::RCOutput::get_freq" alt="" coords="114,265,309,291"/>
+<area shape="rect" id="node15" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="138,315,285,353"/>
+<area shape="rect" id="node7" href="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f" title="AP_HAL::UARTDriver\l::vprintf" alt="" coords="363,203,515,241"/>
+<area shape="rect" id="node8" href="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016" title="print_vprintf" alt="" coords="563,209,654,235"/>
+<area shape="rect" id="node9" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="702,111,845,136"/>
+<area shape="rect" id="node10" href="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947" title="ftoa_engine" alt="" coords="728,160,819,185"/>
+<area shape="rect" id="node11" href="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da" title="pgm_read_byte" alt="" coords="716,209,830,235"/>
+<area shape="rect" id="node12" href="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c" title="ulltoa_invert" alt="" coords="727,259,820,284"/>
+<area shape="rect" id="node13" href="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559" title="ultoa_invert" alt="" coords="728,308,818,333"/>
+</map>

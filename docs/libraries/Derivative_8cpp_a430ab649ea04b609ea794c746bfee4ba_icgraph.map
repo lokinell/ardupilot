@@ -1,0 +1,19 @@
+<map id="noise" name="noise">
+<area shape="rect" id="node2" href="$classHALSITL_1_1SITL__State.html#aa519ffad661a850c5b8534c2973fd888" title="HALSITL::SITL_State\l::_update_compass" alt="" coords="139,5,289,44"/>
+<area shape="rect" id="node3" href="$classDataFlash__Class.html#ae26cdaa597f952193b6be4436d55c7d6" title="DataFlash_Class::Log\l_Write_Radio" alt="" coords="138,68,290,107"/>
+<area shape="rect" id="node5" href="$mavlink__msg__radio_8h.html#a3004a5ab4a6f1fde13bd759d7a8aae83" title="Pack a radio message. " alt="" coords="128,131,300,156"/>
+<area shape="rect" id="node10" href="$mavlink__msg__radio_8h.html#affe6fe66153ea5b65647dab166f18c58" title="Pack a radio message on a channel. " alt="" coords="110,180,318,205"/>
+<area shape="rect" id="node12" href="$mavlink__msg__radio__status_8h.html#a723f98680c5dc1a40afbe43065dcc0fc" title="Pack a radio_status message. " alt="" coords="107,281,321,307"/>
+<area shape="rect" id="node17" href="$mavlink__msg__radio__status_8h.html#aa0241dc9570dabb03dab140e6f1671c4" title="Pack a radio_status message on a channel. " alt="" coords="124,389,304,428"/>
+<area shape="rect" id="node4" href="$classGCS__MAVLINK.html#a95855cb1b5e848b644d0fdeb1009a031" title="GCS_MAVLINK::handle\l_radio_status" alt="" coords="400,16,562,55"/>
+<area shape="rect" id="node6" href="$mavlink__msg__radio_8h.html#aea0364ed0990b48dcc7854e4683a88fe" title="Encode a radio struct. " alt="" coords="387,79,575,104"/>
+<area shape="rect" id="node7" href="$ardupilotmega_2testsuite_8h.html#a475186eaf0e20dc86a0a905641d72a52" title="mavlink_test_radio" alt="" coords="641,129,773,155"/>
+<area shape="rect" id="node8" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="821,129,1009,155"/>
+<area shape="rect" id="node9" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="1057,129,1173,155"/>
+<area shape="rect" id="node11" href="$mavlink__msg__radio_8h.html#ab33a8b3475edecd9b374d946470128af" title="Encode a radio struct on a channel. " alt="" coords="369,231,593,256"/>
+<area shape="rect" id="node13" href="$common_2testsuite_8h.html#a156e7002c60273e6c45a288a7c629c96" title="mavlink_test_radio\l_status" alt="" coords="641,332,773,371"/>
+<area shape="rect" id="node16" href="$mavlink__msg__radio__status_8h.html#aed385b9b0ff8e87f0b429878b9c9c52e" title="Encode a radio_status struct. " alt="" coords="392,332,571,371"/>
+<area shape="rect" id="node14" href="$common_2testsuite_8h.html#af349432601ac003d2c80a69c100c70a4" title="mavlink_test_common" alt="" coords="838,339,992,364"/>
+<area shape="rect" id="node15" href="$common_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="1057,339,1173,364"/>
+<area shape="rect" id="node18" href="$mavlink__msg__radio__status_8h.html#a585b0e5075a8bb23a345ce65731dad03" title="Encode a radio_status struct on a channel. " alt="" coords="392,447,571,485"/>
+</map>

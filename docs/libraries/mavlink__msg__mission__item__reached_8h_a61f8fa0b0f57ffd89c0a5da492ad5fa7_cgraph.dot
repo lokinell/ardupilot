@@ -1,0 +1,10 @@
+digraph "mavlink_msg_mission_item_reached_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_mission\l_item_reached_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_mission\l_item_reached_get_seq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mission__item__reached_8h.html#a5b5b8665f2e16d1819797ce265ebd786",tooltip="Send a mission_item_reached message. "];
+}

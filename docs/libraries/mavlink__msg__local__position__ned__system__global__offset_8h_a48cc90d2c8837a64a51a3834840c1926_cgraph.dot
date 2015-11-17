@@ -1,0 +1,22 @@
+digraph "mavlink_msg_local_position_ned_system_global_offset_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_local_position\l_ned_system_global_offset_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_local_position\l_ned_system_global_offset\l_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#a4b622970f57ee45e6fc2e6d4bdd32105",tooltip="Send a local_position_ned_system_global_offset message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_local_position\l_ned_system_global_offset_get_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#aad9b8f327f46344a6bdfa329e14e662b",tooltip="Get field x from local_position_ned_system_global_offset message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_local_position\l_ned_system_global_offset_get_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#a8ba2b5696235e21be01a2e00b6fc0408",tooltip="Get field y from local_position_ned_system_global_offset message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_local_position\l_ned_system_global_offset_get_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#a44e35208d74607b1f3adaf3bbe1c2a26",tooltip="Get field z from local_position_ned_system_global_offset message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_local_position\l_ned_system_global_offset\l_get_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#ae61716162752bcd6169150d05915f793",tooltip="Get field roll from local_position_ned_system_global_offset message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_local_position\l_ned_system_global_offset\l_get_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#af262c3ff5e0221798cbcbdf69b1edf16",tooltip="Get field pitch from local_position_ned_system_global_offset message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_local_position\l_ned_system_global_offset\l_get_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__local__position__ned__system__global__offset_8h.html#a8e8c24baa2353c0911e584001103c959",tooltip="Get field yaw from local_position_ned_system_global_offset message. "];
+}

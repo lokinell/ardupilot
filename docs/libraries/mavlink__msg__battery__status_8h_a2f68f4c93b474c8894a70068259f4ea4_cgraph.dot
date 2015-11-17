@@ -1,0 +1,26 @@
+digraph "mavlink_msg_battery_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_battery\l_status_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_battery\l_status_get_current\l_consumed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a30571db50999c9bc546a971e557d9224",tooltip="Get field current_consumed from battery_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_battery\l_status_get_energy_consumed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a2ec47d94ce33778ed40685ee4bbf113f",tooltip="Get field energy_consumed from battery_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_battery\l_status_get_temperature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#abe92f353e37ccb73b40d9a3c65539b4c",tooltip="Get field temperature from battery_status message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_battery\l_status_get_voltages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a3a394e6dd64f8a95146616d70a4f7506",tooltip="Get field voltages from battery_status message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_battery\l_status_get_current\l_battery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a6e3e9a95285ef105990fe7a4f7dff47c",tooltip="Get field current_battery from battery_status message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_battery\l_status_get_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a9e843eb65b6f04217a22091914e90e49",tooltip="Send a battery_status message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_battery\l_status_get_battery\l_function",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#aec38451b6da50cbbdacb8b003cc47869",tooltip="Get field battery_function from battery_status message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_battery\l_status_get_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#a1cedcba2d501dc13a89d14b7c99ba215",tooltip="Get field type from battery_status message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_battery\l_status_get_battery\l_remaining",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery__status_8h.html#aa38a67c9282d0fb3356c6758e7a6d6d9",tooltip="Get field battery_remaining from battery_status message. "];
+}

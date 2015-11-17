@@ -1,0 +1,20 @@
+digraph "Linux::Scheduler::stop_clock"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::Scheduler::stop\l_clock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::Scheduler::\l_run_io",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a524ba3c71858c062519762122f50d826"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::Semaphore::take",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Semaphore.html#afc4c8706abb7e68aa4001ea372dc614e"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::Semaphore::take\l_nonblocking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Semaphore.html#a561b4f40f3a76335f1a686c2aed526f9"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_HAL::Scheduler::\lmicros64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#acfe178fdca7f8d9b22a939b3aac1a84f"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::Scheduler::\ldelay_microseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a78c4f1b1f192ac1c99544b6cc8f099b0"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Linux::Semaphore::give",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Semaphore.html#a216f91636f64b57b59d43ef64af91624"];
+}

@@ -1,0 +1,35 @@
+digraph "AC_PID::set_desired_rate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_PID::set_desired_rate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_PosControl::accel\l_to_throttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a326002cec926ea659f8c06273c09513c"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_PosControl::rate\l_to_accel_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a7f2e50bce46c82e024fb47a288b2ffb2"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_PosControl::pos\l_to_rate_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#adaf1679fb65c1bef02180409dcd96cad"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_PosControl::update\l_z_controller",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#af9c555a3b07ea1420ea28e7333379941",tooltip="update_z_controller - fly to altitude in cm above home "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_PosControl::update\l_vel_controller_xyz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#ad89eec74ef77005f3f5c449da98ad12c"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AC_AttitudeControl\l::rate_bf_to_motor_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a56c2344dd636bf31c186ab5736eb09f3"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AC_AttitudeControl\l::rate_controller_run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a1c2565af20755e769d3bd9d1a9de826d"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AC_AttitudeControl\l::rate_bf_to_motor_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a83a7761cd990d39a8941e93aaf3fe295"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AC_AttitudeControl\l_Heli::rate_bf_to_motor\l_roll_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a29ff02c0f413c83ac91a47f2adfab773"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AC_AttitudeControl\l_Heli::rate_controller_run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a38cb1684d4155d8f1f319d7385d3f2c6"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AC_AttitudeControl\l_Heli::rate_bf_to_motor_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a42aebc8b52e6138b8473a49b4b7328b3"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AC_AttitudeControl\l::rate_bf_to_motor_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a76b777e788ccde85d2ec713f6a23028f"];
+  Node13 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

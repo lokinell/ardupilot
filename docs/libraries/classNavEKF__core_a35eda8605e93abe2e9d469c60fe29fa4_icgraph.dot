@@ -1,0 +1,49 @@
+digraph "NavEKF_core::calcQuatAndFieldStates"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF_core::calcQuatAnd\lFieldStates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF_core::alignYawGPS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#adb443a8228f901a797432cadfef94f09"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NavEKF_core::SetFlightAnd\lFusionModes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#ae2024878cb7582599b10e69477313fda"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NavEKF_core::InitialiseFilter\lBootstrap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#ab5cf1fe4bc4140da298da0ca89f8e3ca"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NavEKF::InitialiseFilter\lBootstrap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF.html#a290932b02347c5247f036fbc3c7af9d8"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_AHRS_NavEKF::reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#abdb5e9bc0803f733ab1b0a423baad8d1"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_AHRS_NavEKF::reset\l_attitude",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#ae76a84b4b941df4d8a4304ff242d18a5"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NavEKF_core::UpdateFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#addb3791473c00d6f49b485ae3ce22f26"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NavEKF::UpdateFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF.html#a58d3c9694abab421e8eadd78e72ac67c"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_AHRS_NavEKF::update_EKF1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#aff7b2c4f3428a48ab5ed210e89df4f76"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_AHRS_NavEKF::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a9d5f47f1bc0e3864bbc4c6c6e2ca8b1c"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="NavEKF_core::calcGpsGood\lToAlign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#acab2d8eaf3c773c1ec8d27a79fd7f374"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="NavEKF_core::readGpsData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a93e62bbf5bd5071291db0515975e8124"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="NavEKF_core::InitialiseFilter\lDynamic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a88ff1e4a9bbafca3f735e3891b8fa2fa"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="NavEKF::InitialiseFilter\lDynamic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF.html#a12500a621febd8f914f6e16db4c28759"];
+  Node15 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="NavEKF_core::SelectVelPos\lFusion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a20167ef21dc07706f5719ff38a2c60a5"];
+  Node16 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="NavEKF_core::performArming\lChecks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a11622afea6e79a1f24ffa31299a51ee8"];
+  Node17 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="NavEKF_core::SelectMagFusion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#a37abf607040d13164cbd5076adcec844"];
+  Node18 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,18 @@
+digraph "AP_InertialSensor::get_gyro_offsets"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor::\lget_gyro_offsets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="HALSITL::SITL_State\l::_update_ins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHALSITL_1_1SITL__State.html#a9f7ecf8cafc351952b5a22863fbeeda6"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="display_offsets_and\l_scaling",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$INS__generic_8cpp.html#a46cb8e1b0adf829f2ebda23fd18f00cc"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$INS__generic_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$INS__generic_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="GCS_MAVLINK::send_sensor\l_offsets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a9be36dca60e21921c38bda4abf54e98a"];
+}

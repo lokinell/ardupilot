@@ -1,0 +1,38 @@
+digraph "AP_AHRS::airspeed_estimate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AHRS::airspeed_estimate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_PitchController\l::_get_coordination\l_rate_offset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__PitchController.html#ac2b0f53b26df0f5ba87ac8c735ea839f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_PitchController\l::get_servo_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__PitchController.html#a705d9814ebad894375332f012dd768df"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_RollController::\l_get_rate_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RollController.html#a702a5fbdae8598e86dc2aa73b8f59089"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_RollController::\lget_rate_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RollController.html#a8cf832c8a75c50c1fd4caf4eace7b34f"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_RollController::\lget_servo_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RollController.html#a8995f6c95b27e132a6aa49f5fe9512ae"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_TECS::_update_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__TECS.html#ac3a90f55264799a5482b76abfe5b9a68"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_TECS::update_pitch\l_throttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__TECS.html#a6a4556c90f50ee613f1673b50fa71da5"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_AHRS::airspeed_estimate_true",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a1c783993c43f6d833d67cebea7e82a2c"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_AHRS::groundspeed\l_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#aa2fd48ce0265df723cc8d05bb2150749"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_AHRS_NavEKF::groundspeed\l_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a01abc245c4c614e1cd3e6ef622621ae7"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_L1_Control::update\l_waypoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__L1__Control.html#a9052f01ea019fb51432d3104cce0b6e8"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_L1_Control::update\l_loiter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__L1__Control.html#acc0860ec530ec9c9bec50a5701bb709e"];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_L1_Control::update\l_heading_hold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__L1__Control.html#aac848632dc59271619005127e22e374d"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_PitchController\l::get_rate_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__PitchController.html#ad305f4274a77eaffb5b0dc064cfc31ba"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="AP_YawController::get\l_servo_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__YawController.html#a0cff30a9e52de0ba04dd26661a1f4506"];
+}

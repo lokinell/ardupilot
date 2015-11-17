@@ -1,0 +1,15 @@
+digraph "libraries/AP_Baro/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7db4a971a8c593e04169c3b474b45b25 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AP_Baro" fontname="Helvetica", fontsize="10", URL="dir_7db4a971a8c593e04169c3b474b45b25.html"]
+  subgraph clusterdir_e9345034112a6a53f04f8d6fd0bea8ab {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e9345034112a6a53f04f8d6fd0bea8ab.html"];
+    dir_e9345034112a6a53f04f8d6fd0bea8ab [shape=plaintext label="examples"];
+    dir_ad669d66ded219631295278c33df428f [shape=box label="BARO_generic" color="black" fillcolor="white" style="filled" URL="dir_ad669d66ded219631295278c33df428f.html"];
+  }
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_ad669d66ded219631295278c33df428f->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000023_000046.html"];
+}

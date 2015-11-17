@@ -1,0 +1,16 @@
+digraph "GCS_MAVLINK::handle_mission_clear_all"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GCS_MAVLINK::handle\l_mission_clear_all",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_mission\l_clear_all_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mission__clear__all_8h.html#af46080436bdf6f5ee6ccc535fa35e719",tooltip="Decode a mission_clear_all message into a struct. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_mission\l_clear_all_get_target\l_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mission__clear__all_8h.html#ad99d22830d5759f3c814f350ba5f6412",tooltip="Send a mission_clear_all message. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_mission\l_clear_all_get_target\l_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mission__clear__all_8h.html#aca378d4b568f4980615bf2b0877a4d6c",tooltip="Get field target_component from mission_clear_all message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Mission::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mission.html#acfd61ebf8361f71fa75c9088dd8b7e3b"];
+}

@@ -1,0 +1,18 @@
+digraph "AP_BattMonitor_Bebop::read"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_BattMonitor_Bebop\l::read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::RCOutput_Bebop\l::from",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCOutput__Bebop.html#a6f3aa51451811799f099d4b0cd55d4c0"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lmicros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_BattMonitor_Bebop\l::_compute_compensation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor__Bebop.html#a4c8681db11d7dfa0bc6ee6a1e7b6d477"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_BattMonitor_Bebop\l::_filter_voltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor__Bebop.html#a4308abf88b84b0a0894109a0685b9670"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_BattMonitor_Bebop\l::_compute_battery_percentage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor__Bebop.html#acb45406116c4ed86563da29ca2e8e809"];
+}

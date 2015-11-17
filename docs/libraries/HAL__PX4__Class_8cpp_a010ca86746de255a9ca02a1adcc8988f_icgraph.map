@@ -1,0 +1,8 @@
+<map id="hal_px4_set_priority" name="hal_px4_set_priority">
+<area shape="rect" id="node2" href="$HAL__PX4__Class_8cpp.html#a40474356ac2f5b07b6f59d651681b740" title="loop_overtime" alt="" coords="209,5,314,31"/>
+<area shape="rect" id="node3" href="$HAL__PX4__Class_8cpp.html#a9bd6e6ad19a651d2c83ab3edb8d51924" title="main_loop" alt="" coords="427,43,510,68"/>
+<area shape="rect" id="node5" href="$AP__HAL__PX4_2Scheduler_8cpp.html#a89d08a7ad0653f3222b479fe73d3399a" title="sem_post_boost" alt="" coords="202,107,321,132"/>
+<area shape="rect" id="node7" href="$AP__HAL__PX4_2Scheduler_8cpp.html#a0b35fd667b5bbd34d3588f2c4105c8d9" title="set_normal_priority" alt="" coords="194,156,329,181"/>
+<area shape="rect" id="node4" href="$classHAL__PX4.html#a05883e9a7a7b3b208a1d0173cf2cd557" title="HAL_PX4::run" alt="" coords="608,43,714,68"/>
+<area shape="rect" id="node6" href="$classPX4_1_1PX4Scheduler.html#a9c3c85945b3b9f6e5867efd79c9920fc" title="PX4::PX4Scheduler::\ldelay_microseconds_boost" alt="" coords="377,113,560,152"/>
+</map>

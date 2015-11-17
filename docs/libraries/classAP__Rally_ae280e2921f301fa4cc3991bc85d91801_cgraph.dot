@@ -1,0 +1,37 @@
+digraph "AP_Rally::calc_best_rally_or_home_location"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Rally::calc_best\l_rally_or_home_location",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_AHRS::get_home",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#aea45b16e6469a3b392b8bf52fb864732"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Rally::find_nearest\l_rally_point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Rally.html#a0b93e6b6133860929bbd7b68be633fa3"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Rally::get_rally\l_point_with_index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Rally.html#ad47b2b3a30b69eede58ad1f79cd61f11"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="StorageAccess::read\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classStorageAccess.html#ab2a8575d541549a15645edc360fdaa91"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="pgm_read_word",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a9fc333349fa71fdc21a2d5152c5e23a2"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="pgm_read_byte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_HAL::Storage::read\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Storage.html#a1c3b1e80b0bec7d4bacd3ecbefb3b3f3"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_Rally::rally_location\l_to_location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Rally.html#acbee4f7ffe79e701bd44c4c72e1c34d2"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="get_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#aa825a788804b8dd4cf1e3cfb42960a8b"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="longitude_scale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$location_8cpp.html#ad2368c582f3e0c135e2a74772f4db61a"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="pythagorous2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a4a065531591469723bec18f9034a91c3"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="sq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

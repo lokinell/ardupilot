@@ -1,0 +1,19 @@
+digraph "RC_Channel::rc_channel"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RC_Channel::rc_channel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="APM_OBC::check_crash\l_plane",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#acfedfcd0f28b1d53b722766e321b534e"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="APM_OBC::setup_failsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#adf90097b54be3e9ffbf21f675e411b6c"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_ServoRelayEvents\l::update_events",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ServoRelayEvents.html#abae99d08dbec323313058baebc468f0e"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_ServoRelayEvents\l::do_repeat_relay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ServoRelayEvents.html#a7bc553c3358ab805cc1ff315ca60ff97"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_ServoRelayEvents\l::do_repeat_servo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ServoRelayEvents.html#af3cde3623c5f0fa9368aa46eb85f916e"];
+}

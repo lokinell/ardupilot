@@ -1,0 +1,10 @@
+digraph "AC_AttitudeControl_Heli::rate_bf_to_motor_yaw"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_AttitudeControl\l_Heli::rate_bf_to_motor_yaw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_AttitudeControl\l_Heli::rate_controller_run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a38cb1684d4155d8f1f319d7385d3f2c6"];
+}

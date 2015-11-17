@@ -1,0 +1,36 @@
+digraph "mavlink_msg_mag_cal_report_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_mag_cal\l_report_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_mag_cal\l_report_get_fitness",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#aa9a97e01de34b1114bfe20e60d77e789",tooltip="Get field fitness from mag_cal_report message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_mag_cal\l_report_get_ofs_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a88ee48d733eb066909646aef14f6f524",tooltip="Get field ofs_x from mag_cal_report message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_mag_cal\l_report_get_ofs_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a285f17a03155129f0b08c945e1c2a10a",tooltip="Get field ofs_y from mag_cal_report message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_mag_cal\l_report_get_ofs_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a1426a16666b270804886bffba9395131",tooltip="Get field ofs_z from mag_cal_report message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_mag_cal\l_report_get_diag_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#abf8bd7af98fbc310da5c8381d995589c",tooltip="Get field diag_x from mag_cal_report message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_mag_cal\l_report_get_diag_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a94432d3666e88d48af8ed544491269d6",tooltip="Get field diag_y from mag_cal_report message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_mag_cal\l_report_get_diag_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a87be01e3351f1fd9eec805f3afbec3fb",tooltip="Get field diag_z from mag_cal_report message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_mag_cal\l_report_get_offdiag_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a858dd6f4595acc7e99acc48867cbc5e0",tooltip="Get field offdiag_x from mag_cal_report message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_mag_cal\l_report_get_offdiag_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a9b8c9926daacc0474030f5bd23128c55",tooltip="Get field offdiag_y from mag_cal_report message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_mag_cal\l_report_get_offdiag_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#ab6a5fc47a45557279c523d56c36b7965",tooltip="Get field offdiag_z from mag_cal_report message. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_mag_cal\l_report_get_compass_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#aa9f0b4dc47b365e5f97ca52c6276d20d",tooltip="Send a mag_cal_report message. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="mavlink_msg_mag_cal\l_report_get_cal_mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#ad58a2f218364b45ef6e1884a6abc7d34",tooltip="Get field cal_mask from mag_cal_report message. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="mavlink_msg_mag_cal\l_report_get_cal_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#a8d5c254a803beed8a573a60603b0cfa6",tooltip="Get field cal_status from mag_cal_report message. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="mavlink_msg_mag_cal\l_report_get_autosaved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mag__cal__report_8h.html#aacbc2d11ef62b18c22547938c2d3cb27",tooltip="Get field autosaved from mag_cal_report message. "];
+}

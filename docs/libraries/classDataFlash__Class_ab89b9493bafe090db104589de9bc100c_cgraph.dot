@@ -1,0 +1,35 @@
+digraph "DataFlash_Class::Log_Write_RSSI"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Class::Log\l_Write_RSSI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL::Scheduler::\lmicros64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#acfe178fdca7f8d9b22a939b3aac1a84f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_RSSI::read_receiver_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RSSI.html#aaf433294279d2da28157c6036faee2fa"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_RSSI::read_pin_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RSSI.html#a8730c21d64b6213e0cfd830bed0d0a12"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_HAL::AnalogSource\l::set_pin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1AnalogSource.html#add563a28e58fdd4af48ed983bbbecec8"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::AnalogSource\l::voltage_average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1AnalogSource.html#a97f02eb815fd2f568df7b927d6f6b559"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_RSSI::scale_and\l_constrain_float_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RSSI.html#ae047e3d04ba647b80604d0ae02d75126"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_RSSI::read_channel_rssi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RSSI.html#a760afa02d43f3dd64d8cd5e7986a7e53"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_HAL::RCInput::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCInput.html#a078fd7e6d2e6a899009ec674a8e03498"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="DataFlash_Class::WriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a2838cdd106ad3dd8da69a45dd64117ca"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="DataFlash_Backend::\lWriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#aed94b3ad1fd7333ddd7c2e20c3433d52"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="DataFlash_Backend::\lWritePrioritisedBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a0807326aa0d3df61375bc1c949d2a125"];
+}

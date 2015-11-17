@@ -1,0 +1,16 @@
+digraph "DataFlash_Backend::start_new_log"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Backend::\lstart_new_log",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DataFlash_Class::start\l_new_log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#aed3a1ee8a55500987fd326c687d62a4b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DataFlash_Class::StartNewLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a0801c32eb59382ffe15f9205ac79c04f"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DataFlashTest::setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlashTest.html#a8f812fa07edbffe61dfd8d02fddea7f8"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DataFlash__test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+}

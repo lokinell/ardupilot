@@ -1,0 +1,25 @@
+digraph "AP_InertialSensor_MPU9250::update"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_MPU9250\l::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_InertialSensor_Backend\l::_publish_gyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a5dbcfeb327b4622ea03838db64660dc8"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_InertialSensor_Backend\l::_publish_accel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a28212257f5b97b6e129f6b2d2c20424e"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_InertialSensor_Backend\l::_accel_filter_cutoff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#aa7fdfb9c9f28d883fbb109e13ded7f0f"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_InertialSensor_MPU9250\l::_set_accel_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__MPU9250.html#aaad4270eba441681894d5d8c55004d43"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LowPassFilter2p::set\l_cutoff_frequency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter2p.html#ac6157f65625e34dec2f7af4474dfb923"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="DigitalBiquadFilter\l::compute_params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDigitalBiquadFilter.html#a04934227f74d578b794f779505dc285c"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_InertialSensor_Backend\l::_gyro_filter_cutoff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__Backend.html#a9c376bd62d2a8e0262f887c6188d0af9"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_InertialSensor_MPU9250\l::_set_gyro_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__MPU9250.html#ac00f7e2ea2075d72f97ea3bb6067c771"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

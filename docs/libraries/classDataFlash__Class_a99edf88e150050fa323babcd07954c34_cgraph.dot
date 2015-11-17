@@ -1,0 +1,44 @@
+digraph "DataFlash_Class::Log_Write_GPS"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Class::Log\l_Write_GPS",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_GPS::location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a2ca8a9bad47faad1baeb09e124979022"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lmicros64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#acfe178fdca7f8d9b22a939b3aac1a84f"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_GPS::status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a9093c8cf1d5a78ccd8677229bb314d37",tooltip="Query GPS status. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_GPS::time_week_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a1a47dc3e414a9d83ff18fa849c538823"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_GPS::time_week",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a0f232d5ff5d2e54ad7dc7a52ab16f207"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_GPS::num_sats",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#af74c8da8ab7394a33b0f0e64582d8648"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_GPS::get_hdop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ae70aabdca2602d0a8f12f3e7696b3c55"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_GPS::ground_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a426041563da447ec6e9cde1926a88fdb"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_GPS::ground_course_cd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a94caaa8676fecb6c0c4a8a58eea3b106"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_GPS::velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a8b36acdc5098b3f77e28ec640b438fbd"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_GPS::primary_sensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a8881e12793759a81dc52755a76d0cc98"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="DataFlash_Class::WriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a2838cdd106ad3dd8da69a45dd64117ca"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="DataFlash_Backend::\lWriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#aed94b3ad1fd7333ddd7c2e20c3433d52"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="DataFlash_Backend::\lWritePrioritisedBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a0807326aa0d3df61375bc1c949d2a125"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="AP_GPS::horizontal\l_accuracy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ab9667a2efe22a330232d6ba425c78364"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="AP_GPS::vertical_accuracy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a8e6e1403d3e5d9856683739295a6b84f"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="AP_GPS::speed_accuracy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#ae23d76fc05fafc83e57d0c6a620b1567"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="AP_GPS::get_vdop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a884e2d3e3896b651b56f2558475604ef"];
+}

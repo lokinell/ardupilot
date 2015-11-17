@@ -1,0 +1,5 @@
+<map id="comm_receive_ch" name="comm_receive_ch">
+<area shape="rect" id="node2" href="$simplegcs_8h.html#a0e026fc9b23210373846b25cc141486d" title="simplegcs_update" alt="" coords="200,5,329,31"/>
+<area shape="rect" id="node4" href="$classGCS__MAVLINK.html#a289db0d1e6881d61f182e44c5ef6b09e" title="GCS_MAVLINK::update" alt="" coords="183,55,346,80"/>
+<area shape="rect" id="node3" href="$GCS__Console_2examples_2Console_2Console_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title="loop" alt="" coords="394,5,441,31"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="loop" name="loop">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1I2CDriver.html#a5826f44fd0ab5a87db1c14f5a3d55561" title="AP_HAL::I2CDriver::\lreadRegisters" alt="" coords="104,35,247,73"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56" title="AP_HAL::UARTDriver\l::printf" alt="" coords="100,97,251,136"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f" title="AP_HAL::UARTDriver\l::vprintf" alt="" coords="299,97,451,136"/>
+<area shape="rect" id="node5" href="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016" title="print_vprintf" alt="" coords="499,104,590,129"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="638,5,781,31"/>
+<area shape="rect" id="node7" href="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947" title="ftoa_engine" alt="" coords="664,55,755,80"/>
+<area shape="rect" id="node8" href="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da" title="pgm_read_byte" alt="" coords="652,104,766,129"/>
+<area shape="rect" id="node9" href="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c" title="ulltoa_invert" alt="" coords="663,153,756,179"/>
+<area shape="rect" id="node10" href="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559" title="ultoa_invert" alt="" coords="664,203,754,228"/>
+</map>

@@ -1,0 +1,10 @@
+digraph "mavlink_msg_gimbal_factory_parameters_loaded_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_factory_parameters\l_loaded_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_factory_parameters\l_loaded_get_dummy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__factory__parameters__loaded_8h.html#ae7885f9f0fab5a4c46e5c19efb74fb01",tooltip="Send a gimbal_factory_parameters_loaded message. "];
+}

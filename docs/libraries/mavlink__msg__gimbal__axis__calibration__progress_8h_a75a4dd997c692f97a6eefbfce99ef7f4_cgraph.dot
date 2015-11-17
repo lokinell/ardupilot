@@ -1,0 +1,14 @@
+digraph "mavlink_msg_gimbal_axis_calibration_progress_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_axis_calibration_progress\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_axis_calibration_progress\l_get_calibration_axis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__axis__calibration__progress_8h.html#aaa814b5d87508df35d5e590397172ab1",tooltip="Send a gimbal_axis_calibration_progress message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gimbal\l_axis_calibration_progress\l_get_calibration_progress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__axis__calibration__progress_8h.html#ad72735c0c1383fac24292b8686767886",tooltip="Get field calibration_progress from gimbal_axis_calibration_progress message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_gimbal\l_axis_calibration_progress\l_get_calibration_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__axis__calibration__progress_8h.html#a40d0ab1bc9b175489611e1785b6810a9",tooltip="Get field calibration_status from gimbal_axis_calibration_progress message. "];
+}

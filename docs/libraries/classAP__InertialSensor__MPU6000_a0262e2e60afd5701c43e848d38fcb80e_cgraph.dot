@@ -1,0 +1,10 @@
+digraph "AP_InertialSensor_MPU6000::_register_write"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_MPU6000\l::_register_write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MPU6000_BusDriver\l::write8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU6000__BusDriver.html#a17195cacee083af380ae848d92c74ff2"];
+}

@@ -1,0 +1,20 @@
+digraph "AP_Compass_LSM303D::_mag_set_samplerate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Compass_LSM303D\l::_mag_set_samplerate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Compass_LSM303D\l::_hardware_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#aa79096c29dbca93e57032fa5b136b988"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Compass_LSM303D\l::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#a322cf9c59129cd558a3276f9a2ab1a67"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Compass_LSM303D\l::detect_spi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#a80232bbbe6f26dc396ba82bd097ce682"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Compass::_detect_backends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a1c48170d8c8966b22fb150b1634443ec"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Compass::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a190aefc281aba88c7b16e4fc58035c5e"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+}

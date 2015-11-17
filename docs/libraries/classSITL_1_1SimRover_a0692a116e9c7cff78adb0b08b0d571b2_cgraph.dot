@@ -1,0 +1,47 @@
+digraph "SITL::SimRover::update"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SITL::SimRover::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Matrix3::transposed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#a18e2df03dec4abdf11fc9fb60ed7c226"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SITL::SimRover::calc\l_yaw_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSITL_1_1SimRover.html#a0e5ffe8b116b7757718f7c8b017c3a59"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SITL::SimRover::turn\l_circle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSITL_1_1SimRover.html#aeb6cb787f19da070344d8ee10ae78e73"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="radians",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a75b14352ec1c95a8276af9a0813cfdc3"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Matrix3::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#a6f044e8d64f6f10e054af962487399b9"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Matrix3::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#a79b6de6d1beda5938087dec7fa225702"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Vector3::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#ac1fd5514e368a1e1c2d13f71eda18345"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="pythagorous3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a6b05ff3296c2ed55b1cd74262a7330f6"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="sq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SITL::Aircraft::update\l_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSITL_1_1Aircraft.html#a4a72b2c0617cf55b24b062daaae685b9"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="degrees",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a420f396aeb3fce0177dead408c1c2da2"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="location_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#ab0e06d28afb9d14043e1938af277396c"];
+  Node13 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="location_offset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$location_8cpp.html#a717b438a67f0b41665feec9009ba1bd4"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="longitude_scale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$location_8cpp.html#ad2368c582f3e0c135e2a74772f4db61a"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node11 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SITL::Aircraft::sync\l_frame_time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSITL_1_1Aircraft.html#a62156d8d68f444998c58c6270512fbd6"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SITL::Aircraft::get\l_wall_time_us",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSITL_1_1Aircraft.html#a7a3bcc97f481dd5427fc740eef5a2c4e"];
+}

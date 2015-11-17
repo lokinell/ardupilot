@@ -1,0 +1,30 @@
+digraph "mavlink_msg_hil_controls_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_hil_controls\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_hil_controls\l_get_time_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a93e699fcdd07c9ba18a7d00a9b126269",tooltip="Send a hil_controls message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_hil_controls\l_get_roll_ailerons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#ab4f30c4a5679eb8c07e184f92e9c74bb",tooltip="Get field roll_ailerons from hil_controls message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_hil_controls\l_get_pitch_elevator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a8ac7a4a54675fbe41c1fa087702f578a",tooltip="Get field pitch_elevator from hil_controls message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_hil_controls\l_get_yaw_rudder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a6b7c378b2754f7464475c0a90674c6b3",tooltip="Get field yaw_rudder from hil_controls message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_hil_controls\l_get_throttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a292f32b7a4eba1f9898bb7ba9ef3d04b",tooltip="Get field throttle from hil_controls message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_hil_controls\l_get_aux1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a4eb359929bbcecedf5274e841e7969eb",tooltip="Get field aux1 from hil_controls message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_hil_controls\l_get_aux2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a342c80fa4bc743913240fb7dc003fd2f",tooltip="Get field aux2 from hil_controls message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_hil_controls\l_get_aux3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a043a7b78dc426118c43eb32212625bbb",tooltip="Get field aux3 from hil_controls message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_hil_controls\l_get_aux4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a17a68ff00fe6d460cd9cc3b271009e22",tooltip="Get field aux4 from hil_controls message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_hil_controls\l_get_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a525158c4613198d4b3a219a19eb9c1e1",tooltip="Get field mode from hil_controls message. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_hil_controls\l_get_nav_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#a5c825c88e7703d07b5e4c860a410b8c1",tooltip="Get field nav_mode from hil_controls message. "];
+}

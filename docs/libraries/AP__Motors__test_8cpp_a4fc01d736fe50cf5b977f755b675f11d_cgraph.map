@@ -1,0 +1,24 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="130,31,281,56"/>
+<area shape="rect" id="node6" href="$classAP__MotorsMatrix.html#a4ccbbe0d2641a973f7140b5c8ba7724e" title="AP_MotorsMatrix::set\l_update_rate" alt="" coords="382,80,531,119"/>
+<area shape="rect" id="node8" href="$classAP__MotorsMatrix.html#a64c35013e28f06702f2d5bd9e900936a" title="AP_MotorsMatrix::set\l_frame_orientation" alt="" coords="131,137,280,176"/>
+<area shape="rect" id="node13" href="$classAP__MotorsMulticopter.html#aaee55f9c42c5772f26fec5cab933e30f" title="AP_MotorsMulticopter\l::set_hover_throttle" alt="" coords="130,249,282,288"/>
+<area shape="rect" id="node14" href="$classAP__MotorsMatrix.html#ae4491a484390538aee092271690b16b1" title="AP_MotorsMatrix::Init" alt="" coords="131,200,280,225"/>
+<area shape="rect" id="node15" href="$classRC__Channel.html#a68fd99b7a3bf4283c8b500b49f511821" title="RC_Channel::set_angle" alt="" coords="124,312,287,337"/>
+<area shape="rect" id="node16" href="$classRC__Channel.html#ad51e68c85b76d1209e7cb6db224e63ba" title="RC_Channel::set_range" alt="" coords="124,361,288,387"/>
+<area shape="rect" id="node17" href="$classAP__MotorsMatrix.html#a934ca726182ad47b9fa2fe78aeb076c2" title="AP_MotorsMatrix::enable" alt="" coords="120,411,291,436"/>
+<area shape="rect" id="node19" href="$classAP__MotorsMatrix.html#aebed921664fa07786a4a6f1edbf7e6ef" title="AP_MotorsMatrix::output_min" alt="" coords="107,460,304,485"/>
+<area shape="rect" id="node23" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="132,509,279,548"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="635,5,776,31"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="381,31,532,56"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="867,5,1010,31"/>
+<area shape="rect" id="node7" href="$classAP__HAL_1_1RCOutput.html#ae7903398aa18e2472dd34081e626dcb7" title="AP_HAL::RCOutput::set_freq" alt="" coords="608,87,803,112"/>
+<area shape="rect" id="node9" href="$classAP__Motors.html#acd8d36e9e7a6947c2c31bd362dea00a4" title="AP_Motors::set_frame\l_orientation" alt="" coords="379,143,533,181"/>
+<area shape="rect" id="node10" href="$classAP__MotorsMatrix.html#adc76d6e0dd5087aaaa6b48993544167c" title="AP_MotorsMatrix::setup\l_motors" alt="" coords="374,205,538,244"/>
+<area shape="rect" id="node11" href="$classAP__MotorsMatrix.html#a83b97780f780b3ca40d588c7ee27e94a" title="AP_MotorsMatrix::remove\l_all_motors" alt="" coords="618,205,793,244"/>
+<area shape="rect" id="node12" href="$classAP__MotorsMatrix.html#a586b776b1ea64bb0590a50997d17dcb1" title="AP_MotorsMatrix::remove\l_motor" alt="" coords="851,205,1027,244"/>
+<area shape="rect" id="node18" href="$classAP__HAL_1_1RCOutput.html#a25196bb820266d4afcae14d0acdb7e1c" title="AP_HAL::RCOutput::enable_ch" alt="" coords="352,387,560,412"/>
+<area shape="rect" id="node20" href="$classAP__HAL_1_1RCOutput.html#a92b9159fa90fb41b17a9957eb3d88c6c" title="AP_HAL::RCOutput::cork" alt="" coords="370,436,542,461"/>
+<area shape="rect" id="node21" href="$classAP__HAL_1_1RCOutput.html#ade509cf82dfb1f6fab3eba0c026c5d60" title="AP_HAL::RCOutput::write" alt="" coords="369,485,544,511"/>
+<area shape="rect" id="node22" href="$classAP__HAL_1_1RCOutput.html#af2e03989be1ded757cab18680bc50cba" title="AP_HAL::RCOutput::push" alt="" coords="369,535,544,560"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "AP_HAL_FLYMAPLE_NS::FLYMAPLEAnalogSource::_read_average"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEAnalogSource\l::_read_average",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEAnalogSource\l::read_average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEAnalogSource.html#a546d1a6ad74f17b5e4841d619ae19393"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEAnalogSource\l::voltage_average_ratiometric",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEAnalogSource.html#ad11b733b4fc3da4724d28909c34e9e0c"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEAnalogSource\l::voltage_average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEAnalogSource.html#a838993f7923fcc1003e79214a6192d85"];
+}

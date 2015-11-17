@@ -1,0 +1,17 @@
+digraph "AP_Compass_LSM303D::_mag_set_range"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Compass_LSM303D\l::_mag_set_range",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Compass_LSM303D\l::_register_modify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#afcc5fea0baa9464a78289370c59248a8"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Compass_LSM303D\l::_register_read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#ad541ac234e64a2b33a93c37247244706"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::SPIDeviceDriver\l::transaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1SPIDeviceDriver.html#acb3739821064a2bebc3015b817978724"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Compass_LSM303D\l::_register_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__LSM303D.html#a130b1d10a738b5fe199cccee387fdc22"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

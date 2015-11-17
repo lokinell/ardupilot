@@ -1,0 +1,10 @@
+digraph "OreoLED_PX4::set_rgb"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OreoLED_PX4::set_rgb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OreoLED_PX4::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOreoLED__PX4.html#a1290546627d10e7b3ea537ee6b926844"];
+}

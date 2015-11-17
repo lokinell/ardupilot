@@ -1,0 +1,26 @@
+digraph "AC_PosControl::freeze_ff_xy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_PosControl::freeze\l_ff_xy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_WPNav::loiter_soften\l_for_landing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a9b3fd8fd5c74d31ebffa89cdf98f570a",tooltip="loiter_soften_for_landing - reduce response for landing "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_PosControl::set\l_desired_velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a26ec8e9313b7c01fa449ba4f2d194d28"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_PosControl::shift\l_pos_xy_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#a0a3dc64da9e355dea10959cb41e6aa8b",tooltip="shift position target target in x, y axis "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_WPNav::shift_loiter\l_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a7403d4854f52a6762a4f5518bec1f26d"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_WPNav::check_for\l_ekf_position_reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#ae1bf3013f0e3c72b74c7da114d945d1b",tooltip="check for ekf position reset and adjust loiter or brake target position "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AC_WPNav::update_loiter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a0a434270245fd8641352af387700dc82",tooltip="update_loiter - run the loiter controller - should be called at 10hz "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AC_WPNav::shift_wp\l_origin_to_current_pos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a7ebe48af2381e791cbcdea94c7af2e3e"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AC_WPNav::update_spline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a1d067335195835e46ba7218f8d784936",tooltip="update_spline - update spline controller "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AC_WPNav::update_wpnav",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#ab37772c12f3376c2eda24d8506a994fc",tooltip="update_wpnav - run the wp controller - should be called at 100hz or higher "];
+}

@@ -1,0 +1,22 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="107,45,258,71"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="308,95,455,133"/>
+<area shape="rect" id="node7" href="$classAP__Baro.html#a942db790233528bfbb4d9a07c3454360" title="AP_Baro::init" alt="" coords="133,161,232,187"/>
+<area shape="rect" id="node9" href="$classAP__Baro.html#aead101a2ea48cacf195ea157e8b5c7da" title="AP_Baro::calibrate" alt="" coords="117,211,249,236"/>
+<area shape="rect" id="node21" href="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46" title="AP_HAL::Scheduler::\lmicros" alt="" coords="109,260,256,299"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="526,5,667,31"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="306,45,457,71"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="740,5,883,31"/>
+<area shape="rect" id="node8" href="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101" title="AP_HAL::Scheduler::\lpanic" alt="" coords="308,157,455,196"/>
+<area shape="rect" id="node10" href="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1" title="AP_HAL::Scheduler::\lmillis" alt="" coords="523,507,670,545"/>
+<area shape="rect" id="node11" href="$classAP__Baro.html#a51144302ade095d22cafe8fa4928fd29" title="AP_Baro::update" alt="" coords="320,272,443,297"/>
+<area shape="rect" id="node14" href="$classAP__Baro.html#afdb3b202976bb59dfcc20e6d799029e0" title="AP_Baro::healthy" alt="" coords="534,100,659,125"/>
+<area shape="rect" id="node12" href="$classAP__Baro__Backend.html#a27149c1b07d599cf5a60baeb75e662d9" title="AP_Baro_Backend::update" alt="" coords="505,457,688,483"/>
+<area shape="rect" id="node13" href="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2" title="is_zero" alt="" coords="564,149,629,175"/>
+<area shape="rect" id="node15" href="$classAP__Baro.html#ac46bc3a53717630410a48a1c1a5f2444" title="AP_Baro::get_altitude\l_difference" alt="" coords="521,199,672,237"/>
+<area shape="rect" id="node17" href="$classDerivativeFilter.html#a3dc3710f5d9fba8d264a473d6a297be2" title="DerivativeFilter::update" alt="" coords="517,261,676,287"/>
+<area shape="rect" id="node19" href="$classAP__Baro.html#a984b4dbc11e276e832467253590da933" title="AP_Baro::get_altitude" alt="" coords="521,335,672,360"/>
+<area shape="rect" id="node20" href="$classAP__Baro.html#aae5b3ae28aca807eb20b722a04685061" title="AP_Baro::get_last_update" alt="" coords="508,408,685,433"/>
+<area shape="rect" id="node16" href="$classAP__Baro.html#a56e804f0994a7fa0bb295735002c928e" title="AP_Baro::get_ground\l_temperature" alt="" coords="737,199,886,237"/>
+<area shape="rect" id="node18" href="$classFilterWithBuffer.html#aae753aef534f178a80c4833e6b3f7639" title="FilterWithBuffer::apply" alt="" coords="736,261,888,287"/>
+</map>

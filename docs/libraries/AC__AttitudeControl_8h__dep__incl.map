@@ -1,0 +1,13 @@
+<map id="libraries/AC_AttitudeControl/AC_AttitudeControl.h" name="libraries/AC_AttitudeControl/AC_AttitudeControl.h">
+<area shape="rect" id="node2" href="$AC__AttitudeControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl.cpp" alt="" coords="5,92,191,131"/>
+<area shape="rect" id="node3" href="$AC__AttitudeControl__Heli_8h.html" title="ArduCopter attitude control library for traditional helicopters. " alt="" coords="215,92,401,131"/>
+<area shape="rect" id="node5" href="$AC__AttitudeControl__Multi_8h.html" title="ArduCopter attitude control library. " alt="" coords="424,92,610,131"/>
+<area shape="rect" id="node7" href="$AC__PosControl_8h.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.h" alt="" coords="693,92,879,131"/>
+<area shape="rect" id="node11" href="$AC__WPNav_8h.html" title="libraries/AC_WPNav\l/AC_WPNav.h" alt="" coords="1014,179,1156,217"/>
+<area shape="rect" id="node4" href="$AC__AttitudeControl__Heli_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Heli.cpp" alt="" coords="194,179,389,217"/>
+<area shape="rect" id="node6" href="$AC__AttitudeControl__Multi_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Multi.cpp" alt="" coords="413,179,613,217"/>
+<area shape="rect" id="node8" href="$AC__PosControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.cpp" alt="" coords="637,179,823,217"/>
+<area shape="rect" id="node9" href="$AC__Circle_8h.html" title="libraries/AC_WPNav\l/AC_Circle.h" alt="" coords="847,179,990,217"/>
+<area shape="rect" id="node10" href="$AC__Circle_8cpp.html" title="libraries/AC_WPNav\l/AC_Circle.cpp" alt="" coords="847,265,990,304"/>
+<area shape="rect" id="node12" href="$AC__WPNav_8cpp.html" title="libraries/AC_WPNav\l/AC_WPNav.cpp" alt="" coords="1014,265,1156,304"/>
+</map>

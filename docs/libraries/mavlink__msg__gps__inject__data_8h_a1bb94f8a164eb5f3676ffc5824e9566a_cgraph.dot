@@ -1,0 +1,18 @@
+digraph "mavlink_msg_gps_inject_data_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gps_inject\l_data_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gps_inject\l_data_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__inject__data_8h.html#a3dac4d64b6a01f8253d66327cd3a41cc",tooltip="Send a gps_inject_data message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gps_inject\l_data_get_target_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__inject__data_8h.html#a7541f1d1f27327011d611ca9b731bef6",tooltip="Get field target_component from gps_inject_data message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_gps_inject\l_data_get_len",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__inject__data_8h.html#a66c959bd296f6a50ed09b3ca375dc2d0",tooltip="Get field len from gps_inject_data message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_gps_inject\l_data_get_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__inject__data_8h.html#a2db553e9401b5e311b1b2f0c36655086",tooltip="Get field data from gps_inject_data message. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="_MAV_RETURN_uint8_t\l_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3"];
+}

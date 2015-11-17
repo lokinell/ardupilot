@@ -1,0 +1,18 @@
+digraph "AP_ADC::Ch"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_ADC::Ch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_ADC_AnalogSource\l::read_average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html#a7d83c1ca360a21e964c610b0a49bc1ae"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_ADC_AnalogSource\l::read_latest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html#a428959a713e7afbf329345a0633d2307"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_ADC_AnalogSource\l::voltage_average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html#acb33da3d90943c66de0e65de47685ce6"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_ADC_AnalogSource\l::voltage_latest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html#a48233afb06760757da0627051349cd4b"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_ADC_AnalogSource\l::voltage_average_ratiometric",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__ADC__AnalogSource.html#acde2528ff902560c113803987607947a"];
+}

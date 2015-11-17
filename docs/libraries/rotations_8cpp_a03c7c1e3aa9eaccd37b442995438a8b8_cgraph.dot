@@ -1,0 +1,49 @@
+digraph "test_eulers"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="test_eulers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL::Print::println",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Print::print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::Print::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_HAL::Print::println",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="test_euler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rotations_8cpp.html#af879672d9ab28cd8ad8e4e604beda066"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Vector3::rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#a53d5701ae2db9492944550927279b7b8"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Matrix3::from_euler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#a62587bd216436f09f06b9e1330f84bc0",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="radians",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a75b14352ec1c95a8276af9a0813cfdc3"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Vector3::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#ac1fd5514e368a1e1c2d13f71eda18345"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="pythagorous3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a6b05ff3296c2ed55b1cd74262a7330f6"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="sq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c"];
+  Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_HAL::UARTDriver\l::printf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_HAL::UARTDriver\l::vprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="print_vprintf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016"];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="ftoa_engine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947"];
+  Node15 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="pgm_read_byte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da"];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ulltoa_invert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c"];
+  Node15 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="ultoa_invert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559"];
+  Node6 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="print_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rotations_8cpp.html#abeed49eaf8341cd6b00a5291b074afa3"];
+  Node20 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

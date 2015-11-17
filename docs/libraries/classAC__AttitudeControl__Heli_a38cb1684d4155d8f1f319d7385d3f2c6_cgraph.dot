@@ -1,0 +1,56 @@
+digraph "AC_AttitudeControl_Heli::rate_controller_run"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_AttitudeControl\l_Heli::rate_controller_run",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Motors::set_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Motors.html#aabc740887f6b01772a458d87d6c1e857"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Motors::set_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Motors.html#acb9898fdadb4a283fc6d2e0689962d60"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_AttitudeControl\l_Heli::rate_bf_to_motor\l_roll_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a29ff02c0f413c83ac91a47f2adfab773"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS::get_gyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a667ec4ffbedf99e75c7d60e01f45df3a"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_PID::set_input_filter_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#ac267330f1299f011febcaaba47994af7"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AC_PID::get_filt_alpha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#ac12ffbd4fd053c6152d403b69e07b8e1"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AC_PID::set_desired_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#a3f727ab395b401474027b6b9efcab5a3"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AC_PID::get_p",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#a4808bb2656a1e8d94c713e58a7a2a222"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AC_PID::get_d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#ad0c0510049ea37401920792e843bec86"];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AC_PID::get_integrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#a0fc275cae5ff46799af85af551c65870"];
+  Node4 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AC_PID::get_i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#a2d5bf9811a78c93a396ec1e37ae6fa0a"];
+  Node13 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="LowPassFilter::apply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html#aa390849d2e18ff3287f92b89d8657841"];
+  Node4 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Vector2::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structVector2.html#ace2a626eaa79412e2946216e9c3e63c6"];
+  Node4 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="AC_PID::set_integrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PID.html#a0ae837f35a5f8886c192e0400b1c5b4c"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="AP_Motors::set_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Motors.html#a4c931ab7fdbf53ddbfe1be7e6e3dbb55"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="AC_AttitudeControl\l_Heli::rate_bf_to_motor_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#a42aebc8b52e6138b8473a49b4b7328b3"];
+  Node19 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

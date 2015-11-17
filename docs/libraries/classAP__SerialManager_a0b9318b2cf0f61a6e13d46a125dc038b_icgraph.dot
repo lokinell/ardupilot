@@ -1,0 +1,41 @@
+digraph "AP_SerialManager::protocol_match"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_SerialManager::protocol\l_match",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_SerialManager::find\l_baudrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#a98789d2356587b32dd3507578ca1d89d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_RangeFinder_LightWare\lSerial::AP_RangeFinder\l_LightWareSerial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RangeFinder__LightWareSerial.html#a1e1c2db82dc21ab575aeaa8e1bc878da"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GCS_MAVLINK::setup_uart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a0680c93d81d7de3273931c5bccc890f5"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_SerialManager::find\l_serial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#af80d1e798f50bcd4ffcff2f3313e3950"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_RangeFinder_LightWare\lSerial::detect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RangeFinder__LightWareSerial.html#a03476ac43d0c50f4c10efaa466a26fd4"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RangeFinder::detect\l_instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a7f7f9dce880eb37d53df67cba39bdda9"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="RangeFinder::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a1c2d6a488e35a856814b5d48ca3d5d9e"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RFIND__test_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_Mount_SToRM32_serial\l::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__SToRM32__serial.html#ae3ab73569a776b9f7ecf7da46f499692"];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_GPS::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a91c760c11e577d49815bc1a0443cf7f6",tooltip="Startup initialisation. "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_Frsky_Telem::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Frsky__Telem.html#a081d1787f8ec08ca8c489fb5dc86393c"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_Mount_Alexmos::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Alexmos.html#a5fa7cd0a3d3c60bd6a2705075ee22359"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_SerialManager::get\l_mavlink_channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#ac3c38f184c41fa2c2cff8bb4842c3ebe"];
+  Node15 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="AP_SerialManager::set\l_console_baud",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialManager.html#acad9b72c3b313f4e551be9f4861ffbf2"];
+}

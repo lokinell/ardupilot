@@ -1,0 +1,44 @@
+digraph "APM_OBC::check_crash_plane"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="APM_OBC::check_crash\l_plane",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="APM_OBC::setup_failsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#adf90097b54be3e9ffbf21f675e411b6c"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RC_Channel::rc_channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a9c60b41a2854338f60e26fdf95b4b044"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RCMapper::roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRCMapper.html#af0d2e2d369f3574ed0a43bb80745572c",tooltip="roll - return input channel number for roll / aileron input "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RCMapper::pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRCMapper.html#ab0fcd136c54ad131dd3d40816264bcba",tooltip="pitch - return input channel number for pitch / elevator input "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RCMapper::yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRCMapper.html#a4cecd4df7849415b9d4afc63c1dc9919",tooltip="yaw - return input channel number for yaw / rudder input "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RCMapper::throttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRCMapper.html#a869e1086eb9bdf12f46595e49c8f2915",tooltip="throttle - return input channel number for throttle input "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_HAL::RCOutput::set\l_failsafe_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#abdfe5bfe23f5f9287677a708a2a7788f"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="RC_Channel::get_limit_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a16efdfd7628bf948c73a47f34dc9d7a2"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="RC_Channel::get_reverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a34a93842b1cf847373104b682fa28cd5"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="RC_Channel_aux::set\l_servo_failsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a987891f25f46d7795db08233cf68d81b"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="RC_Channel_aux::function\l_assigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a423accc4de40960cf7ef2c4755e8a9d1"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="RC_Channel::get_ch_out",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a54a219c6e8b7d47968fed35093430d54"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="RC_Channel_aux::set\l_servo_limit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a51ae109c0c7a23ad9735a8571ac9ee95"];
+  Node14 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

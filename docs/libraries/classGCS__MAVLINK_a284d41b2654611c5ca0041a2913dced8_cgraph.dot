@@ -1,0 +1,20 @@
+digraph "GCS_MAVLINK::handle_set_mode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GCS_MAVLINK::handle\l_set_mode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_set_mode\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a18ffb48ae51f7128753bb91cc7ced9d8",tooltip="Decode a set_mode message into a struct. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_set_mode\l_get_custom_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a85ba55d9647280a436b75e850d0aec13",tooltip="Get field custom_mode from set_mode message. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_set_mode\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a7d367c4cd9fadb093d9919c5bd0e7af7",tooltip="Send a set_mode message. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_set_mode\l_get_base_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__set__mode_8h.html#a52e9176db9c1895da52d5877baa4f1da",tooltip="Get field base_mode from set_mode message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::RCOutput::force\l_safety_off",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#afb075a7e5438b6f0bae228e0b6be0cc2"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_HAL::RCOutput::force\l_safety_on",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#a6852e3aa22747f045dc71972e97d7de6"];
+}

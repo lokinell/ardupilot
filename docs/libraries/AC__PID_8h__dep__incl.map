@@ -1,0 +1,24 @@
+<map id="libraries/AC_PID/AC_PID.h" name="libraries/AC_PID/AC_PID.h">
+<area shape="rect" id="node2" href="$AC__AttitudeControl_8h.html" title="ArduCopter attitude control library. " alt="" coords="822,92,1008,131"/>
+<area shape="rect" id="node8" href="$AC__PosControl_8h.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.h" alt="" coords="1083,179,1269,217"/>
+<area shape="rect" id="node14" href="$AC__HELI__PID_8h.html" title="Helicopter Specific Rate PID algorithm, with EEPROM&#45;backed storage of constants. " alt="" coords="356,92,498,131"/>
+<area shape="rect" id="node16" href="$AC__PID__test_8cpp.html" title="libraries/AC_PID/examples\l/AC_PID_test/AC_PID_test.cpp" alt="" coords="5,179,213,217"/>
+<area shape="rect" id="node17" href="$AC__PID_8cpp.html" title="Generic PID algorithm. " alt="" coords="1082,92,1224,131"/>
+<area shape="rect" id="node18" href="$AC__PrecLand__Backend_8h.html" title="libraries/AC_PrecLand\l/AC_PrecLand_Backend.h" alt="" coords="1576,92,1755,131"/>
+<area shape="rect" id="node3" href="$AC__AttitudeControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl.cpp" alt="" coords="822,179,1008,217"/>
+<area shape="rect" id="node4" href="$AC__AttitudeControl__Heli_8h.html" title="ArduCopter attitude control library for traditional helicopters. " alt="" coords="403,179,589,217"/>
+<area shape="rect" id="node6" href="$AC__AttitudeControl__Multi_8h.html" title="ArduCopter attitude control library. " alt="" coords="612,179,798,217"/>
+<area shape="rect" id="node12" href="$AC__WPNav_8h.html" title="libraries/AC_WPNav\l/AC_WPNav.h" alt="" coords="917,265,1059,304"/>
+<area shape="rect" id="node5" href="$AC__AttitudeControl__Heli_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Heli.cpp" alt="" coords="392,265,587,304"/>
+<area shape="rect" id="node7" href="$AC__AttitudeControl__Multi_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Multi.cpp" alt="" coords="611,265,811,304"/>
+<area shape="rect" id="node9" href="$AC__PosControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.cpp" alt="" coords="1083,265,1269,304"/>
+<area shape="rect" id="node10" href="$AC__Circle_8h.html" title="libraries/AC_WPNav\l/AC_Circle.h" alt="" coords="1293,265,1435,304"/>
+<area shape="rect" id="node11" href="$AC__Circle_8cpp.html" title="libraries/AC_WPNav\l/AC_Circle.cpp" alt="" coords="1293,352,1435,391"/>
+<area shape="rect" id="node13" href="$AC__WPNav_8cpp.html" title="libraries/AC_WPNav\l/AC_WPNav.cpp" alt="" coords="917,352,1059,391"/>
+<area shape="rect" id="node15" href="$AC__HELI__PID_8cpp.html" title="Generic PID algorithm. " alt="" coords="237,179,379,217"/>
+<area shape="rect" id="node19" href="$AC__PrecLand_8cpp.html" title="libraries/AC_PrecLand\l/AC_PrecLand.cpp" alt="" coords="1692,265,1847,304"/>
+<area shape="rect" id="node20" href="$AC__PrecLand__Companion_8h.html" title="libraries/AC_PrecLand\l/AC_PrecLand_Companion.h" alt="" coords="1501,179,1696,217"/>
+<area shape="rect" id="node22" href="$AC__PrecLand__IRLock_8h.html" title="libraries/AC_PrecLand\l/AC_PrecLand_IRLock.h" alt="" coords="1771,179,1939,217"/>
+<area shape="rect" id="node21" href="$AC__PrecLand__Companion_8cpp.html" title="libraries/AC_PrecLand\l/AC_PrecLand_Companion.cpp" alt="" coords="1460,265,1668,304"/>
+<area shape="rect" id="node23" href="$AC__PrecLand__IRLock_8cpp.html" title="libraries/AC_PrecLand\l/AC_PrecLand_IRLock.cpp" alt="" coords="1870,265,2052,304"/>
+</map>

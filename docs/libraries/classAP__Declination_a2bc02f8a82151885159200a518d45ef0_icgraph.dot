@@ -1,0 +1,14 @@
+digraph "AP_Declination::get_lookup_value"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Declination::get\l_lookup_value",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Declination::get\l_declination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Declination.html#a8819112a0ea684422948a1ae8bc4f0de"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Compass::set_initial\l_location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a95d49517b12183412d9d0ed481b785bf"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Declination__test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+}

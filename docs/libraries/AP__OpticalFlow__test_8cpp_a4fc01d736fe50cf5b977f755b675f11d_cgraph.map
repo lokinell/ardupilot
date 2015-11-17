@@ -1,0 +1,10 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="107,23,258,49"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="505,23,646,49"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="109,125,256,163"/>
+<area shape="rect" id="node7" href="$classOpticalFlow.html#a38bb66f6104e140e3ca46aa1129c43ae" title="OpticalFlow::init" alt="" coords="125,187,241,213"/>
+<area shape="rect" id="node9" href="$classOpticalFlow.html#a861526f0d0be7ef40918b3c7ba878585" title="OpticalFlow::healthy" alt="" coords="112,237,253,262"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="306,23,457,49"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="694,23,837,49"/>
+<area shape="rect" id="node8" href="$classOpticalFlow__backend.html#a446c9ebbbdf72602cc19e66952e17179" title="OpticalFlow_backend\l::init" alt="" coords="307,181,456,219"/>
+</map>

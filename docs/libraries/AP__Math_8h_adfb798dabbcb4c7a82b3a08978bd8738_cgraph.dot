@@ -1,0 +1,20 @@
+digraph "inverse"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="inverse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="inverse3x3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a3aede2abf8bd30869b72dadaeb9e2c17"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="inverse4x4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a5b0d60d12edb0ce4c1ed6599acccc6db"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="inversenxn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#af07132e0dd058b0a91631fd99fa58a0a"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="detnxn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a6ec94c9e490e3f8163d3aac090c19dbe"];
+}

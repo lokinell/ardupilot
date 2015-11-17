@@ -1,0 +1,22 @@
+digraph "mavlink_msg_change_operator_control_ack_pack_chan"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_change\l_operator_control_ack\l_pack_chan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_finalize_message_chan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#aa66131138fc02101dcc73b4b556ab422",tooltip="Finalize a MAVLink message with channel assignment. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_get_channel\l_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#ac006d308067f48514ca5c0cf0b046c28"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="crc_calculate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ab4264eb7b9e22aabb5cc3191bce35f4c",tooltip="Calculates the X.25 checksum on a byte buffer. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="crc_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#aee738f6e20d31b027afdd966c79befae",tooltip="Initiliaze the buffer for the X.25 CRC. "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="crc_accumulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ade2bbc31cd3b5b6d839556f56de61957",tooltip="Accumulate the X.25 CRC by adding one char at a time. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="crc_accumulate_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#abcbaa800e8fcbcdf9bb48168657fbefd",tooltip="Accumulate the X.25 CRC by adding an array of bytes. "];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

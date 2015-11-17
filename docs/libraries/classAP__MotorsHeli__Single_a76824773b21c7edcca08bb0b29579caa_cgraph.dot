@@ -1,0 +1,41 @@
+digraph "AP_MotorsHeli_Single::update_motor_control"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MotorsHeli_Single\l::update_motor_control",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsHeli_RSC::\loutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#ab23a1aebfd83a9e76acf076a2f15841b"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsHeli_RSC::\lupdate_rotor_ramp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#a220602e8995d7c06509a75d71776fa27"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_MotorsHeli_RSC::\lupdate_rotor_runup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#a4bc7f2109f76a3266dec9cf2c6e6b785"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_MotorsHeli_RSC::\lget_rotor_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#a0b67063545e151dfc4616390c8f59985"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_MotorsHeli_RSC::\lwrite_rsc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#a8eb187407313abf28a47fa93d2756cfd"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RC_Channel::calc_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a5876259d8fb8c1c475322a236bae7819"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="RC_Channel::range_to_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#ac50875b55ac524f9d0b2ee50174bd300"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="RC_Channel::angle_to_pwm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#abcf4a69f7323c85306e8a25b34e929b3"];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="constrain_int16",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#abd026c0672c617e3092c9b3e1fcb847f"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_HAL::RCOutput::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#ade509cf82dfb1f6fab3eba0c026c5d60"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="RC_Channel_aux::set\l_radio_to_min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#abb9cf1bc1fc8f98e2c58391790778a15"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="RC_Channel_aux::function\l_assigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a423accc4de40960cf7ef2c4755e8a9d1"];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="RC_Channel::output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#aabaff8233192d5f2a20e2207914ca3e3"];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="RC_Channel_aux::set\l_radio_to_max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a6cac9ae8fd527f96a63ba3bf94373198"];
+  Node15 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="AP_MotorsHeli_RSC::\lis_runup_complete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__RSC.html#a79e33fd2983fa516bdc3842ae0b126a9"];
+}

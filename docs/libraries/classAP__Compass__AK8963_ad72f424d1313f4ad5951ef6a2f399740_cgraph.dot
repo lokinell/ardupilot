@@ -1,0 +1,12 @@
+digraph "AP_Compass_AK8963::_calibrate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Compass_AK8963::\l_calibrate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_AK8963_SerialBus\l::register_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AK8963__SerialBus.html#a961c54f77f013bc0a59f865c37d604d1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AK8963_SerialBus\l::register_read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AK8963__SerialBus.html#a1f36c8749554465e8a06b3d13c1b61b6"];
+}

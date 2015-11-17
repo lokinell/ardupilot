@@ -1,0 +1,23 @@
+digraph "PX4::PX4AnalogIn::_timer_tick"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PX4::PX4AnalogIn::\l_timer_tick",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL::Scheduler::\lmicros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PX4::PX4AnalogIn::next\l_stop_pin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4AnalogIn.html#a7faa536d4196883a2cc9e634e7ef2bc3"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::Scheduler::\lmillis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_HAL::GPIO::pinMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1GPIO.html#a3dfc60214bd1aa4936d51ca72c045b95"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::GPIO::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1GPIO.html#a2b0664bdab1876e3b0bbcd9064eec88e"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PX4::PX4AnalogSource\l::_add_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4AnalogSource.html#a92f62157a3a0f767589c3242dee448d6"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_HAL::Util::get_soft\l_armed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Util.html#a973ee89f8eee7af3a4d2a3eb700cbf3c"];
+}

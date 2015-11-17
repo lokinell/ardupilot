@@ -1,0 +1,13 @@
+<map id="libraries/AP_BattMonitor/AP_BattMonitor_Backend.h" name="libraries/AP_BattMonitor/AP_BattMonitor_Backend.h">
+<area shape="rect" id="node2" href="$AP__BattMonitor__Analog_8h.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_Analog.h" alt="" coords="695,92,874,131"/>
+<area shape="rect" id="node5" href="$AP__BattMonitor__SMBus_8h.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_SMBus.h" alt="" coords="268,92,448,131"/>
+<area shape="rect" id="node10" href="$AP__BattMonitor__Bebop_8h.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_Bebop.h" alt="" coords="495,92,671,131"/>
+<area shape="rect" id="node12" href="$AP__BattMonitor__Backend_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_Backend.cpp" alt="" coords="898,92,1101,131"/>
+<area shape="rect" id="node3" href="$AP__BattMonitor_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor.cpp" alt="" coords="702,179,867,217"/>
+<area shape="rect" id="node4" href="$AP__BattMonitor__Analog_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_Analog.cpp" alt="" coords="891,179,1083,217"/>
+<area shape="rect" id="node6" href="$AP__BattMonitor__SMBus__PX4_8h.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_SMBus_PX4.h" alt="" coords="251,179,464,217"/>
+<area shape="rect" id="node8" href="$AP__BattMonitor__SMBus__I2C_8h.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_SMBus_I2C.h" alt="" coords="19,179,227,217"/>
+<area shape="rect" id="node7" href="$AP__BattMonitor__SMBus__PX4_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_SMBus_PX4.cpp" alt="" coords="251,265,478,304"/>
+<area shape="rect" id="node9" href="$AP__BattMonitor__SMBus__I2C_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_SMBus_I2C.cpp" alt="" coords="5,265,228,304"/>
+<area shape="rect" id="node11" href="$AP__BattMonitor__Bebop_8cpp.html" title="libraries/AP_BattMonitor\l/AP_BattMonitor_Bebop.cpp" alt="" coords="488,179,678,217"/>
+</map>

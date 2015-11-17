@@ -1,0 +1,4 @@
+<map id="FLASH_WaitForLastOperation" name="FLASH_WaitForLastOperation">
+<area shape="rect" id="node2" href="$flash__stm32F1_8h.html#ac265b8d1e7ea11e44ceee28797c3debb" title="Returns the FLASH Status. " alt="" coords="255,5,386,31"/>
+<area shape="rect" id="node3" href="$flash__stm32F1_8h.html#a6cb8040e5f4a9a8ac17286fd20c740ae" title="Inserts a time delay. " alt="" coords="294,55,347,80"/>
+</map>

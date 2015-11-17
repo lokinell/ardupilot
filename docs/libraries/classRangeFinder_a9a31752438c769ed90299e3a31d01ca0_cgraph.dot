@@ -1,0 +1,16 @@
+digraph "RangeFinder::update_pre_arm_check"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RangeFinder::update\l_pre_arm_check",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RangeFinder::pre_arm\l_check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#adcd3c63e0d8d7760e364bfd7ee8cd047"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RangeFinder::status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a48a351902674ea1261e0cb7818bfd785"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RangeFinder::distance_cm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#ae793d6a44caf92c7f76f52d73182190f"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RangeFinder::min_distance_cm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a6811aa65877c8990957519f6437e8e20"];
+}

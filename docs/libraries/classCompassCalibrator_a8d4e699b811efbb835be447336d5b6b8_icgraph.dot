@@ -1,0 +1,12 @@
+digraph "CompassCalibrator::run_sphere_fit"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CompassCalibrator::\lrun_sphere_fit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CompassCalibrator::\lupdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#ae23f7e66b83d2a09ff012d853a54ad6f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Compass::compass_cal\l_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#ab8b1d18b185660a957d2faf417e9b1dd"];
+}

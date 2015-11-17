@@ -1,0 +1,37 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$examples_2location_2location_8cpp.html#aff2387ea872bdd079c8de9005c934319" title="test_passed_waypoint" alt="" coords="107,165,261,191"/>
+<area shape="rect" id="node14" href="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56" title="AP_HAL::UARTDriver\l::printf" alt="" coords="519,369,670,408"/>
+<area shape="rect" id="node21" href="$examples_2location_2location_8cpp.html#ac7efc0072d2ac5bca8b847032980a1dd" title="test_offset" alt="" coords="143,240,225,265"/>
+<area shape="rect" id="node29" href="$examples_2location_2location_8cpp.html#a2cdcbcb30d47a7c6a9fde641d87a0b0f" title="test_accuracy" alt="" coords="334,316,437,341"/>
+<area shape="rect" id="node30" href="$examples_2location_2location_8cpp.html#a18b394b760075c6e3788a2387b9c70a6" title="test_wrap_cd" alt="" coords="134,531,234,556"/>
+<area shape="rect" id="node34" href="$examples_2location_2location_8cpp.html#a630a3e10ff505da8c4e7dbcfdbd1ff76" title="test_wgs_conversion\l_functions" alt="" coords="313,468,458,507"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="310,56,461,81"/>
+<area shape="rect" id="node7" href="$examples_2location_2location_8cpp.html#a117c49dcd63a2274afc6c2e413e9fa9e" title="location_from_point" alt="" coords="317,116,454,141"/>
+<area shape="rect" id="node8" href="$location_8cpp.html#ab6cd880d070717b4c3cc7a7278768e72" title="location_passed_point" alt="" coords="309,165,463,191"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="732,19,873,44"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="519,5,670,31"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="1088,280,1231,305"/>
+<area shape="rect" id="node9" href="$location_8cpp.html#ab0ccbafe7e2809759eea8d45d23e4ba0" title="location_path_proportion" alt="" coords="511,107,679,132"/>
+<area shape="rect" id="node10" href="$location_8cpp.html#a527b26472ed6f2e0c141e109a0722a0a" title="location_diff" alt="" coords="756,169,849,195"/>
+<area shape="rect" id="node13" href="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c" title="sq" alt="" coords="964,108,1003,133"/>
+<area shape="rect" id="node11" href="$location_8cpp.html#ad2368c582f3e0c135e2a74772f4db61a" title="longitude_scale" alt="" coords="926,224,1040,249"/>
+<area shape="rect" id="node12" href="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046" title="constrain_float" alt="" coords="1106,224,1214,249"/>
+<area shape="rect" id="node15" href="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f" title="AP_HAL::UARTDriver\l::vprintf" alt="" coords="727,420,878,459"/>
+<area shape="rect" id="node16" href="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016" title="print_vprintf" alt="" coords="938,419,1029,444"/>
+<area shape="rect" id="node17" href="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947" title="ftoa_engine" alt="" coords="1114,393,1205,419"/>
+<area shape="rect" id="node18" href="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da" title="pgm_read_byte" alt="" coords="1103,443,1217,468"/>
+<area shape="rect" id="node19" href="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c" title="ulltoa_invert" alt="" coords="1113,492,1206,517"/>
+<area shape="rect" id="node20" href="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559" title="ultoa_invert" alt="" coords="1114,344,1205,369"/>
+<area shape="rect" id="node22" href="$examples_2location_2location_8cpp.html#af4c4a815e04b2917f9e189120d8b2ad1" title="test_one_offset" alt="" coords="329,215,442,240"/>
+<area shape="rect" id="node23" href="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46" title="AP_HAL::Scheduler::\lmicros" alt="" coords="521,208,668,247"/>
+<area shape="rect" id="node24" href="$location_8cpp.html#a717b438a67f0b41665feec9009ba1bd4" title="location_offset" alt="" coords="541,320,648,345"/>
+<area shape="rect" id="node26" href="$location_8cpp.html#aa825a788804b8dd4cf1e3cfb42960a8b" title="get_distance" alt="" coords="546,271,643,296"/>
+<area shape="rect" id="node28" href="$location_8cpp.html#a224e7b94333df3a15a18499026474ac9" title="get_bearing_cd" alt="" coords="746,219,859,244"/>
+<area shape="rect" id="node25" href="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2" title="is_zero" alt="" coords="770,371,835,396"/>
+<area shape="rect" id="node27" href="$AP__Math_8h.html#a4a065531591469723bec18f9034a91c3" title="pythagorous2" alt="" coords="751,120,854,145"/>
+<area shape="rect" id="node31" href="$location_8cpp.html#a35821002985a8e3e526c8ccad9bb9934" title="wrap_180_cd" alt="" coords="335,580,436,605"/>
+<area shape="rect" id="node32" href="$location_8cpp.html#aec935e3ce7fb13099565b27693547d09" title="wrap_360_cd" alt="" coords="335,629,436,655"/>
+<area shape="rect" id="node33" href="$location_8cpp.html#ada62278a4b460237f914e1c6a5355e55" title="wrap_PI" alt="" coords="350,531,421,556"/>
+<area shape="rect" id="node35" href="$location_8cpp.html#a5b6072b7df92379eadfe4cf9cf7e60c7" title="wgsllh2ecef" alt="" coords="549,481,640,507"/>
+<area shape="rect" id="node36" href="$location_8cpp.html#ae2228950bd3572416f45c4cd13450b71" title="wgsecef2llh" alt="" coords="549,432,640,457"/>
+</map>

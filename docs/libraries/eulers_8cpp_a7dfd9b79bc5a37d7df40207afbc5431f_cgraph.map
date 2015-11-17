@@ -1,0 +1,41 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="327,120,478,145"/>
+<area shape="rect" id="node6" href="$eulers_8cpp.html#ada3aa00f3fc83688f3bb0c2c847b7e50" title="test_conversion" alt="" coords="345,320,460,345"/>
+<area shape="rect" id="node26" href="$eulers_8cpp.html#a97831e3cea863b581f8e989164514a25" title="test_frame_transforms" alt="" coords="108,370,263,396"/>
+<area shape="rect" id="node31" href="$eulers_8cpp.html#ac5851b63c32809e725e1fadbec137224" title="test_conversions" alt="" coords="125,269,246,294"/>
+<area shape="rect" id="node32" href="$eulers_8cpp.html#a1e4ca41feae51e8f6dc923cde8d1ad39" title="test_quaternion_eulers" alt="" coords="107,220,264,245"/>
+<area shape="rect" id="node35" href="$eulers_8cpp.html#aceb2646dd2a8910fd27813e20e13c6a4" title="test_matrix_eulers" alt="" coords="121,170,251,196"/>
+<area shape="rect" id="node37" href="$eulers_8cpp.html#a399d6b75c71672b952b356e8ad32ff9f" title="test_matrix_rotate" alt="" coords="122,708,250,733"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="782,33,923,58"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="551,33,702,58"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="1329,202,1472,228"/>
+<area shape="rect" id="node7" href="$classQuaternion.html#aff2d2d3d1c5937523df8357deae4eeab" title="Quaternion::from_euler" alt="" coords="548,342,706,368"/>
+<area shape="rect" id="node8" href="$classQuaternion.html#ab3049efa36b211699ca03ea53970f0fd" title="Quaternion::to_euler" alt="" coords="555,293,698,318"/>
+<area shape="rect" id="node13" href="$eulers_8cpp.html#a6bfa6320a080694c8cdf18de74004189" title="check_result" alt="" coords="579,194,675,220"/>
+<area shape="rect" id="node14" href="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56" title="AP_HAL::UARTDriver\l::printf" alt="" coords="776,498,928,537"/>
+<area shape="rect" id="node22" href="$classQuaternion.html#afb7132c9c69a984a40be950a17effeaa" title="&#45;*&#45; tab&#45;width: 4; Mode: C++; c&#45;basic&#45;offset: 4; indent&#45;tabs&#45;mode: nil &#45;*&#45; " alt="" coords="557,392,696,430"/>
+<area shape="rect" id="node23" href="$classMatrix3.html#a893c6a712d52e47dbb7ed2d7a548046e" title="Matrix3::to_euler" alt="" coords="567,145,687,170"/>
+<area shape="rect" id="node24" href="$classMatrix3.html#a62587bd216436f09f06b9e1330f84bc0" title="&#45;*&#45; tab&#45;width: 4; Mode: C++; c&#45;basic&#45;offset: 4; indent&#45;tabs&#45;mode: nil &#45;*&#45; " alt="" coords="559,244,695,269"/>
+<area shape="rect" id="node25" href="$classMatrix3.html#a2c69227a793818d8a8f47e99ffa99885" title="Matrix3::is_nan" alt="" coords="571,454,683,480"/>
+<area shape="rect" id="node9" href="$classQuaternion.html#a9ae6c42349ddc744022a4a1cf7868eb0" title="Quaternion::get_euler_roll" alt="" coords="764,244,940,269"/>
+<area shape="rect" id="node10" href="$classQuaternion.html#a0bfe50c332309932cd833b83f6524e5f" title="Quaternion::get_euler\l_pitch" alt="" coords="777,293,927,332"/>
+<area shape="rect" id="node12" href="$classQuaternion.html#a35c2a1030832728574363ed8655da625" title="Quaternion::get_euler_yaw" alt="" coords="762,356,943,381"/>
+<area shape="rect" id="node11" href="$AP__Math_8cpp.html#a2706fd969ad73bc8ef977d964c04f4a3" title="safe_asin" alt="" coords="1027,222,1106,248"/>
+<area shape="rect" id="node21" href="$eulers_8cpp.html#aa94c06a1eb86dc7dd817303e608203b6" title="rad_diff" alt="" coords="819,194,885,220"/>
+<area shape="rect" id="node15" href="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f" title="AP_HAL::UARTDriver\l::vprintf" alt="" coords="991,460,1142,498"/>
+<area shape="rect" id="node16" href="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016" title="print_vprintf" alt="" coords="1190,364,1281,389"/>
+<area shape="rect" id="node17" href="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947" title="ftoa_engine" alt="" coords="1355,289,1446,314"/>
+<area shape="rect" id="node18" href="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da" title="pgm_read_byte" alt="" coords="1344,338,1458,364"/>
+<area shape="rect" id="node19" href="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c" title="ulltoa_invert" alt="" coords="1354,388,1447,413"/>
+<area shape="rect" id="node20" href="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559" title="ultoa_invert" alt="" coords="1356,437,1446,462"/>
+<area shape="rect" id="node27" href="$classQuaternion.html#a48e6bafb249c895ed25f29dc9170e11e" title="Quaternion::normalize" alt="" coords="326,606,479,632"/>
+<area shape="rect" id="node30" href="$classQuaternion.html#a20c1310cb43b19ab1fdcbde038d1e508" title="Quaternion::earth_to_body" alt="" coords="312,421,492,446"/>
+<area shape="rect" id="node28" href="$classQuaternion.html#a6f5e82dd828c59392a3133d6d5877f39" title="Quaternion::length" alt="" coords="561,606,692,632"/>
+<area shape="rect" id="node29" href="$AP__Math_8h.html#a00f57739f8671cb41eae08a51b7cbf7c" title="sq" alt="" coords="833,606,872,632"/>
+<area shape="rect" id="node33" href="$eulers_8cpp.html#a288b88e3267221134f72a170d9895cef" title="test_quaternion" alt="" coords="346,218,459,244"/>
+<area shape="rect" id="node34" href="$classQuaternion.html#a5ee01ee833114be6181887d0dcfb33b1" title="Quaternion::from_rotation\l_matrix" alt="" coords="540,82,714,121"/>
+<area shape="rect" id="node36" href="$eulers_8cpp.html#ab0e4b7cf8126ff5efa48d6f91eaad6ea" title="test_euler" alt="" coords="362,169,442,194"/>
+<area shape="rect" id="node38" href="$classMatrix3.html#acfd79fa5d5968b42219a9b6d017ac5b5" title="Matrix3::identity" alt="" coords="345,806,460,832"/>
+<area shape="rect" id="node39" href="$eulers_8cpp.html#a947c961d7787a2c96e3f6768e6e6c38c" title="rand_num" alt="" coords="362,708,443,733"/>
+<area shape="rect" id="node40" href="$classMatrix3.html#a6f044e8d64f6f10e054af962487399b9" title="Matrix3::rotate" alt="" coords="349,757,456,782"/>
+</map>

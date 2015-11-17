@@ -1,0 +1,12 @@
+digraph "mavlink_msg_gimbal_request_axis_calibration_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_request_axis_calibration\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_request_axis_calibration\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__request__axis__calibration_8h.html#a667e856477960b3082d98e8c2ed52f0e",tooltip="Send a gimbal_request_axis_calibration message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gimbal\l_request_axis_calibration\l_get_target_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__request__axis__calibration_8h.html#ab62db8c74c9e6592c11639e5439d86b4",tooltip="Get field target_component from gimbal_request_axis_calibration message. "];
+}

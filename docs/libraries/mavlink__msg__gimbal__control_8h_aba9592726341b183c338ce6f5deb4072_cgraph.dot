@@ -1,0 +1,18 @@
+digraph "mavlink_msg_gimbal_control_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_control_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_control_get_demanded\l_rate_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__control_8h.html#afa1576d99cda3fe9291ebaf815296cd4",tooltip="Get field demanded_rate_x from gimbal_control message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gimbal\l_control_get_demanded\l_rate_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__control_8h.html#a97b62b016eeedaeca40b67a5a5611f00",tooltip="Get field demanded_rate_y from gimbal_control message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_gimbal\l_control_get_demanded\l_rate_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__control_8h.html#a57c1d5d237a0c1d5fe5c30dbcb332d38",tooltip="Get field demanded_rate_z from gimbal_control message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_gimbal\l_control_get_target\l_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__control_8h.html#a42874b6a45f8c2392bdc99e808b1ff2e",tooltip="Send a gimbal_control message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_gimbal\l_control_get_target\l_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__control_8h.html#a752e26e69a582e96194bb237c942ec2f",tooltip="Get field target_component from gimbal_control message. "];
+}

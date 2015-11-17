@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SITL::last_letter::\lservo_packet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structSITL_1_1last__letter_1_1servo__packet.html"];
+}

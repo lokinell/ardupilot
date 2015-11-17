@@ -1,0 +1,12 @@
+digraph "AP_MPU6000_BusDriver_SPI::init"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MPU6000_BusDriver\l_SPI::init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MPU6000_BusDriver\l_SPI::write8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU6000__BusDriver__SPI.html#a74ee09fc2f506d5ec3a28c35bb2199b3"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::SPIDeviceDriver\l::transaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1SPIDeviceDriver.html#acb3739821064a2bebc3015b817978724"];
+}

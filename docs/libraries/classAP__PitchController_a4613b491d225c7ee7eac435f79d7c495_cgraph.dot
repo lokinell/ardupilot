@@ -1,0 +1,58 @@
+digraph "AP_PitchController::_get_rate_out"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_PitchController\l::_get_rate_out",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL::Scheduler::\lmillis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS::get_gyro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a667ec4ffbedf99e75c7d60e01f45df3a"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS::get_EAS2TAS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a2648b5fc68b22e83205161cf1274939c"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Airspeed::get_EAS2TAS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Airspeed.html#a9bb14f83815ed35b067dd2f4a7c1851f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_AutoTune::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#af5c523db0ac4313e8098fec4b8f5f2f1"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_AutoTune::check_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#ac05a94ad7cd4c42e14182d9ba5f861db"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_AutoTune::save_gains",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#a258aa8bcc03defe55967c97931af95d5"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_AutoTune::save_float\l_if_changed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#a75141b4db72681ba3a6a79af466e1138"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_AutoTune::log_param\l_change",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#aad5abae2e9c7465c2478200ef99a7788"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="DataFlash_Class::logging\l_started",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#aa1dfc59b10a4b5ef3bc22ed5d5648665"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="DataFlash_Class::Log\l_Write_Parameter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a68caa27202b9ac91c16282bcb2d7f090"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_HAL::Scheduler::\lmicros64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#acfe178fdca7f8d9b22a939b3aac1a84f"];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="DataFlash_Class::WriteCritical\lBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a2953e779f3c3587638e1324b1bf9ff33"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="DataFlash_Backend::\lWriteCriticalBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a5be0a9e566b2b525659756204c3353b7"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="DataFlash_Backend::\lWritePrioritisedBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a0807326aa0d3df61375bc1c949d2a125"];
+  Node9 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="AP_AutoTune::save_int16\l_if_changed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#a42e4a85b366f38eaea1d10846ed25f4b"];
+  Node18 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="AP_AutoTune::check\l_state_exit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#a3e516a14471f759d1506f5d758043a14"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="pgm_read_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a90f10dd78145eef44fb2092a65a6d5db"];
+  Node7 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="AP_AutoTune::write_log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AutoTune.html#ae8f71aea3fb903d762decab2c9636098"];
+  Node21 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="DataFlash_Class::WriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a2838cdd106ad3dd8da69a45dd64117ca"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="DataFlash_Backend::\lWriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#aed94b3ad1fd7333ddd7c2e20c3433d52"];
+  Node23 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

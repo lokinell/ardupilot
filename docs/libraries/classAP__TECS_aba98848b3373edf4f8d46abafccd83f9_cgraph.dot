@@ -1,0 +1,20 @@
+digraph "AP_TECS::_update_throttle"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_TECS::_update_throttle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_TECS::timeConstant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__TECS.html#a10c1bce8067ade79dfebc3c8ad4b0e42"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_AHRS::get_dcm_matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#aeabf15a0103be3040fb4ff0de69658ab"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS::airspeed_sensor\l_enabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a8691156c332da099e3f5952e72ae2a58"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Airspeed::use",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Airspeed.html#a6162295b433e3a863c0d4b9086b19014"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_Airspeed::healthy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Airspeed.html#acddaade777fa87d5b8c904c79be01204"];
+}

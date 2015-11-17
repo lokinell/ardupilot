@@ -1,0 +1,16 @@
+digraph "mavlink_msg_vision_speed_estimate_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_vision\l_speed_estimate_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_vision\l_speed_estimate_get_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vision__speed__estimate_8h.html#a11d9a9d3fb9aaf0acb4bf595dda7bd33",tooltip="Send a vision_speed_estimate message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_vision\l_speed_estimate_get_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vision__speed__estimate_8h.html#ab86b66249629d9c54de947b8337c42ae",tooltip="Get field x from vision_speed_estimate message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_vision\l_speed_estimate_get_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vision__speed__estimate_8h.html#a7452e62cfcc75b5cc791de5b07c7f1dd",tooltip="Get field y from vision_speed_estimate message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_vision\l_speed_estimate_get_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vision__speed__estimate_8h.html#aa7be484f6206c95f1d43e686e4e51967",tooltip="Get field z from vision_speed_estimate message. "];
+}

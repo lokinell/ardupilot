@@ -1,0 +1,12 @@
+digraph "AP_MotorsMulticopter::calc_pitch_pwm"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MotorsMulticopter\l::calc_pitch_pwm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsTri::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#adb1243ee8f1454434568fc5113fcfa83"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsMatrix::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a32cad7f12087bf7106fe70a8d40f7419"];
+}

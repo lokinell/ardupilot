@@ -1,0 +1,26 @@
+digraph "DataFlash_Class::Log_Write_Current"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Class::Log\l_Write_Current",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_BattMonitor::voltage2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#a08b53e709a3bd620196721e561afb6f3"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lmicros64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#acfe178fdca7f8d9b22a939b3aac1a84f"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_BattMonitor::voltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#ab5789eb7d45ec25b685adfaaf9167284",tooltip="voltage - returns battery voltage in millivolts "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_BattMonitor::current_amps",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#af73075a42b0aa50dca77e16625fb1122",tooltip="current_amps - returns the instantaneous current draw in amperes "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::AnalogIn::board\l_voltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1AnalogIn.html#a84c87bc57f06182afc85725cafe22698"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_BattMonitor::current\l_total_mah",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#a5744db673ce4cbaffe3da159451c3d5f",tooltip="current_total_mah - returns total current drawn since start-up in amp-hours "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DataFlash_Class::WriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a2838cdd106ad3dd8da69a45dd64117ca"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="DataFlash_Backend::\lWriteBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#aed94b3ad1fd7333ddd7c2e20c3433d52"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="DataFlash_Backend::\lWritePrioritisedBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a0807326aa0d3df61375bc1c949d2a125"];
+}

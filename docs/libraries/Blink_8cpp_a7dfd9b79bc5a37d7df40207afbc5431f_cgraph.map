@@ -1,0 +1,7 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1GPIO.html#a3dfc60214bd1aa4936d51ca72c045b95" title="AP_HAL::GPIO::pinMode" alt="" coords="107,5,279,31"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1GPIO.html#a2b0664bdab1876e3b0bbcd9064eec88e" title="AP_HAL::GPIO::write" alt="" coords="119,55,268,80"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1GPIO.html#a4e8955091af056240f447b68b76725bb" title="AP_HAL::GPIO::channel" alt="" coords="110,104,277,129"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1DigitalSource.html#af16b96dab1499f30659a1fd892df6c2d" title="AP_HAL::DigitalSource\l::mode" alt="" coords="114,153,273,192"/>
+<area shape="rect" id="node6" href="$classAP__HAL_1_1DigitalSource.html#a43392c05a7dae030a78dd1c4800bf5fe" title="AP_HAL::DigitalSource\l::write" alt="" coords="114,216,273,255"/>
+</map>

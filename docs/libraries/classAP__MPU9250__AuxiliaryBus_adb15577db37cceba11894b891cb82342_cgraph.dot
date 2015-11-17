@@ -1,0 +1,18 @@
+digraph "AP_MPU9250_AuxiliaryBus::_configure_slaves"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MPU9250_AuxiliaryBus\l::_configure_slaves",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_InertialSensor_MPU9250\l::from",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__MPU9250.html#a8c40da0d9dc81494c386add96a6e895d"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_InertialSensor_MPU9250\l::_register_read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__MPU9250.html#a6d17b9b80c98f196d2d2de9d4656f993"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_MPU9250_BusDriver\l::read8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU9250__BusDriver.html#ae2a5176fea1f5d490008113887f24466"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_InertialSensor_MPU9250\l::_register_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__MPU9250.html#ab9756f81c969773aed6da1cb4ef1a28e"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_MPU9250_BusDriver\l::write8",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU9250__BusDriver.html#ac12829bcef0b50c4f91393832857223b"];
+}

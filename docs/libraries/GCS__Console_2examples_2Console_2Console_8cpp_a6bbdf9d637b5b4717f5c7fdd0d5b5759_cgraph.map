@@ -1,0 +1,5 @@
+<map id="flush_console_to_statustext" name="flush_console_to_statustext">
+<area shape="rect" id="node2" href="$simplegcs_8cpp.html#ab0b28a573b02c581205a6ca0d9dbcb37" title="try_send_statustext" alt="" coords="239,5,376,31"/>
+<area shape="rect" id="node3" href="$GCS__MAVLink_8cpp.html#a2a0fd455fd37f642e9eb67373a14b7d9" title="comm_get_txspace" alt="" coords="424,5,561,31"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Stream.html#a7028834212873394e906bcaf7f4a06b3" title="AP_HAL::Stream::txspace" alt="" coords="609,5,785,31"/>
+</map>

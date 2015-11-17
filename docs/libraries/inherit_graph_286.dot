@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::I2CDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1I2CDriver.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEI2CDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEI2CDriver.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Empty::EmptyI2CDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEmpty_1_1EmptyI2CDriver.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::I2CDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1I2CDriver.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PX4::PX4I2CDriver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html"];
+}

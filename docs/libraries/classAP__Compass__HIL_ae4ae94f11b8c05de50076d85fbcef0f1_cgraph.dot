@@ -1,0 +1,24 @@
+digraph "AP_Compass_HIL::detect"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Compass_HIL::detect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Compass_HIL::AP\l_Compass_HIL",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HIL.html#a8f91dff3fcb563128bb78488edf074e5"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Compass::_setup_earth\l_field",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a0bc30e897c2c0c412120e1b1337bd1cb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Matrix3::from_euler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#a62587bd216436f09f06b9e1330f84bc0",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Compass::get_declination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a5051de1d15ee203600422235ab93c88c"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Compass_HIL::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HIL.html#af040b7e9ed9c04a61be51d2a0831d192"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_Compass_Backend\l::register_compass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__Backend.html#aee0aed3dcceb809b122d2a0784f44593"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Compass::register_compass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#af1b5ea3ff42b02e04526d4be361a1ca1"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_HAL::Scheduler::\lpanic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101"];
+}

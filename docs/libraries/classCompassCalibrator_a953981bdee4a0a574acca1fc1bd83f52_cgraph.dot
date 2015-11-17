@@ -1,0 +1,32 @@
+digraph "CompassCalibrator::run_ellipsoid_fit"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CompassCalibrator::\lrun_ellipsoid_fit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CompassCalibrator::\lCompassSample::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator_1_1CompassSample.html#aa15059b264357a9920251a7c0c7c251a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CompassCalibrator::\lcalc_ellipsoid_jacob",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#ae446dd0e874e21b4a80a682a6597db44"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CompassCalibrator::\lcalc_residual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#ae927f4d79bb487395fb5c0558b9229b6"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#adfb798dabbcb4c7a82b3a08978bd8738"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="inverse3x3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a3aede2abf8bd30869b72dadaeb9e2c17"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="inverse4x4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a5b0d60d12edb0ce4c1ed6599acccc6db"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="inversenxn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#af07132e0dd058b0a91631fd99fa58a0a"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="detnxn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix__alg_8cpp.html#a6ec94c9e490e3f8163d3aac090c19dbe"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="CompassCalibrator::\lparam_t::get_ellipsoid\l_params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator_1_1param__t.html#a03e45e3fdc8a516041b4a07f67f3ea1b"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CompassCalibrator::\lcalc_mean_squared_residuals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a7d57ef4510c26724890f4f820bf2d160"];
+}

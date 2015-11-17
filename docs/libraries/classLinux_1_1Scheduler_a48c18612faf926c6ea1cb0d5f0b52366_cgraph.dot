@@ -1,0 +1,16 @@
+digraph "Linux::Scheduler::_rcin_thread"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::Scheduler::\l_rcin_thread",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::Scheduler::system\l_initializing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a42bde14b5d9bc249cb2baec4355d41b6"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::Scheduler::\l_microsleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a9a68d88ebd7e59352fc0b4566e8ef486"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::RCInput::from",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput.html#a6a44a83dac00b80ca6207048b4d947c0"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Linux::RCInput::_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput.html#a0d5d4518e1ed51c95fe36a9d6ea7ecac"];
+}

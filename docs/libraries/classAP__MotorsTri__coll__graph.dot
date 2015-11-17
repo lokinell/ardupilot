@@ -1,0 +1,24 @@
+digraph "AP_MotorsTri"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AP_MotorsTri",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsMulticopter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMulticopter.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Motors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Motors.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" limit" ,fontname="Helvetica"];
+  Node4 [label="AP_Motors::AP_Motors\l_limit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Motors_1_1AP__Motors__limit.html"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _throttle_filter" ,fontname="Helvetica"];
+  Node5 [label="LowPassFilter\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLowPassFilter.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _filter" ,fontname="Helvetica"];
+  Node6 [label="DigitalLPF\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDigitalLPF.html"];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _flags" ,fontname="Helvetica"];
+  Node7 [label="AP_Motors::AP_Motors\l_flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Motors_1_1AP__Motors__flags.html"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _batt_voltage_filt" ,fontname="Helvetica"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var_info" ,fontname="Helvetica"];
+  Node8 [label="AP_Param::GroupInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1GroupInfo.html"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group_info" ,fontname="Helvetica"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var_info" ,fontname="Helvetica"];
+}

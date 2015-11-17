@@ -1,0 +1,29 @@
+digraph "AC_AttitudeControl::sqrt_controller"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_AttitudeControl\l::sqrt_controller",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_AttitudeControl\l::angle_ef_roll_pitch\l_rate_ef_yaw_smooth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#afbe614d708bc9de386fda48ee3c65069"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_PosControl::pos\l_to_rate_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#adaf1679fb65c1bef02180409dcd96cad"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_PosControl::update\l_z_controller",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#af9c555a3b07ea1420ea28e7333379941",tooltip="update_z_controller - fly to altitude in cm above home "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_PosControl::update\l_vel_controller_xyz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#ad89eec74ef77005f3f5c449da98ad12c"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_AttitudeControl\l::update_rate_bf_targets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a3b963b5312fad0512a2f3e9cf165e237"];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AC_AttitudeControl\l::angle_ef_roll_pitch\l_rate_ef_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a7f3ea9078e44d94c66da20f5e1f12612"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AC_AttitudeControl\l::angle_ef_roll_pitch_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a436fd54f740d502a04b86f5b8a25bb42"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AC_AttitudeControl\l::rate_ef_roll_pitch_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a2f434d94c7265c3e09c0c7555ec92efb"];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AC_AttitudeControl\l::rate_bf_roll_pitch_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl.html#a716b26f41dfc5cf956b360affd045946"];
+  Node6 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AC_AttitudeControl\l_Heli::passthrough_bf\l_roll_pitch_rate_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__AttitudeControl__Heli.html#adcf61fba6788547660fa2237e46a459e"];
+}

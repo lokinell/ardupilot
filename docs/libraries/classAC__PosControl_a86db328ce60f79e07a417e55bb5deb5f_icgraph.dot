@@ -1,0 +1,18 @@
+digraph "AC_PosControl::set_desired_velocity_xy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_PosControl::set\l_desired_velocity_xy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_WPNav::calc_loiter\l_desired_velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a3dbf7bda89b127cdc81bca29e2af25de"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_WPNav::update_loiter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a0a434270245fd8641352af387700dc82",tooltip="update_loiter - run the loiter controller - should be called at 10hz "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_WPNav::init_loiter\l_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a3bd3abac616805d338d31255d76e978e",tooltip="init_loiter_target in cm from home "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_PosControl::init\l_vel_controller_xyz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__PosControl.html#ae2897de0075f8f8aaa94eb7e8cad100b",tooltip="xyz velocity controller "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AC_WPNav::update_brake",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#af9d3f98ad44166d4c5d072bf3ba4a3db",tooltip="update_brake - run the brake controller - should be called at 400hz "];
+}

@@ -1,0 +1,39 @@
+digraph "AP_Mount::control_msg"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Mount::control_msg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Mount_Backend::control_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Backend.html#ae975fe1daaa9722be740772fcb20e0ff"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_mount_control\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#a53005c020f2118b2deed37c232b79296",tooltip="Decode a mount_control message into a struct. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_mount_control\l_get_input_a",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#a166a6ab225a399c276e255147c7790c5",tooltip="Get field input_a from mount_control message. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_mount_control\l_get_input_b",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#aeac3ea77a2515ab079839f35ccfe81d7",tooltip="Get field input_b from mount_control message. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_mount_control\l_get_input_c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#aa7ad40e774b8df07779002abe45c2b4a",tooltip="Get field input_c from mount_control message. "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_mount_control\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#afb792cb768907895646055da0e24d896",tooltip="Send a mount_control message. "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_mount_control\l_get_target_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#aa22df514cf73c03c10200f239738d6dc",tooltip="Get field target_component from mount_control message. "];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_mount_control\l_get_save_position",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__control_8h.html#a30e895d45ba11ce8426d5d749859ce3d",tooltip="Get field save_position from mount_control message. "];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_Mount_Backend::control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Backend.html#a2c05c2c449c8b03c1dc215ba30b4f98a"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_Mount::set_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount.html#a4510126670698c1b0b2d2066049ac28e"];
+  Node11 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_Mount::get_mode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount.html#a26ea3e1c86204271b6b90f1fb4f3ee92"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_Mount_Backend::set\l_angle_targets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Backend.html#aef242e856237c58d2cb6ae0cf0568017"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="radians",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a75b14352ec1c95a8276af9a0813cfdc3"];
+  Node13 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_Mount_Backend::set\l_roi_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Backend.html#a30fd52e4d6a08c6b314ad634b9c4e21a"];
+  Node15 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

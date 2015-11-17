@@ -1,0 +1,6 @@
+<map id="mavlink_msg_ahrs2_get_altitude" name="mavlink_msg_ahrs2_get_altitude">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs2_8h.html#a7c22c88ca76c0c52582c38baba384e9b" title="Decode a ahrs2 message into a struct. " alt="" coords="219,12,410,37"/>
+<area shape="rect" id="node3" href="$ardupilotmega_2testsuite_8h.html#a9ecd1acaa442cd5c423461cfc9d648a2" title="mavlink_test_ahrs2" alt="" coords="458,12,594,37"/>
+<area shape="rect" id="node4" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="642,12,830,37"/>
+<area shape="rect" id="node5" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="878,12,994,37"/>
+</map>

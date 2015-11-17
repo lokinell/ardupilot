@@ -1,0 +1,12 @@
+<map id="FLASH_Unlock" name="FLASH_Unlock">
+<area shape="rect" id="node2" href="$classEEPROMClass.html#ac7d841bc2db8825c19444dff0a7409c5" title="Erases PAGE0 and PAGE1 and writes EEPROM_VALID_PAGE / 0 header to PAGE0. " alt="" coords="166,117,323,143"/>
+<area shape="rect" id="node3" href="$classEEPROMClass.html#a9e3825e66fd8112ed3768f726537c8c6" title="EEPROMClass::init" alt="" coords="371,143,508,168"/>
+<area shape="rect" id="node4" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a25a3355ea68af27fd28ec211b93ec2ca" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::init" alt="" coords="556,5,731,44"/>
+<area shape="rect" id="node5" href="$classEEPROMClass.html#aa2aa9b1e1f3f7ec3924aacc22e7de722" title="EEPROMClass::init" alt="" coords="575,68,712,93"/>
+<area shape="rect" id="node6" href="$classEEPROMClass.html#a7b4057d24e48bfad9b294d5acd9e7b56" title="Returns the erase counter for current page. " alt="" coords="564,117,724,143"/>
+<area shape="rect" id="node7" href="$classEEPROMClass.html#a039849dd231854ce6b71bb558684d54e" title="Returns the last stored variable data, if found, which correspond to the passed virtual address..." alt="" coords="570,167,717,192"/>
+<area shape="rect" id="node8" href="$classEEPROMClass.html#a94dfba95e7cbc16dd5cbfeb344a749c1" title="Writes/upadtes variable data in EEPROM. " alt="" coords="570,216,718,241"/>
+<area shape="rect" id="node11" href="$classEEPROMClass.html#a11daf35eb9821e9c9761533f555bb1ed" title="Return number of variable. " alt="" coords="567,265,720,291"/>
+<area shape="rect" id="node9" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a0aa3116d7a310753eea45c784330aa37" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::write_byte" alt="" coords="779,209,991,248"/>
+<area shape="rect" id="node10" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEStorage.html#a3cebced9065ea52b7c7684aed8f3435b" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEStorage::write_block" alt="" coords="1039,209,1257,248"/>
+</map>

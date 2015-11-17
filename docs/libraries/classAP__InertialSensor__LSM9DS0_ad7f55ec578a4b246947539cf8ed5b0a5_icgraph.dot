@@ -1,0 +1,36 @@
+digraph "AP_InertialSensor_LSM9DS0::_gyro_data_ready"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_LSM9DS0\l::_gyro_data_ready",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_InertialSensor_LSM9DS0\l::_init_sensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a62227996a40da07a9733ace45b6b0c71"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_InertialSensor_LSM9DS0\l::detect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a7230ea583e99a0fb4ae49a2205ea67e8"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_InertialSensor::\ldetect_backends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#a8967734e82a4f472c6d8ddd8db656804"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_InertialSensor::\l_start_backends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#a9949b7e301b0d7a5f3e59385d2e8d97a"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_InertialSensor::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#ab1cdd1c7cc2a0a2631e5deadfc960e80"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SchedTest::setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSchedTest.html#ae9afb73f76391e34d47286a516fe5292"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Scheduler__test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_Compass_AK8963::\ldetect_mpu9250_i2c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__AK8963.html#a0d77d55639011a39fa39a3fbfb11b9be"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Compass::_detect_backends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a1c48170d8c8966b22fb150b1634443ec"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Compass::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a190aefc281aba88c7b16e4fc58035c5e"];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_InertialSensor::\lget_auxiliary_bus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#ad649def5689aecaebca16cf910d77fd8"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_InertialSensor_LSM9DS0\l::_poll_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor__LSM9DS0.html#a517db16a43fdfa7fa31615d07b225474"];
+  Node14 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

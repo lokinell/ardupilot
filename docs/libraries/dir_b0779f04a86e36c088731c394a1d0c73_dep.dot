@@ -1,0 +1,11 @@
+digraph "libraries/AP_Math/examples/rotations" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_248b267c5d10617be876c6ca117cf55c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_248b267c5d10617be876c6ca117cf55c.html"]
+  dir_b0779f04a86e36c088731c394a1d0c73 [shape=box, label="rotations", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b0779f04a86e36c088731c394a1d0c73.html"];
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_b0779f04a86e36c088731c394a1d0c73->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000100_000046.html"];
+}

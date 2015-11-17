@@ -1,0 +1,7 @@
+<map id="location_update" name="location_update">
+<area shape="rect" id="node2" href="$AP__Math_8h.html#a75b14352ec1c95a8276af9a0813cfdc3" title="radians" alt="" coords="190,5,255,31"/>
+<area shape="rect" id="node3" href="$location_8cpp.html#a717b438a67f0b41665feec9009ba1bd4" title="location_offset" alt="" coords="169,55,276,80"/>
+<area shape="rect" id="node4" href="$AP__Math_8h.html#a108b79eeb35c5d58f324458ec9e1e9f2" title="is_zero" alt="" coords="349,29,413,55"/>
+<area shape="rect" id="node5" href="$location_8cpp.html#ad2368c582f3e0c135e2a74772f4db61a" title="longitude_scale" alt="" coords="324,79,438,104"/>
+<area shape="rect" id="node6" href="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046" title="constrain_float" alt="" coords="486,79,594,104"/>
+</map>

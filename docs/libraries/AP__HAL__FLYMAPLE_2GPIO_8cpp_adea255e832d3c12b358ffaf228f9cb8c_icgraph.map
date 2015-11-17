@@ -1,0 +1,6 @@
+<map id="libmaple_digitalRead" name="libmaple_digitalRead">
+<area shape="rect" id="node2" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEGPIO.html#a826850fa9f4e93d9eafc54f8093060d6" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEGPIO::read" alt="" coords="217,5,391,44"/>
+<area shape="rect" id="node3" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEDigitalSource.html#a7c459e3946c011d166a37e2999d5670d" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEDigitalSource::read" alt="" coords="198,68,409,107"/>
+<area shape="rect" id="node4" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEGPIO.html#ad6bb54257b2b54cb6ecd611e5a015093" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEGPIO::toggle" alt="" coords="217,131,391,169"/>
+<area shape="rect" id="node5" href="$classAP__HAL__FLYMAPLE__NS_1_1FLYMAPLEDigitalSource.html#a127ed341b14f990af6b1f5b65217cfc9" title="AP_HAL_FLYMAPLE_NS\l::FLYMAPLEDigitalSource\l::toggle" alt="" coords="215,193,392,245"/>
+</map>

@@ -1,0 +1,15 @@
+digraph "libraries/AP_BattMonitor/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_210b3cddc805c7c91973d20121d570cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AP_BattMonitor" fontname="Helvetica", fontsize="10", URL="dir_210b3cddc805c7c91973d20121d570cf.html"]
+  subgraph clusterdir_9f34b3d5f116150da4cf3ca406cdd00c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9f34b3d5f116150da4cf3ca406cdd00c.html"];
+    dir_9f34b3d5f116150da4cf3ca406cdd00c [shape=plaintext label="examples"];
+    dir_aeadc8511f68a46cef4fa78aebe443b9 [shape=box label="AP_BattMonitor_test" color="black" fillcolor="white" style="filled" URL="dir_aeadc8511f68a46cef4fa78aebe443b9.html"];
+  }
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_aeadc8511f68a46cef4fa78aebe443b9->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000026_000046.html"];
+}

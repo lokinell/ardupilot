@@ -1,0 +1,12 @@
+digraph "mavlink_msg_system_time_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_system\l_time_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_system\l_time_get_time_unix_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__system__time_8h.html#a1e6dd51a2a45e6c60f773460578c5d18",tooltip="Send a system_time message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_system\l_time_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__system__time_8h.html#a730e89a1276a73d084a66b0274431bf8",tooltip="Get field time_boot_ms from system_time message. "];
+}

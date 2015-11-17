@@ -1,0 +1,27 @@
+digraph "AP_Compass_Backend"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="AP_Compass_Backend",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _compass" ,fontname="Helvetica"];
+  Node2 [label="Compass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" var_info" ,fontname="Helvetica"];
+  Node3 [label="AP_Param::GroupInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__Param_1_1GroupInfo.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" group_info" ,fontname="Helvetica"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" field\nBearth" ,fontname="Helvetica"];
+  Node4 [label="Vector3\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _calibrator" ,fontname="Helvetica"];
+  Node5 [label="CompassCalibrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _params" ,fontname="Helvetica"];
+  Node6 [label="CompassCalibrator::\lparam_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator_1_1param__t.html"];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" offdiag\noffset\ndiag" ,fontname="Helvetica"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _sample_buffer" ,fontname="Helvetica"];
+  Node7 [label="CompassCalibrator::\lCompassSample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator_1_1CompassSample.html"];
+  Node1 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _backends" ,fontname="Helvetica"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _state" ,fontname="Helvetica"];
+  Node8 [label="Compass::mag_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structCompass_1_1mag__state.html"];
+  Node4 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" motor_offset\nfield\nraw_field\nunfiltered_field" ,fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mag_history" ,fontname="Helvetica"];
+  Node9 [label="Vector3\< int16_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html"];
+}

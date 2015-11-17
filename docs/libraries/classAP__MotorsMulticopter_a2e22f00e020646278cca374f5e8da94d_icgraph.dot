@@ -1,0 +1,24 @@
+digraph "AP_MotorsMulticopter::apply_thrust_curve_and_volt_scaling"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_MotorsMulticopter\l::apply_thrust_curve\l_and_volt_scaling",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsTri::output\l_armed_not_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#a5fb3552662e9242267eedd461d64fe4c"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsCoax::output\l_armed_not_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsCoax.html#af0309d34188f4f427fd1197ea768f2ea"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_MotorsSingle::output\l_armed_not_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsSingle.html#a407007cbe551ef339131c7b66a0e5955"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_MotorsMatrix::output\l_armed_not_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a54ae23df7be61c1fdc80ffe831383f4b"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_MotorsTri::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#adb1243ee8f1454434568fc5113fcfa83"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_MotorsCoax::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsCoax.html#a11539f6cae3db5ab262c2918c2ee6657"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_MotorsSingle::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsSingle.html#aa687f46ca430b67757cb2a76220cf0d5"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_MotorsMatrix::output\l_armed_stabilizing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a32cad7f12087bf7106fe70a8d40f7419"];
+}

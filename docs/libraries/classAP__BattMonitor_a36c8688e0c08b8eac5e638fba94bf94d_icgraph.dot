@@ -1,0 +1,11 @@
+digraph "AP_BattMonitor::voltage"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_BattMonitor::voltage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_BattMonitor::exhausted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#af4f82f91854e1a8b04745ab05f932c0f",tooltip="exhausted - returns true if the battery&#39;s voltage remains below the low_voltage for 10 seconds or rem..."];
+  Node1 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

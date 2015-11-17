@@ -1,0 +1,5 @@
+<map id="wrap_360_cd_float" name="wrap_360_cd_float">
+<area shape="rect" id="node2" href="$classAC__AttitudeControl__Heli.html#adcf61fba6788547660fa2237e46a459e" title="AC_AttitudeControl\l_Heli::passthrough_bf\l_roll_pitch_rate_yaw" alt="" coords="193,5,344,57"/>
+<area shape="rect" id="node3" href="$classAC__AttitudeControl.html#a716b26f41dfc5cf956b360affd045946" title="AC_AttitudeControl\l::rate_bf_roll_pitch_yaw" alt="" coords="187,81,349,120"/>
+<area shape="rect" id="node4" href="$classAC__AttitudeControl.html#a5e78759a1808b5fd6c200fa2aa2bcc6e" title="AC_AttitudeControl\l::shift_ef_yaw_target" alt="" coords="196,144,341,183"/>
+</map>

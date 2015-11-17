@@ -1,0 +1,18 @@
+digraph "AP_RangeFinder_MaxsonarI2CXL::get_reading"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_RangeFinder_MaxsonarI2\lCXL::get_reading",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_RangeFinder_MaxsonarI2\lCXL::detect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RangeFinder__MaxsonarI2CXL.html#a63b2fdab67041f94c16928e1764871b2"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RangeFinder::detect\l_instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a7f7f9dce880eb37d53df67cba39bdda9"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RangeFinder::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRangeFinder.html#a1c2d6a488e35a856814b5d48ca3d5d9e"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RFIND__test_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_RangeFinder_MaxsonarI2\lCXL::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__RangeFinder__MaxsonarI2CXL.html#a6e990839c7d9bbced27ead7b6f4d3a38"];
+}

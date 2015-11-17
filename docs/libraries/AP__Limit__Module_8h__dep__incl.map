@@ -1,0 +1,11 @@
+<map id="libraries/AP_Limits/AP_Limit_Module.h" name="libraries/AP_Limits/AP_Limit_Module.h">
+<area shape="rect" id="node2" href="$AP__Limits_8h.html" title="libraries/AP_Limits\l/AP_Limits.h" alt="" coords="279,92,410,131"/>
+<area shape="rect" id="node3" href="$AP__Limit__Altitude_8h.html" title="libraries/AP_Limits\l/AP_Limit_Altitude.h" alt="" coords="27,179,168,217"/>
+<area shape="rect" id="node5" href="$AP__Limit__Geofence_8h.html" title="libraries/AP_Limits\l/AP_Limit_Geofence.h" alt="" coords="192,179,347,217"/>
+<area shape="rect" id="node7" href="$AP__Limit__GPSLock_8h.html" title="libraries/AP_Limits\l/AP_Limit_GPSLock.h" alt="" coords="370,179,524,217"/>
+<area shape="rect" id="node9" href="$AP__Limits_8cpp.html" title="Imposes limits on location (geofence), altitude and other parameters Each breach will trigger an acti..." alt="" coords="548,179,680,217"/>
+<area shape="rect" id="node10" href="$AP__Limit__Module_8cpp.html" title="libraries/AP_Limits\l/AP_Limit_Module.cpp" alt="" coords="535,92,690,131"/>
+<area shape="rect" id="node4" href="$AP__Limit__Altitude_8cpp.html" title="libraries/AP_Limits\l/AP_Limit_Altitude.cpp" alt="" coords="5,265,161,304"/>
+<area shape="rect" id="node6" href="$AP__Limit__Geofence_8cpp.html" title="libraries/AP_Limits\l/AP_Limit_Geofence.cpp" alt="" coords="185,265,354,304"/>
+<area shape="rect" id="node8" href="$AP__Limit__GPSLock_8cpp.html" title="libraries/AP_Limits\l/AP_Limit_GPSLock.cpp" alt="" coords="378,265,545,304"/>
+</map>

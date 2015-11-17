@@ -1,0 +1,17 @@
+digraph "DataFlash_Block::find_last_log"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Block::find\l_last_log",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DataFlash_Block::get\l_log_boundaries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Block.html#a3367c846e32366ff58ddebbf025e42d7"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DataFlash_Block::get\l_log_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Block.html#af70a34ead0a9c81d39ea717fb392abfd"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DataFlash_Block::ListAvailableLogs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Block.html#af69dc258faab0de2a9b38e87d4c67799"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DataFlash_Block::start\l_new_log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Block.html#a5ca51ed0a9abf0d6e28e1ca03dae2abf"];
+}

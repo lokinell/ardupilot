@@ -1,0 +1,76 @@
+<map id="libraries/AP_Notify/RGBLed.h" name="libraries/AP_Notify/RGBLed.h">
+<area shape="rect" id="node2" href="$ToshibaLED_8h.html" title="libraries/AP_Notify\l/ToshibaLED.h" alt="" coords="2533,92,2664,131"/>
+<area shape="rect" id="node61" href="$RGBLed_8cpp.html" title="libraries/AP_Notify\l/RGBLed.cpp" alt="" coords="4733,359,4864,397"/>
+<area shape="rect" id="node70" href="$NavioLED_8h.html" title="libraries/AP_Notify\l/NavioLED.h" alt="" coords="3176,92,3307,131"/>
+<area shape="rect" id="node74" href="$VRBoard__LED_8h.html" title="libraries/AP_Notify\l/VRBoard_LED.h" alt="" coords="2967,92,3098,131"/>
+<area shape="rect" id="node3" href="$AP__Notify_8h.html" title="libraries/AP_Notify\l/AP_Notify.h" alt="" coords="2700,265,2831,304"/>
+<area shape="rect" id="node58" href="$ToshibaLED__test_8cpp.html" title="libraries/AP_Notify\l/examples/ToshibaLED\l_test/ToshibaLED_test.cpp" alt="" coords="621,352,801,404"/>
+<area shape="rect" id="node66" href="$ToshibaLED__PX4_8h.html" title="libraries/AP_Notify\l/ToshibaLED_PX4.h" alt="" coords="2369,179,2509,217"/>
+<area shape="rect" id="node68" href="$ToshibaLED_8cpp.html" title="libraries/AP_Notify\l/ToshibaLED.cpp" alt="" coords="2584,179,2715,217"/>
+<area shape="rect" id="node69" href="$ToshibaLED__I2C_8cpp.html" title="libraries/AP_Notify\l/ToshibaLED_I2C.cpp" alt="" coords="2738,179,2889,217"/>
+<area shape="rect" id="node4" href="$AP__Arming_8cpp.html" title="libraries/AP_Arming\l/AP_Arming.cpp" alt="" coords="4344,359,4483,397"/>
+<area shape="rect" id="node5" href="$AP__Compass__Calibration_8cpp.html" title="libraries/AP_Compass\l/AP_Compass_Calibration.cpp" alt="" coords="4507,359,4710,397"/>
+<area shape="rect" id="node6" href="$AP__GPS_8cpp.html" title="libraries/AP_GPS/AP\l_GPS.cpp" alt="" coords="824,359,971,397"/>
+<area shape="rect" id="node7" href="$GPS__AUTO__test_8cpp.html" title="libraries/AP_GPS/examples\l/GPS_AUTO_test/GPS_AUTO\l_test.cpp" alt="" coords="995,352,1197,404"/>
+<area shape="rect" id="node8" href="$GPS__UBLOX__passthrough_8cpp.html" title="libraries/AP_GPS/examples\l/GPS_UBLOX_passthrough\l/GPS_UBLOX_passthrough.cpp" alt="" coords="1221,352,1433,404"/>
+<area shape="rect" id="node9" href="$AP__Baro__BMP085__test_8cpp.html" title="libraries/AP_HAL_FLYMAPLE\l/examples/AP_Baro_BMP085\l_test/AP_Baro_BMP085_test.cpp" alt="" coords="1457,352,1677,404"/>
+<area shape="rect" id="node10" href="$AP__InertialSensor_8cpp.html" title="libraries/AP_InertialSensor\l/AP_InertialSensor.cpp" alt="" coords="1701,359,1881,397"/>
+<area shape="rect" id="node11" href="$VibTest_8cpp.html" title="libraries/AP_InertialSensor\l/examples/VibTest/VibTest.cpp" alt="" coords="1905,359,2106,397"/>
+<area shape="rect" id="node12" href="$AP__Motors__Class_8h.html" title="libraries/AP_Motors\l/AP_Motors_Class.h" alt="" coords="2130,359,2273,397"/>
+<area shape="rect" id="node26" href="$AP__Motors__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_test/AP_Motors_test.cpp" alt="" coords="1376,805,1550,857"/>
+<area shape="rect" id="node27" href="$AP__Motors__Time__test_8cpp.html" title="libraries/AP_Motors\l/examples/AP_Motors\l_Time_test/AP_Motors\l_Time_test.cpp" alt="" coords="1993,799,2149,864"/>
+<area shape="rect" id="node53" href="$trivial__AP__Mount_8cpp.html" title="libraries/AP_Mount\l/examples/trivial_AP\l_Mount/trivial_AP_Mount.cpp" alt="" coords="2398,352,2594,404"/>
+<area shape="rect" id="node54" href="$AP__BoardLED_8cpp.html" title="libraries/AP_Notify\l/AP_BoardLED.cpp" alt="" coords="2618,359,2755,397"/>
+<area shape="rect" id="node55" href="$AP__Notify_8cpp.html" title="libraries/AP_Notify\l/AP_Notify.cpp" alt="" coords="2779,359,2910,397"/>
+<area shape="rect" id="node56" href="$Buzzer_8cpp.html" title="libraries/AP_Notify\l/Buzzer.cpp" alt="" coords="2933,359,3064,397"/>
+<area shape="rect" id="node57" href="$AP__Notify__test_8cpp.html" title="libraries/AP_Notify\l/examples/AP_Notify\l_test/AP_Notify_test.cpp" alt="" coords="3089,352,3256,404"/>
+<area shape="rect" id="node59" href="$ExternalLED_8cpp.html" title="libraries/AP_Notify\l/ExternalLED.cpp" alt="" coords="3280,359,3411,397"/>
+<area shape="rect" id="node60" href="$OreoLED__PX4_8cpp.html" title="libraries/AP_Notify\l/OreoLED_PX4.cpp" alt="" coords="3435,359,3573,397"/>
+<area shape="rect" id="node62" href="$ToneAlarm__Linux_8cpp.html" title="libraries/AP_Notify\l/ToneAlarm_Linux.cpp" alt="" coords="3597,359,3750,397"/>
+<area shape="rect" id="node63" href="$ToneAlarm__PX4_8cpp.html" title="libraries/AP_Notify\l/ToneAlarm_PX4.cpp" alt="" coords="3774,359,3920,397"/>
+<area shape="rect" id="node64" href="$AP__Parachute_8cpp.html" title="libraries/AP_Parachute\l/AP_Parachute.cpp" alt="" coords="3944,359,4102,397"/>
+<area shape="rect" id="node65" href="$AP__Parachute__test_8cpp.html" title="libraries/AP_Parachute\l/examples/AP_Parachute\l_test/AP_Parachute_test.cpp" alt="" coords="4126,352,4320,404"/>
+<area shape="rect" id="node13" href="$AP__Motors_8h.html" title="libraries/AP_Motors\l/AP_Motors.h" alt="" coords="1266,712,1404,751"/>
+<area shape="rect" id="node28" href="$AP__MotorsMulticopter_8h.html" title="Motor control class for Multicopters. " alt="" coords="1120,452,1286,491"/>
+<area shape="rect" id="node48" href="$AP__MotorsHeli_8h.html" title="Motor control class for Traditional Heli. " alt="" coords="178,539,316,577"/>
+<area shape="rect" id="node52" href="$AP__Motors__Class_8cpp.html" title="libraries/AP_Motors\l/AP_Motors_Class.cpp" alt="" coords="939,452,1096,491"/>
+<area shape="rect" id="node14" href="$AC__AttitudeControl_8h.html" title="ArduCopter attitude control library. " alt="" coords="753,812,939,851"/>
+<area shape="rect" id="node20" href="$AC__PosControl_8h.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.h" alt="" coords="985,912,1171,951"/>
+<area shape="rect" id="node15" href="$AC__AttitudeControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl.cpp" alt="" coords="687,912,873,951"/>
+<area shape="rect" id="node16" href="$AC__AttitudeControl__Heli_8h.html" title="ArduCopter attitude control library for traditional helicopters. " alt="" coords="141,912,327,951"/>
+<area shape="rect" id="node18" href="$AC__AttitudeControl__Multi_8h.html" title="ArduCopter attitude control library. " alt="" coords="413,912,599,951"/>
+<area shape="rect" id="node24" href="$AC__WPNav_8h.html" title="libraries/AC_WPNav\l/AC_WPNav.h" alt="" coords="839,999,982,1037"/>
+<area shape="rect" id="node17" href="$AC__AttitudeControl__Heli_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Heli.cpp" alt="" coords="136,999,331,1037"/>
+<area shape="rect" id="node19" href="$AC__AttitudeControl__Multi_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_AttitudeControl_Multi.cpp" alt="" coords="406,999,606,1037"/>
+<area shape="rect" id="node21" href="$AC__PosControl_8cpp.html" title="libraries/AC_AttitudeControl\l/AC_PosControl.cpp" alt="" coords="1173,999,1359,1037"/>
+<area shape="rect" id="node22" href="$AC__Circle_8h.html" title="libraries/AC_WPNav\l/AC_Circle.h" alt="" coords="1006,999,1149,1037"/>
+<area shape="rect" id="node23" href="$AC__Circle_8cpp.html" title="libraries/AC_WPNav\l/AC_Circle.cpp" alt="" coords="1006,1085,1149,1124"/>
+<area shape="rect" id="node25" href="$AC__WPNav_8cpp.html" title="libraries/AC_WPNav\l/AC_WPNav.cpp" alt="" coords="839,1085,982,1124"/>
+<area shape="rect" id="node29" href="$AP__MotorsMatrix_8h.html" title="Motor control class for Matrixcopters. " alt="" coords="1528,539,1667,577"/>
+<area shape="rect" id="node41" href="$AP__MotorsTri_8h.html" title="Motor control class for Tricopters. " alt="" coords="1134,539,1272,577"/>
+<area shape="rect" id="node43" href="$AP__MotorsSingle_8h.html" title="Motor and Servo control class for Singlecopters. " alt="" coords="593,539,732,577"/>
+<area shape="rect" id="node45" href="$AP__MotorsCoax_8h.html" title="Motor and Servo control class for Co&#45;axial helicopters with two motors and two flaps. " alt="" coords="769,539,906,577"/>
+<area shape="rect" id="node47" href="$AP__MotorsMulticopter_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsMulticopter.cpp" alt="" coords="930,539,1111,577"/>
+<area shape="rect" id="node30" href="$AP__MotorsQuad_8h.html" title="Motor control class for Quadcopters. " alt="" coords="1083,625,1221,664"/>
+<area shape="rect" id="node32" href="$AP__MotorsHexa_8h.html" title="Motor control class for Hexacopters. " alt="" coords="1449,625,1586,664"/>
+<area shape="rect" id="node34" href="$AP__MotorsY6_8h.html" title="Motor control class for Y6 frames. " alt="" coords="1610,625,1748,664"/>
+<area shape="rect" id="node36" href="$AP__MotorsOcta_8h.html" title="Motor control class for Octacopters. " alt="" coords="1949,625,2086,664"/>
+<area shape="rect" id="node38" href="$AP__MotorsOctaQuad_8h.html" title="Motor control class for OctaQuadcopters. " alt="" coords="2111,625,2274,664"/>
+<area shape="rect" id="node40" href="$AP__MotorsMatrix_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsMatrix.cpp" alt="" coords="1772,625,1924,664"/>
+<area shape="rect" id="node31" href="$AP__MotorsQuad_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsQuad.cpp" alt="" coords="1078,712,1227,751"/>
+<area shape="rect" id="node33" href="$AP__MotorsHexa_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsHexa.cpp" alt="" coords="1441,712,1589,751"/>
+<area shape="rect" id="node35" href="$AP__MotorsY6_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsY6.cpp" alt="" coords="1613,712,1750,751"/>
+<area shape="rect" id="node37" href="$AP__MotorsOcta_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsOcta.cpp" alt="" coords="1929,712,2074,751"/>
+<area shape="rect" id="node39" href="$AP__MotorsOctaQuad_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsOctaQuad.cpp" alt="" coords="2097,712,2274,751"/>
+<area shape="rect" id="node42" href="$AP__MotorsTri_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsTri.cpp" alt="" coords="922,625,1060,664"/>
+<area shape="rect" id="node44" href="$AP__MotorsSingle_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsSingle.cpp" alt="" coords="473,625,626,664"/>
+<area shape="rect" id="node46" href="$AP__MotorsCoax_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsCoax.cpp" alt="" coords="700,625,847,664"/>
+<area shape="rect" id="node49" href="$AP__MotorsHeli__Single_8h.html" title="Motor control class for traditional heli. " alt="" coords="226,625,396,664"/>
+<area shape="rect" id="node51" href="$AP__MotorsHeli_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsHeli.cpp" alt="" coords="5,625,144,664"/>
+<area shape="rect" id="node50" href="$AP__MotorsHeli__Single_8cpp.html" title="libraries/AP_Motors\l/AP_MotorsHeli_Single.cpp" alt="" coords="219,712,403,751"/>
+<area shape="rect" id="node67" href="$ToshibaLED__PX4_8cpp.html" title="libraries/AP_Notify\l/ToshibaLED_PX4.cpp" alt="" coords="2362,265,2516,304"/>
+<area shape="rect" id="node71" href="$NavioLED__I2C_8h.html" title="libraries/AP_Notify\l/NavioLED_I2C.h" alt="" coords="3331,179,3462,217"/>
+<area shape="rect" id="node73" href="$NavioLED_8cpp.html" title="libraries/AP_Notify\l/NavioLED.cpp" alt="" coords="3176,179,3307,217"/>
+<area shape="rect" id="node72" href="$NavioLED__I2C_8cpp.html" title="libraries/AP_Notify\l/NavioLED_I2C.cpp" alt="" coords="3327,265,3465,304"/>
+<area shape="rect" id="node75" href="$VRBoard__LED_8cpp.html" title="libraries/AP_Notify\l/VRBoard_LED.cpp" alt="" coords="2963,179,3101,217"/>
+</map>

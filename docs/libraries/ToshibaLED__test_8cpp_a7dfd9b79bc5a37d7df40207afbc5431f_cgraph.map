@@ -1,0 +1,7 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="107,5,248,31"/>
+<area shape="rect" id="node4" href="$classRGBLed.html#a94d1aab7ce3edf41fe0270dbabcf8f18" title="RGBLed::init" alt="" coords="129,55,226,80"/>
+<area shape="rect" id="node6" href="$classRGBLed.html#a54c06112f4d67b0232b44231e13693f9" title="RGBLed::healthy" alt="" coords="116,104,239,129"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="296,5,439,31"/>
+<area shape="rect" id="node5" href="$classRGBLed.html#aea49021a24c20c6dee7734df3d58186d" title="RGBLed::hw_init" alt="" coords="307,55,428,80"/>
+</map>

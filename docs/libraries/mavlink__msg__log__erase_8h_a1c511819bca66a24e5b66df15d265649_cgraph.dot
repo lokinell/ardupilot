@@ -1,0 +1,12 @@
+digraph "mavlink_msg_log_erase_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_log_erase\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_log_erase\l_get_target_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__erase_8h.html#a9ceb78d6683be034e40df6778bf5548f",tooltip="Send a log_erase message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_log_erase\l_get_target_component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__erase_8h.html#ad4e2e408568343966f459f19191e488a",tooltip="Get field target_component from log_erase message. "];
+}

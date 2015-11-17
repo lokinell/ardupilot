@@ -1,0 +1,22 @@
+digraph "hal_px4_set_priority"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="hal_px4_set_priority",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="loop_overtime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$HAL__PX4__Class_8cpp.html#a40474356ac2f5b07b6f59d651681b740"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$HAL__PX4__Class_8cpp.html#a9bd6e6ad19a651d2c83ab3edb8d51924"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="HAL_PX4::run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHAL__PX4.html#a05883e9a7a7b3b208a1d0173cf2cd557"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sem_post_boost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__HAL__PX4_2Scheduler_8cpp.html#a89d08a7ad0653f3222b479fe73d3399a"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PX4::PX4Scheduler::\ldelay_microseconds_boost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4Scheduler.html#a9c3c85945b3b9f6e5867efd79c9920fc"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="set_normal_priority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__HAL__PX4_2Scheduler_8cpp.html#a0b35fd667b5bbd34d3588f2c4105c8d9"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

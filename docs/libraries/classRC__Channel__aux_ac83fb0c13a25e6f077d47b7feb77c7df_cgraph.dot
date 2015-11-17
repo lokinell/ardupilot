@@ -1,0 +1,18 @@
+digraph "RC_Channel_aux::copy_radio_in_out"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RC_Channel_aux::copy\l_radio_in_out",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RC_Channel_aux::function\l_assigned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a423accc4de40960cf7ef2c4755e8a9d1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RC_Channel::input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#ae3fdc00cc4a913a006bd48679cc7b83a"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::RCInput::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCInput.html#a078fd7e6d2e6a899009ec674a8e03498"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RC_Channel::output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#aabaff8233192d5f2a20e2207914ca3e3"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_HAL::RCOutput::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1RCOutput.html#ade509cf82dfb1f6fab3eba0c026c5d60"];
+}

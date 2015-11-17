@@ -1,0 +1,12 @@
+digraph "AP_GPS_UBLOX::_configure_navigation_rate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_GPS_UBLOX::_configure\l_navigation_rate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_GPS_UBLOX::send\l_next_rate_update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__UBLOX.html#a253fc95ba92dc62e68ed1b03e910d9fa"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_GPS_UBLOX::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__UBLOX.html#a09825f5ca37ee9bdb5e0939a4073a84e"];
+}

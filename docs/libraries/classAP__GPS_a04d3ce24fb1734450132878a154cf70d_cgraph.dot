@@ -1,0 +1,14 @@
+digraph "AP_GPS::send_mavlink_gps2_rtk"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_GPS::send_mavlink\l_gps2_rtk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_GPS::highest_supported\l_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS.html#a0a7edf82d077df0d203a0715c4fe24f5"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_GPS_Backend::highest\l_supported_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__Backend.html#a8c5b16c4ac289e283effa184eb9df9c8"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_GPS_Backend::send\l_mavlink_gps_rtk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__GPS__Backend.html#a21ecae803fa5c6eaa9bc257840ce7031"];
+}

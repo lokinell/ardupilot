@@ -1,0 +1,12 @@
+<map id="crc_packet" name="crc_packet">
+<area shape="rect" id="node2" href="$classLinux_1_1RCInput__Raspilot.html#ad63473e0a55eeab5d41367c7d4f11e73" title="Linux::RCInput_Raspilot\l::_poll_data" alt="" coords="144,5,309,44"/>
+<area shape="rect" id="node4" href="$classLinux_1_1RPIOUARTDriver.html#ab5553bf130bd1b133d8c03fd67b769be" title="Linux::RPIOUARTDriver\l::_timer_tick" alt="" coords="144,68,309,107"/>
+<area shape="rect" id="node7" href="$classLinux_1_1RCOutput__Raspilot.html#a6b8d007844c635c3107cce48005000cf" title="Linux::RCOutput_Raspilot\l::_update" alt="" coords="139,131,315,169"/>
+<area shape="rect" id="node9" href="$classRaspilotAnalogIn.html#a3b58cf0638e2f49fc753fc1a217e1690" title="RaspilotAnalogIn::\l_update" alt="" coords="162,193,292,232"/>
+<area shape="rect" id="node11" href="$classLinux_1_1RCOutput__Raspilot.html#a1ffdd2f8dc5fc5fa5bf9b765040223dd" title="Linux::RCOutput_Raspilot\l::set_freq" alt="" coords="139,256,315,295"/>
+<area shape="rect" id="node3" href="$classLinux_1_1RCInput__Raspilot.html#a1e9a62050fa0edee355f45f8c41b0e77" title="Linux::RCInput_Raspilot\l::init" alt="" coords="368,5,533,44"/>
+<area shape="rect" id="node5" href="$classLinux_1_1Scheduler.html#a599c62f8da5b055f5c3aca38b39de583" title="Linux::Scheduler::\l_uart_thread" alt="" coords="386,68,514,107"/>
+<area shape="rect" id="node6" href="$classLinux_1_1Scheduler.html#a58e61fba523c82d8c0f7f26f4e1b0ff8" title="Linux::Scheduler::init" alt="" coords="586,75,731,100"/>
+<area shape="rect" id="node8" href="$classLinux_1_1RCOutput__Raspilot.html#af70c36ed90c4c1d26ad6aa9dd6b77c15" title="Linux::RCOutput_Raspilot\l::init" alt="" coords="363,131,538,169"/>
+<area shape="rect" id="node10" href="$classRaspilotAnalogIn.html#a23676f07a43b6862908a2aabb6b3c908" title="RaspilotAnalogIn::init" alt="" coords="377,200,524,225"/>
+</map>

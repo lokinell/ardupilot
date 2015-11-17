@@ -1,0 +1,37 @@
+<map id="libraries/AC_InputManager/AC_InputManager_Heli.cpp" name="libraries/AC_InputManager/AC_InputManager_Heli.cpp">
+<area shape="rect" id="node2" href="$AC__InputManager__Heli_8h.html" title="Pilot manual control input library for Conventional Helicopter. " alt="" coords="1807,92,1978,117"/>
+<area shape="rect" id="node4" href="$AP__HAL_8h.html" title="AP_HAL/AP_HAL.h" alt="" coords="935,459,1074,484"/>
+<area shape="rect" id="node38" href="$AP__Math_8h.html" title="AP_Math/AP_Math.h" alt="" coords="2166,239,2312,264"/>
+<area shape="rect" id="node3" href="$AP__Param_8h.html" title="A system for managing and storing variables that are of general interest to the system. " alt="" coords="1746,312,1911,337"/>
+<area shape="rect" id="node22" href="$AP__Common_8h.html" title="Common definitions and utility routines for the ArduPilot libraries. " alt="" coords="1982,825,2177,851"/>
+<area shape="rect" id="node37" href="$AC__InputManager_8h.html" title="Pilot manual control input library. " alt="" coords="1823,165,1963,191"/>
+<area shape="rect" id="node35" href="$AP__Progmem_8h.html" title="AP_Progmem/AP_Progmem.h" alt="" coords="1756,825,1958,851"/>
+<area shape="rect" id="node36" href="$StorageManager_8h.html" title="StorageManager/StorageManager.h" alt="" coords="1626,385,1860,411"/>
+<area shape="rect" id="node7" href="$AP__HAL__Namespace_8h.html" title="AP_HAL_Namespace.h" alt="" coords="882,972,1044,997"/>
+<area shape="rect" id="node10" href="$AP__HAL__Boards_8h.html" title="AP_HAL_Boards.h" alt="" coords="1294,825,1427,851"/>
+<area shape="rect" id="node11" href="$AP__HAL__Macros_8h.html" title="AP_HAL_Macros.h" alt="" coords="1119,532,1253,557"/>
+<area shape="rect" id="node12" href="$AP__HAL__Main_8h.html" title="AP_HAL_Main.h" alt="" coords="481,532,601,557"/>
+<area shape="rect" id="node13" href="$HAL_8h.html" title="HAL.h" alt="" coords="486,605,545,631"/>
+<area shape="rect" id="node14" href="$AnalogIn_8h.html" title="AnalogIn.h" alt="" coords="1494,752,1579,777"/>
+<area shape="rect" id="node16" href="$GPIO_8h.html" title="GPIO.h" alt="" coords="601,752,667,777"/>
+<area shape="rect" id="node17" href="$RCInput_8h.html" title="RCInput.h" alt="" coords="5,679,87,704"/>
+<area shape="rect" id="node18" href="$RCOutput_8h.html" title="RCOutput.h" alt="" coords="161,679,253,704"/>
+<area shape="rect" id="node19" href="$SPIDriver_8h.html" title="SPIDriver.h" alt="" coords="278,679,366,704"/>
+<area shape="rect" id="node20" href="$Storage_8h.html" title="Storage.h" alt="" coords="492,679,571,704"/>
+<area shape="rect" id="node21" href="$UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="849,679,952,704"/>
+<area shape="rect" id="node24" href="$BetterStream_8h.html" title="utility/BetterStream.h" alt="" coords="1085,752,1231,777"/>
+<area shape="rect" id="node26" href="$Stream_8h.html" title="Stream.h" alt="" coords="1195,825,1270,851"/>
+<area shape="rect" id="node27" href="$Print_8h.html" title="Print.h" alt="" coords="1653,899,1713,924"/>
+<area shape="rect" id="node28" href="$I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="331,825,419,851"/>
+<area shape="rect" id="node29" href="$Scheduler_8h.html" title="Scheduler.h" alt="" coords="1379,752,1471,777"/>
+<area shape="rect" id="node30" href="$Semaphores_8h.html" title="Semaphores.h" alt="" coords="941,605,1049,631"/>
+<area shape="rect" id="node31" href="$Util_8h.html" title="Util.h" alt="" coords="1009,752,1061,777"/>
+<area shape="rect" id="node9" href="$functor_8h.html" title="utility/functor.h" alt="" coords="910,1045,1017,1071"/>
+<area shape="rect" id="node39" href="$rotations_8h.html" title="rotations.h" alt="" coords="2340,312,2424,337"/>
+<area shape="rect" id="node40" href="$vector2_8h.html" title="vector2.h" alt="" coords="2704,385,2780,411"/>
+<area shape="rect" id="node41" href="$vector3_8h.html" title="vector3.h" alt="" coords="2291,385,2367,411"/>
+<area shape="rect" id="node42" href="$matrix3_8h.html" title="matrix3.h" alt="" coords="2240,312,2316,337"/>
+<area shape="rect" id="node43" href="$quaternion_8h.html" title="quaternion.h" alt="" coords="2533,385,2628,411"/>
+<area shape="rect" id="node44" href="$polygon_8h.html" title="polygon.h" alt="" coords="2448,312,2527,337"/>
+<area shape="rect" id="node45" href="$edc_8h.html" title="edc.h" alt="" coords="670,605,724,631"/>
+</map>

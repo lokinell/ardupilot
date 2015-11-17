@@ -1,0 +1,21 @@
+digraph "libraries/Filter/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a7fc19be35497a7ff9f517e98edaea32 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Filter" fontname="Helvetica", fontsize="10", URL="dir_a7fc19be35497a7ff9f517e98edaea32.html"]
+  subgraph clusterdir_211fd9feeb64a8acf312790cd8260375 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_211fd9feeb64a8acf312790cd8260375.html"];
+    dir_211fd9feeb64a8acf312790cd8260375 [shape=plaintext label="examples"];
+    dir_cc88768f2cc458abe159ae96b13aa942 [shape=box label="Derivative" color="black" fillcolor="white" style="filled" URL="dir_cc88768f2cc458abe159ae96b13aa942.html"];
+    dir_55cfcda18e091bc12809bea9d048df83 [shape=box label="Filter" color="black" fillcolor="white" style="filled" URL="dir_55cfcda18e091bc12809bea9d048df83.html"];
+    dir_e94facd91dc148f57dca24ffef2d8800 [shape=box label="LowPassFilter" color="black" fillcolor="white" style="filled" URL="dir_e94facd91dc148f57dca24ffef2d8800.html"];
+    dir_c90d296ee2ef6f8df1f63d9b6d7f0574 [shape=box label="LowPassFilter2p" color="black" fillcolor="white" style="filled" URL="dir_c90d296ee2ef6f8df1f63d9b6d7f0574.html"];
+  }
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_cc88768f2cc458abe159ae96b13aa942->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000158_000046.html"];
+  dir_c90d296ee2ef6f8df1f63d9b6d7f0574->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000161_000046.html"];
+  dir_e94facd91dc148f57dca24ffef2d8800->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000160_000046.html"];
+  dir_55cfcda18e091bc12809bea9d048df83->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000159_000046.html"];
+}

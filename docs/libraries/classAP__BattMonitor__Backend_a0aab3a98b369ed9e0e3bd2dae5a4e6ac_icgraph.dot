@@ -1,0 +1,12 @@
+digraph "AP_BattMonitor_Backend::read"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_BattMonitor_Backend\l::read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_BattMonitor::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__BattMonitor.html#a2275643d2998063448035e89cba6f549",tooltip="Read the battery voltage and current for all batteries. Should be called at 10hz. ..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__BattMonitor__test_8cpp.html#afe461d27b9c48d5921c00d521181f12f"];
+}

@@ -1,0 +1,14 @@
+digraph "Linux::RCOutput_AioPRU::init"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::RCOutput_AioPRU\l::init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="catch_sigbus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RCOutput__AioPRU_8cpp.html#ae38f8ce16efbab679639a983f769906a"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lpanic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::RCOutput_AioPRU\l::set_freq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCOutput__AioPRU.html#afde9e2d67eb0bca1da5b2ca8132e2c81"];
+}

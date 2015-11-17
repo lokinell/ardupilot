@@ -1,0 +1,22 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Baro_Backend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__Backend.html",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Baro_BMP085",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__BMP085.html",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Baro_HIL",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__HIL.html",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Baro_MS56XX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__MS56XX.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Baro_MS5607",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__MS5607.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Baro_MS5611",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__MS5611.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_Baro_MS5637",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__MS5637.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_Baro_PX4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__PX4.html",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+}

@@ -1,0 +1,17 @@
+digraph "mavlink_msg_gopro_get_request_pack"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gopro_get\l_request_pack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gopro_get\l_request_encode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gopro__get__request_8h.html#aed28d5027c55d9dca4b76b4f5c8061b6",tooltip="Encode a gopro_get_request struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_test_gopro\l_get_request",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a1314a3e6ca9af6c3e09fbc2e55b1f877"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_test_ardupilotmega",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,16 @@
+digraph "NavEKF::getRotationBodyToNED"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF::getRotationBodyToNED",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF_core::getRotation\lBodyToNED",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF__core.html#ac5bf7d4313ad733d8f9d02189175ccf2"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_AHRS::get_trim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a93a3774320e331583fc6c6ac2418be21"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Quaternion::rotation\l_matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#afb7132c9c69a984a40be950a17effeaa",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Matrix3::rotateXYinv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#af6fb286af49f43844ba70cbb80ab2db7"];
+}

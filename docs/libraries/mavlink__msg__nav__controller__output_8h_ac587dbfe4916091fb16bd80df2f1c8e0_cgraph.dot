@@ -1,0 +1,24 @@
+digraph "mavlink_msg_nav_controller_output_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_nav_controller\l_output_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_nav_controller\l_output_get_nav_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a735e83a473b23a8f3e44763529762e2a",tooltip="Send a nav_controller_output message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_nav_controller\l_output_get_nav_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#adaf047f5afa174e2f8a3f9b69b1c5a66",tooltip="Get field nav_pitch from nav_controller_output message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_nav_controller\l_output_get_alt_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a0bfaf33a8e5ce2f9d9ba5cc8e41ae2e2",tooltip="Get field alt_error from nav_controller_output message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_nav_controller\l_output_get_aspd_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a326479f31799fa113d5a448962fb2f3e",tooltip="Get field aspd_error from nav_controller_output message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_nav_controller\l_output_get_xtrack_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a37bdba7b5f5964c32a4a2c524ef33e8c",tooltip="Get field xtrack_error from nav_controller_output message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_nav_controller\l_output_get_nav_bearing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a56a3abca2b5e6283c0d933f0630bb6dd",tooltip="Get field nav_bearing from nav_controller_output message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_nav_controller\l_output_get_target_bearing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a17bb8d3d4a6345095198dc9c768ac18d",tooltip="Get field target_bearing from nav_controller_output message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_nav_controller\l_output_get_wp_dist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__nav__controller__output_8h.html#a349cbe765d7622a10d8ea541d7e29638",tooltip="Get field wp_dist from nav_controller_output message. "];
+}

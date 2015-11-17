@@ -1,0 +1,17 @@
+digraph "AP_AK8963_SerialBus_MPU9250::AP_AK8963_SerialBus_MPU9250"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AK8963_SerialBus\l_MPU9250::AP_AK8963\l_SerialBus_MPU9250",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_InertialSensor::\lget_auxiliary_bus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__InertialSensor.html#a98fb28755e41d2e2052c500b7ac3e2b6"];
+  Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lpanic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AuxiliaryBus::request\l_next_slave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAuxiliaryBus.html#ad29c7f5c2163db6c9f484bff45af9fac"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AuxiliaryBus::_instantiate\l_slave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAuxiliaryBus.html#a3973e92c6130b4e34a2e627fc49ce770"];
+}

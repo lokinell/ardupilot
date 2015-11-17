@@ -1,0 +1,16 @@
+digraph "mavlink_msg_hil_controls_get_mode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_hil_controls\l_get_mode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_hil_controls\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__hil__controls_8h.html#af680f22b5c1f7dbad8213834d6cf94a7",tooltip="Decode a hil_controls message into a struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_test_hil_controls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#a11097f94573271fae75f258aeb060842"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_test_common",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#af349432601ac003d2c80a69c100c70a4"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$common_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+}

@@ -1,0 +1,34 @@
+digraph "AP_HAL::RCOutput::set_freq"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::RCOutput::set_freq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsMatrix::set\l_update_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a4ccbbe0d2641a973f7140b5c8ba7724e"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsMatrix::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#ae4491a484390538aee092271690b16b1"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Motors__test_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_MotorsMatrix::set\l_frame_orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMatrix.html#a64c35013e28f06702f2d5bd9e900936a"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_MotorsTri::set_update_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#a45d195e2abd378c68e225c528e7d6bce"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_MotorsTri::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsTri.html#a7236a6f04df2048a325e0e144cec7c9e"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_MotorsCoax::set\l_update_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsCoax.html#a10131e737c6b990c5be12746ee97367a"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_MotorsCoax::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsCoax.html#ad24085ea1d544ba1e46f3ed3fba4a909"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_MotorsSingle::set\l_update_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsSingle.html#adf3e4312d9570a1f244d08a9a839b116"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_MotorsSingle::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsSingle.html#af5dde6531e240a179f0812874f9fa681"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_MotorsHeli_Single\l::set_update_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsHeli__Single.html#a4b7d1c800eb96336c7e9de8ec69ca7e2"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RCPassthroughTest_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+}

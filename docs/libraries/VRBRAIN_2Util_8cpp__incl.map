@@ -1,0 +1,29 @@
+<map id="libraries/AP_HAL_VRBRAIN/Util.cpp" name="libraries/AP_HAL_VRBRAIN/Util.cpp">
+<area shape="rect" id="node2" href="$AP__HAL_8h.html" title="AP_HAL/AP_HAL.h" alt="" coords="916,312,1055,337"/>
+<area shape="rect" id="node35" href="$VRBRAIN_2UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="726,92,829,117"/>
+<area shape="rect" id="node44" href="$VRBRAIN_2Util_8h.html" title="Util.h" alt="" coords="959,239,1011,264"/>
+<area shape="rect" id="node5" href="$AP__HAL__Namespace_8h.html" title="AP_HAL_Namespace.h" alt="" coords="672,825,834,851"/>
+<area shape="rect" id="node8" href="$AP__HAL__Boards_8h.html" title="AP_HAL_Boards.h" alt="" coords="841,679,975,704"/>
+<area shape="rect" id="node9" href="$AP__HAL__Macros_8h.html" title="AP_HAL_Macros.h" alt="" coords="1277,385,1411,411"/>
+<area shape="rect" id="node10" href="$AP__HAL__Main_8h.html" title="AP_HAL_Main.h" alt="" coords="701,385,821,411"/>
+<area shape="rect" id="node11" href="$HAL_8h.html" title="HAL.h" alt="" coords="643,459,701,484"/>
+<area shape="rect" id="node12" href="$AnalogIn_8h.html" title="AnalogIn.h" alt="" coords="1156,605,1241,631"/>
+<area shape="rect" id="node14" href="$GPIO_8h.html" title="GPIO.h" alt="" coords="436,605,502,631"/>
+<area shape="rect" id="node15" href="$RCInput_8h.html" title="RCInput.h" alt="" coords="330,532,411,557"/>
+<area shape="rect" id="node16" href="$RCOutput_8h.html" title="RCOutput.h" alt="" coords="766,532,858,557"/>
+<area shape="rect" id="node17" href="$SPIDriver_8h.html" title="SPIDriver.h" alt="" coords="1200,532,1288,557"/>
+<area shape="rect" id="node18" href="$Storage_8h.html" title="Storage.h" alt="" coords="227,532,306,557"/>
+<area shape="rect" id="node19" href="$UARTDriver_8h.html" title="UARTDriver.h" alt="" coords="639,532,742,557"/>
+<area shape="rect" id="node22" href="$BetterStream_8h.html" title="utility/BetterStream.h" alt="" coords="1369,605,1514,631"/>
+<area shape="rect" id="node24" href="$Stream_8h.html" title="Stream.h" alt="" coords="1521,679,1596,704"/>
+<area shape="rect" id="node25" href="$Print_8h.html" title="Print.h" alt="" coords="1710,752,1770,777"/>
+<area shape="rect" id="node26" href="$I2CDriver_8h.html" title="I2CDriver.h" alt="" coords="121,679,209,704"/>
+<area shape="rect" id="node27" href="$Scheduler_8h.html" title="Scheduler.h" alt="" coords="831,605,923,631"/>
+<area shape="rect" id="node28" href="$Semaphores_8h.html" title="Semaphores.h" alt="" coords="43,459,151,484"/>
+<area shape="rect" id="node29" href="$Util_8h.html" title="Util.h" alt="" coords="1638,605,1690,631"/>
+<area shape="rect" id="node7" href="$functor_8h.html" title="utility/functor.h" alt="" coords="700,899,807,924"/>
+<area shape="rect" id="node20" href="$AP__Common_8h.html" title="Common definitions and utility routines for the ArduPilot libraries. " alt="" coords="999,679,1193,704"/>
+<area shape="rect" id="node36" href="$AP__HAL__VRBRAIN_8h.html" title="AP_HAL_VRBRAIN.h" alt="" coords="702,165,852,191"/>
+<area shape="rect" id="node37" href="$HAL__VRBRAIN__Class_8h.html" title="HAL_VRBRAIN_Class.h" alt="" coords="694,239,860,264"/>
+<area shape="rect" id="node38" href="$AP__HAL__VRBRAIN__Namespace_8h.html" title="AP_HAL_VRBRAIN_Namespace.h" alt="" coords="663,312,892,337"/>
+</map>

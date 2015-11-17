@@ -1,0 +1,4 @@
+<map id="blink" name="blink">
+<area shape="rect" id="node2" href="$classRGBLed.html#ac226b0a197dc8535b9a12fa43ac3eb57" title="RGBLed::set_rgb" alt="" coords="102,5,226,31"/>
+<area shape="rect" id="node3" href="$classRGBLed.html#af048bc2b0da82e9599945910aac07aa6" title="RGBLed::hw_set_rgb" alt="" coords="274,5,423,31"/>
+</map>

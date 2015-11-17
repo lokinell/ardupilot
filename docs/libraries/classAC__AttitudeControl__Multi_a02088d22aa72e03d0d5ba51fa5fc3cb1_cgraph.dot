@@ -1,0 +1,18 @@
+digraph "AC_AttitudeControl_Multi::get_boosted_throttle"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_AttitudeControl\l_Multi::get_boosted\l_throttle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MotorsMulticopter\l::throttle_min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMulticopter.html#ad74fe544ef595a0bb0b61357bef9f730"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_MotorsMulticopter\l::rel_pwm_to_thr_range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MotorsMulticopter.html#a9b23425832f45087fe53e4a7be176470"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_AHRS::cos_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#aae50efebd31d79c279e6155298433493"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS::cos_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a68ea4fdaf53cf5d7068927f5f20393ab"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="constrain_float",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8h.html#a27149a7dfbb14319088e8332705c0046"];
+}

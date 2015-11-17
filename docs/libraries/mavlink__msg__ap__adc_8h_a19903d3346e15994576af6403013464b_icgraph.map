@@ -1,0 +1,6 @@
+<map id="mavlink_msg_ap_adc_pack_chan" name="mavlink_msg_ap_adc_pack_chan">
+<area shape="rect" id="node2" href="$mavlink__msg__ap__adc_8h.html#a2888141b3eadaf367729eb8a1261d79f" title="Encode a ap_adc struct on a channel. " alt="" coords="204,5,354,44"/>
+<area shape="rect" id="node3" href="$ardupilotmega_2testsuite_8h.html#ab896a946dd2f4a454e6d2377ad23d2eb" title="mavlink_test_ap_adc" alt="" coords="205,68,352,93"/>
+<area shape="rect" id="node4" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="402,68,589,93"/>
+<area shape="rect" id="node5" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="637,68,753,93"/>
+</map>

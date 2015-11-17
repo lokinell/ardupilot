@@ -1,0 +1,20 @@
+digraph "mavlink_msg_mount_configure_get_stab_yaw"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_mount_configure\l_get_stab_yaw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_mount_configure\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__mount__configure_8h.html#a992893f3a51c09cc18ae364db137ddde",tooltip="Decode a mount_configure message into a struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Mount_Backend::configure_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount__Backend.html#ace2c005e9272fd4fc12444d24e301024"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Mount::configure_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Mount.html#a0c7c98d0174036d323749f8ddbefa621"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_mount\l_configure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a04f2da52f0d43b784ea011c2c30e4ca0"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_test_ardupilotmega",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+}

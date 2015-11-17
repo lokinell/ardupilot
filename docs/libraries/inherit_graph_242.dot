@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_GPS_MTK19::diyd\l_mtk_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAP__GPS__MTK19_1_1diyd__mtk__msg.html"];
+}

@@ -1,0 +1,18 @@
+digraph "mavlink_msg_log_data_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_log_data\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_log_data\l_get_ofs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__data_8h.html#ae2533ba0da03228c2cf55ae104b29a31",tooltip="Get field ofs from log_data message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_log_data\l_get_id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__data_8h.html#a872b48a44a19b29722b46f3e27cf973a",tooltip="Send a log_data message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_log_data\l_get_count",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__data_8h.html#a986db6197ce9b73828a747fb3c0804aa",tooltip="Get field count from log_data message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_log_data\l_get_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__log__data_8h.html#a96b29754a967b9bff7f8479e373e384b",tooltip="Get field data from log_data message. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="_MAV_RETURN_uint8_t\l_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3"];
+}

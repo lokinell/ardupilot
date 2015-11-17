@@ -1,0 +1,14 @@
+digraph "mavlink_msg_gimbal_report_axis_calibration_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gimbal\l_report_axis_calibration\l_status_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gimbal\l_report_axis_calibration\l_status_get_yaw_requires\l_calibration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__report__axis__calibration__status_8h.html#a8eb76b158fe9fcf28bd92ff5c9f857a4",tooltip="Send a gimbal_report_axis_calibration_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gimbal\l_report_axis_calibration\l_status_get_pitch_requires\l_calibration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__report__axis__calibration__status_8h.html#ad3ecd4db4b9a98311e8662fffc115a3c",tooltip="Get field pitch_requires_calibration from gimbal_report_axis_calibration_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_gimbal\l_report_axis_calibration\l_status_get_roll_requires\l_calibration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gimbal__report__axis__calibration__status_8h.html#ada53259de06e457c77bdf6f58ab239c4",tooltip="Get field roll_requires_calibration from gimbal_report_axis_calibration_status message. "];
+}

@@ -1,0 +1,5 @@
+<map id="hz_to_nsec" name="hz_to_nsec">
+<area shape="rect" id="node2" href="$classLinux_1_1PWM__Sysfs.html#aad5072a363e6fa089ca55378dfa5a1e0" title="Linux::PWM_Sysfs::set_freq" alt="" coords="143,44,332,69"/>
+<area shape="rect" id="node3" href="$classLinux_1_1RCOutput__Sysfs.html#adb987cf83c1f49478a51b70c30f03f77" title="Linux::RCOutput_Sysfs\l::init" alt="" coords="380,5,540,44"/>
+<area shape="rect" id="node4" href="$classLinux_1_1RCOutput__Sysfs.html#a0a4cf0992b407310a803096d3dadba57" title="Linux::RCOutput_Sysfs\l::set_freq" alt="" coords="380,68,540,107"/>
+</map>

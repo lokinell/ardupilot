@@ -1,0 +1,34 @@
+digraph "AP_Compass_HMC5843::write_register"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Compass_HMC5843\l::write_register",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Compass_HMC5843\l::_calibrate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#a9e3aafaa39303b535ee18734a37bd302"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Compass_HMC5843\l::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#ae8fe5f87eb75452d7cfd4293a9bbfc7e"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Compass_HMC5843\l::_detect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#a6cde73dacd04d683c7d322092bc8e0d2"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Compass_HMC5843\l::detect_i2c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#af8b259ced00dad7c679fc23c4df82e55"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Compass::_detect_backends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a1c48170d8c8966b22fb150b1634443ec"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Compass::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a190aefc281aba88c7b16e4fc58035c5e"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AHRS__Test_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="AP_Compass_HMC5843\l::detect_mpu6000",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#a2d2ef5ae1ad3257d2e44ffb6eeb1b866"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="AP_Compass_HMC5843\l::_detect_version",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#a7dd12646e493cde6e6e21fc5546ab8e1"];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_Compass_HMC5843\l::re_initialise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#a4049788b49354f8d3be33ece01507343"];
+  Node11 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_Compass_HMC5843\l::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Compass__HMC5843.html#afbf15e406f6274c4ed9aab8212411a54"];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

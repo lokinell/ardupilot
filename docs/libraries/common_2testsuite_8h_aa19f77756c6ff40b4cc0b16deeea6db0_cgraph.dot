@@ -1,0 +1,54 @@
+digraph "mavlink_test_vfr_hud"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_test_vfr_hud",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_vfr_hud\l_encode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a30c14ae471890adca7fc9647ec2b7592",tooltip="Encode a vfr_hud struct. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_vfr_hud_pack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#ace41e7d50d0244e55f8d9fd4781dabbc",tooltip="Pack a vfr_hud message. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_finalize_message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#af3bea083c5ec83f5b6570b2bd4a817d0",tooltip="Finalize a MAVLink message with MAVLINK_COMM_0 as default channel. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_finalize_message_chan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#aa66131138fc02101dcc73b4b556ab422",tooltip="Finalize a MAVLink message with channel assignment. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_get_channel\l_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#ac006d308067f48514ca5c0cf0b046c28"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="crc_calculate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ab4264eb7b9e22aabb5cc3191bce35f4c",tooltip="Calculates the X.25 checksum on a byte buffer. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="crc_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#aee738f6e20d31b027afdd966c79befae",tooltip="Initiliaze the buffer for the X.25 CRC. "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="crc_accumulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ade2bbc31cd3b5b6d839556f56de61957",tooltip="Accumulate the X.25 CRC by adding one char at a time. "];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="crc_accumulate_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#abcbaa800e8fcbcdf9bb48168657fbefd",tooltip="Accumulate the X.25 CRC by adding an array of bytes. "];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_vfr_hud\l_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a199444e86597c08ce75b1173b3191510",tooltip="Decode a vfr_hud message into a struct. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_vfr_hud\l_get_airspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#adc6275c072ec7bb03829f34b8ab45533",tooltip="Send a vfr_hud message. "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="mavlink_msg_vfr_hud\l_get_groundspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a24ef9215c3430b5d676b015e18efa5cf",tooltip="Get field groundspeed from vfr_hud message. "];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="mavlink_msg_vfr_hud\l_get_alt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a93ed18afeb83998ed6a3c2255e12bd6d",tooltip="Get field alt from vfr_hud message. "];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="mavlink_msg_vfr_hud\l_get_climb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#ad7cb7b4488bd085c1af3240105ff82db",tooltip="Get field climb from vfr_hud message. "];
+  Node11 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="mavlink_msg_vfr_hud\l_get_heading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a64ac78683b755c2499526335290d51d0",tooltip="Get field heading from vfr_hud message. "];
+  Node11 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="mavlink_msg_vfr_hud\l_get_throttle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a50891d80616e40209972a7a5f51e6440",tooltip="Get field throttle from vfr_hud message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="mavlink_msg_vfr_hud\l_pack_chan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vfr__hud_8h.html#a343d83ef1501d561472e3874a53b62e5",tooltip="Pack a vfr_hud message on a channel. "];
+  Node18 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="mavlink_msg_to_send\l_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#afea0a9befa84822fd62c2899ea0d849e",tooltip="Pack a message to send it over a serial byte stream. "];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="mavlink_msg_get_send\l_buffer_length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#aa86c08f27aabb7a2e12a67f189f590c8",tooltip="Get the required buffer size for this message. "];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="comm_send_ch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GCS__MAVLink_8h.html#ab753873a1ee10adedd0ce246311468f8"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="AP_HAL::Print::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501"];
+}

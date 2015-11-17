@@ -1,0 +1,8 @@
+<map id="mavlink_msg_ap_adc_decode" name="mavlink_msg_ap_adc_decode">
+<area shape="rect" id="node2" href="$mavlink__msg__ap__adc_8h.html#af065bff13555f6d845e59d134164bb41" title="Send a ap_adc message. " alt="" coords="204,5,354,44"/>
+<area shape="rect" id="node3" href="$mavlink__msg__ap__adc_8h.html#ab5af4e78feacfc0a3246a8abcd7bd226" title="Get field adc2 from ap_adc message. " alt="" coords="204,68,354,107"/>
+<area shape="rect" id="node4" href="$mavlink__msg__ap__adc_8h.html#ae77a34078842a8da65bb0cc85dca178e" title="Get field adc3 from ap_adc message. " alt="" coords="204,131,354,169"/>
+<area shape="rect" id="node5" href="$mavlink__msg__ap__adc_8h.html#a15f74acf1e6cba25a29d01ba9905b690" title="Get field adc4 from ap_adc message. " alt="" coords="204,193,354,232"/>
+<area shape="rect" id="node6" href="$mavlink__msg__ap__adc_8h.html#a02428aef403031f86d62f865e30452dd" title="Get field adc5 from ap_adc message. " alt="" coords="204,256,354,295"/>
+<area shape="rect" id="node7" href="$mavlink__msg__ap__adc_8h.html#ad2eb556331529aa4ff56826c3a81e11d" title="Get field adc6 from ap_adc message. " alt="" coords="204,319,354,357"/>
+</map>

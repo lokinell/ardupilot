@@ -1,0 +1,17 @@
+digraph "AP_HAL::RCOutput::set_failsafe_pwm"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::RCOutput::set\l_failsafe_pwm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RC_Channel_aux::set\l_servo_failsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel__aux.html#a987891f25f46d7795db08233cf68d81b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="APM_OBC::setup_failsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#adf90097b54be3e9ffbf21f675e411b6c"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="APM_OBC::check_crash\l_plane",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#acfedfcd0f28b1d53b722766e321b534e"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RC_Channel::setup_failsafe\l_trim_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRC__Channel.html#a9f1951bc4d01acd73009c2983d8ec6b1"];
+}

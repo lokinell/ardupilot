@@ -1,0 +1,18 @@
+<map id="libraries/AP_HAL_PX4/HAL_PX4_Class.h" name="libraries/AP_HAL_PX4/HAL_PX4_Class.h">
+<area shape="rect" id="node2" href="$AP__HAL__PX4_8h.html" title="libraries/AP_HAL_PX4\l/AP_HAL_PX4.h" alt="" coords="783,92,938,131"/>
+<area shape="rect" id="node5" href="$HAL__PX4__Class_8cpp.html" title="libraries/AP_HAL_PX4\l/HAL_PX4_Class.cpp" alt="" coords="905,265,1061,304"/>
+<area shape="rect" id="node3" href="$PX4_2AnalogIn_8h.html" title="libraries/AP_HAL_PX4\l/AnalogIn.h" alt="" coords="439,179,594,217"/>
+<area shape="rect" id="node6" href="$AP__HAL__PX4_2Scheduler_8cpp.html" title="libraries/AP_HAL_PX4\l/Scheduler.cpp" alt="" coords="545,265,701,304"/>
+<area shape="rect" id="node7" href="$PX4_2GPIO_8h.html" title="libraries/AP_HAL_PX4\l/GPIO.h" alt="" coords="259,179,414,217"/>
+<area shape="rect" id="node10" href="$PX4_2UARTDriver_8h.html" title="libraries/AP_HAL_PX4\l/UARTDriver.h" alt="" coords="668,179,823,217"/>
+<area shape="rect" id="node12" href="$PX4_2RCInput_8h.html" title="libraries/AP_HAL_PX4\l/RCInput.h" alt="" coords="897,179,1053,217"/>
+<area shape="rect" id="node14" href="$PX4_2RCOutput_8h.html" title="libraries/AP_HAL_PX4\l/RCOutput.h" alt="" coords="1077,179,1233,217"/>
+<area shape="rect" id="node16" href="$PX4_2I2CDriver_8h.html" title="libraries/AP_HAL_PX4\l/I2CDriver.h" alt="" coords="1257,179,1413,217"/>
+<area shape="rect" id="node4" href="$PX4_2AnalogIn_8cpp.html" title="libraries/AP_HAL_PX4\l/AnalogIn.cpp" alt="" coords="185,265,341,304"/>
+<area shape="rect" id="node8" href="$AP__HAL__PX4_2GPIO_8cpp.html" title="libraries/AP_HAL_PX4\l/GPIO.cpp" alt="" coords="5,265,161,304"/>
+<area shape="rect" id="node9" href="$PX4_2UARTDriver_8cpp.html" title="libraries/AP_HAL_PX4\l/UARTDriver.cpp" alt="" coords="365,265,521,304"/>
+<area shape="rect" id="node11" href="$PX4_2Util_8cpp.html" title="libraries/AP_HAL_PX4\l/Util.cpp" alt="" coords="725,265,881,304"/>
+<area shape="rect" id="node13" href="$PX4_2RCInput_8cpp.html" title="libraries/AP_HAL_PX4\l/RCInput.cpp" alt="" coords="1085,265,1241,304"/>
+<area shape="rect" id="node15" href="$PX4_2RCOutput_8cpp.html" title="libraries/AP_HAL_PX4\l/RCOutput.cpp" alt="" coords="1265,265,1421,304"/>
+<area shape="rect" id="node17" href="$AP__HAL__PX4_2I2CDriver_8cpp.html" title="libraries/AP_HAL_PX4\l/I2CDriver.cpp" alt="" coords="1445,265,1601,304"/>
+</map>

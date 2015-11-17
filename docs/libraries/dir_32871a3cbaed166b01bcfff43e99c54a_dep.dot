@@ -1,0 +1,11 @@
+digraph "libraries/RC_Channel/examples/RC_Channel" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_87a8b0964ceaca0c3f55018258a8a9ad {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_87a8b0964ceaca0c3f55018258a8a9ad.html"]
+  dir_32871a3cbaed166b01bcfff43e99c54a [shape=box, label="RC_Channel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_32871a3cbaed166b01bcfff43e99c54a.html"];
+  }
+  dir_1cbc10423b2512b31103883361e0123b [shape=box label="AP_HAL" fillcolor="white" style="filled" color="red" URL="dir_1cbc10423b2512b31103883361e0123b.html"];
+  dir_32871a3cbaed166b01bcfff43e99c54a->dir_1cbc10423b2512b31103883361e0123b [headlabel="1", labeldistance=1.5 headhref="dir_000175_000046.html"];
+}

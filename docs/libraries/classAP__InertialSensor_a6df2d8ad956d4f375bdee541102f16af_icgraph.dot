@@ -1,0 +1,37 @@
+digraph "AP_InertialSensor::get_gyro"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor::\lget_gyro",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NavEKF2_core::detectOptFlow\lTakeoff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2__core.html#ab4a53b93652e6452cd9d39014b00b6eb"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NavEKF2_core::writeOptFlowMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2__core.html#a1646445365f3fec788044e1968235142"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NavEKF2::writeOptFlowMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavEKF2.html#a05b5deddeafb06ba746497acbefd7012"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_AHRS_NavEKF::writeOpt\lFlowMeas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a36e51a27f7801ebd760cc93df22ca6bb"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Arming::ins_checks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a98bb929393d206413a92adb94d443fc8"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_Arming::pre_arm\l_checks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a73c03baf7f22b7124a2ac9e9286a850a"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="AP_Arming::arm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Arming.html#a47b859d9929a736df2f08a1cad03efcb"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="DataFlash_Class::Log\l_Write_IMU",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a805d766e5347af5349e0979a2a07e452"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="run_test",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$INS__generic_8cpp.html#a176571c2fafdc1ba62438a006aa33f23"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$INS__generic_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="GCS_MAVLINK::send_raw_imu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a1ea3917be194d738e83571ae4910eb80"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="AP_AHRS_NavEKF::update_EKF1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#aff7b2c4f3428a48ab5ed210e89df4f76"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_AHRS_NavEKF::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a9d5f47f1bc0e3864bbc4c6c6e2ca8b1c"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_AHRS_NavEKF::update_EKF2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS__NavEKF.html#a0187c6d3d4348b002a204c05d3e94b07"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

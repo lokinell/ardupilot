@@ -1,0 +1,20 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="562,181,713,207"/>
+<area shape="rect" id="node6" href="$classAP__Param.html#a7a2885d74aa1c400b62b7464a53ae933" title="AP_Param::set_object\l_value" alt="" coords="109,335,263,373"/>
+<area shape="rect" id="node8" href="$classAP__Airspeed.html#a7499575104f24c6502e1148c353d9637" title="AP_Airspeed::init" alt="" coords="124,103,248,128"/>
+<area shape="rect" id="node13" href="$classAP__Airspeed.html#afb7c91590b3efc00ee2d72cc6bcc856f" title="AP_Airspeed::calibrate" alt="" coords="107,257,264,283"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="1024,181,1165,207"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="802,207,953,232"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="1213,181,1356,207"/>
+<area shape="rect" id="node7" href="$classAP__Param.html#acd4b14f793c37f162e298761d2155ca6" title="AP_Param::set_value" alt="" coords="329,395,480,420"/>
+<area shape="rect" id="node9" href="$classAirspeed__Calibration.html#ae88c0e8719c02f942e6cafeb7cf46d1e" title="Airspeed_Calibration\l::init" alt="" coords="332,68,477,107"/>
+<area shape="rect" id="node10" href="$classAP__Airspeed__Analog.html#a378d85fdc155c83dcee1858040712904" title="AP_Airspeed_Analog\l::init" alt="" coords="330,5,478,44"/>
+<area shape="rect" id="node12" href="$classAP__Airspeed__PX4.html#a0adbea999d3007107b1949ba08cb38d1" title="AP_Airspeed_PX4::init" alt="" coords="326,131,483,156"/>
+<area shape="rect" id="node11" href="$classAP__HAL_1_1AnalogIn.html#aa1287db18a7b6b27286091af1f4bd5e5" title="AP_HAL::AnalogIn::channel" alt="" coords="545,12,731,37"/>
+<area shape="rect" id="node14" href="$classAP__Airspeed.html#a2d265701a127bd336882e930cb996e86" title="AP_Airspeed::get_pressure" alt="" coords="312,283,497,308"/>
+<area shape="rect" id="node19" href="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26" title="AP_HAL::Scheduler::\ldelay" alt="" coords="331,332,478,371"/>
+<area shape="rect" id="node15" href="$classAP__Airspeed__PX4.html#ad85ff702141a4b835205d9aa1fb4b4f6" title="AP_Airspeed_PX4::get\l_differential_pressure" alt="" coords="559,231,717,269"/>
+<area shape="rect" id="node16" href="$classAP__Airspeed__Analog.html#a33da45ef81801b4971ed1afe3e2183fb" title="AP_Airspeed_Analog\l::get_differential_pressure" alt="" coords="550,293,726,332"/>
+<area shape="rect" id="node17" href="$classAP__HAL_1_1AnalogSource.html#add563a28e58fdd4af48ed983bbbecec8" title="AP_HAL::AnalogSource\l::set_pin" alt="" coords="796,275,960,313"/>
+<area shape="rect" id="node18" href="$classAP__HAL_1_1AnalogSource.html#a0704aad3bf08570c35299a562202ed97" title="AP_HAL::AnalogSource\l::voltage_average_ratiometric" alt="" coords="779,337,976,376"/>
+</map>

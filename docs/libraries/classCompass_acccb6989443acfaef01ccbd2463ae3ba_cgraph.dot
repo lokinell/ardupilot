@@ -1,0 +1,57 @@
+digraph "Compass::start_calibration_mask"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Compass::start_calibration_mask",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Compass::start_calibration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a97e272caf765e231931c762f18ecb702"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Compass::healthy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a3be4f1bd3056c7c0d97226f58e9f32f0"];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Compass::get_primary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a0120c84cc915d5a34aafedc1ce3f5186"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Compass::is_calibrating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a79776eee973736f7e2b218d698225dc1"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Compass::get_cal_mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#aff941e70f1cd128a9c64c22163412c36"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CompassCalibrator::\lset_tolerance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#abbfdc421fa407ebf71d98300752c47fe"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CompassCalibrator::\lstart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a220ae498dafee9472f75879b6b917961"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CompassCalibrator::\lrunning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a439e8c7f72e9f6e2fe66b93d755bc9f7"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="delay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash__stm32F1_8h.html#a6cb8040e5f4a9a8ac17286fd20c740ae",tooltip="Inserts a time delay. "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="AP_HAL::Scheduler::\lmillis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CompassCalibrator::\lset_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#aeee363c33562bb3a47693073c6a568e5"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="CompassCalibrator::\lreset_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#afe46e9f795a06855adf4ae32b01da5b1"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Vector3::zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classVector3.html#adf1769d5ee5df2f8585df2f540fa5efe"];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="CompassCalibrator::\linitialize_fit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a4c0461903e1830066d9f005bac85a389"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="CompassCalibrator::\lcalc_mean_squared_residuals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a7d57ef4510c26724890f4f820bf2d160"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CompassCalibrator::\lthin_samples",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#abd6b22cb6f201e16c77ddbf49a90ccd5"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="CompassCalibrator::\lget_random",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a5c07371fa646aa683752921ea90ef2ae"];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="CompassCalibrator::\laccept_sample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a9a22a17905205cc721ba8b36a203057c"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="CompassCalibrator::\lCompassSample::get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator_1_1CompassSample.html#aa15059b264357a9920251a7c0c7c251a"];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Compass::cancel_calibration_mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a10aecd9e4288feb1d3bd61f16ed8f3d0"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Compass::cancel_calibration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompass.html#a7765e5d8a8ec1ba95f248c577ecbfd47"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="CompassCalibrator::\lclear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompassCalibrator.html#a62803fe964e9f0fa7e3944dfb430c006"];
+  Node23 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

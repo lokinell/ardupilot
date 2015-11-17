@@ -1,0 +1,14 @@
+digraph "mavlink_msg_power_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_power_status\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_power_status\l_get_Vcc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__power__status_8h.html#a93dbe4d744a30b659ff5b4ff5ed8a1c3",tooltip="Send a power_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_power_status\l_get_Vservo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__power__status_8h.html#a9476cc948205ca609be75e541c10047d",tooltip="Get field Vservo from power_status message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_power_status\l_get_flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__power__status_8h.html#ac2347c71adc403d5fda854233a0631f9",tooltip="Get field flags from power_status message. "];
+}

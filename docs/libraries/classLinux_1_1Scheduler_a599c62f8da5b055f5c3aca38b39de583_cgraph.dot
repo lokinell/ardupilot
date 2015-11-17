@@ -1,0 +1,49 @@
+digraph "Linux::Scheduler::_uart_thread"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::Scheduler::\l_uart_thread",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::Scheduler::system\l_initializing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a42bde14b5d9bc249cb2baec4355d41b6"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::Scheduler::\l_microsleep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a9a68d88ebd7e59352fc0b4566e8ef486"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::UARTDriver::from",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#aed6da29eabfa644dd9996146ac367ee9"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Linux::UARTDriver::\l_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#a0518ce1498288dc92caf6bec9ed99b1b"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Linux::UARTDriver::\l_write_pending_bytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#a9d1e3a24e3ad028cad337132cf3a3f7f"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Linux::UARTDriver::\l_write_fd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#a6c5b8c25e9154e44794622411eda0bd4"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SerialDevice::open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSerialDevice.html#aaad60303d5def2e5abf4b9988e74ff2d"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SerialDevice::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSerialDevice.html#a93c12dd5e93213bb98b83924a07ed040"];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Linux::UARTDriver::\l_read_fd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#a06fc9c8a1e15a9a2e8c24e591678f375"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SerialDevice::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSerialDevice.html#ab9d80891c101e2dd0ab0ce378a4e4982"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Linux::RPIOUARTDriver\l::from",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RPIOUARTDriver.html#a601d17d9cac82167ead641edeed20c58"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Linux::RPIOUARTDriver\l::isExternal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RPIOUARTDriver.html#a599509a5ed96b75d188b9a30a3e0ef89"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Linux::RPIOUARTDriver\l::_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RPIOUARTDriver.html#ab5553bf130bd1b133d8c03fd67b769be"];
+  Node14 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="AP_HAL::Semaphore::\ltake_nonblocking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#a266e91db5eecb64d8b934d09f5e972cf"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="crc_packet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$px4io__protocol_8h.html#abe83ee7cb08ded2374a1a97e0279e07b"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="AP_HAL::SPIDeviceDriver\l::transaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1SPIDeviceDriver.html#acb3739821064a2bebc3015b817978724"];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="AP_HAL::Scheduler::\ldelay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ab3175e2e6223ccfe82f957e41cc12b26"];
+  Node14 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="AP_HAL::Semaphore::give",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Semaphore.html#afcdbf03d5bea9d83037acc93bfaea7ce"];
+  Node14 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="AP_HAL::Scheduler::\lmicros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46"];
+  Node14 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="AP_HAL::Scheduler::\ldelay_microseconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#a78c4f1b1f192ac1c99544b6cc8f099b0"];
+}

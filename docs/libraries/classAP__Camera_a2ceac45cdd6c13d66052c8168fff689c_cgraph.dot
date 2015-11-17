@@ -1,0 +1,36 @@
+digraph "AP_Camera::configure"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Camera::configure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_command\l_long_encode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__command__long_8h.html#a4b9ea1702839a5a09d44775799a24ec8",tooltip="Encode a command_long struct. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_command\l_long_pack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__command__long_8h.html#ab5b46496ad411ef946e4a10b43d3d025",tooltip="Pack a command_long message. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_finalize_message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#af3bea083c5ec83f5b6570b2bd4a817d0",tooltip="Finalize a MAVLink message with MAVLINK_COMM_0 as default channel. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_finalize_message_chan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#aa66131138fc02101dcc73b4b556ab422",tooltip="Finalize a MAVLink message with channel assignment. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_get_channel\l_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__helpers_8h.html#ac006d308067f48514ca5c0cf0b046c28"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="crc_calculate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ab4264eb7b9e22aabb5cc3191bce35f4c",tooltip="Calculates the X.25 checksum on a byte buffer. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="crc_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#aee738f6e20d31b027afdd966c79befae",tooltip="Initiliaze the buffer for the X.25 CRC. "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="crc_accumulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#ade2bbc31cd3b5b6d839556f56de61957",tooltip="Accumulate the X.25 CRC by adding one char at a time. "];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="crc_accumulate_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$checksum_8h.html#abcbaa800e8fcbcdf9bb48168657fbefd",tooltip="Accumulate the X.25 CRC by adding an array of bytes. "];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="GCS_MAVLINK::send_to\l_components",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a928edfeb8ca8d1656eca3e0c176d49a7"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MAVLink_routing::send\l_to_components",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMAVLink__routing.html#ace8e55f8db025f01d4309de699de5460"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="comm_get_txspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GCS__MAVLink_8cpp.html#a2a0fd455fd37f642e9eb67373a14b7d9"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="AP_HAL::Stream::txspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Stream.html#a7028834212873394e906bcaf7f4a06b3"];
+}

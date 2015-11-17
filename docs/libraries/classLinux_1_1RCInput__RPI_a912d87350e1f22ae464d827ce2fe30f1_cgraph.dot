@@ -1,0 +1,14 @@
+digraph "Linux::RCInput_RPI::set_sigaction"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::RCInput_RPI\l::set_sigaction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::RCInput_RPI\l::termination_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput__RPI.html#ac3198d5cc0409aba0ff0f6f6f6413a92"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::RCInput_RPI\l::stop_dma",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput__RPI.html#a4c17721f4b17a7d82504e1efb8be3781"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_HAL::Scheduler::\lpanic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#ac08c02070405b6cc1d7241025acb5101"];
+}

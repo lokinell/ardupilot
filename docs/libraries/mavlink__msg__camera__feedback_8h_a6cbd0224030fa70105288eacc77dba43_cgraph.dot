@@ -1,0 +1,34 @@
+digraph "mavlink_msg_camera_feedback_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_camera\l_feedback_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_camera\l_feedback_get_time_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a037af7af143a2c1d3b284dcebd1073fc",tooltip="Send a camera_feedback message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_camera\l_feedback_get_lat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#aaf66ae454c048ce306518940b1a068eb",tooltip="Get field lat from camera_feedback message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_camera\l_feedback_get_lng",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a95e7da7caea73a5abf8d5e5fdcd20d33",tooltip="Get field lng from camera_feedback message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_camera\l_feedback_get_alt_msl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#aa9ca4a7d50e29d3782f8dbd7157737e8",tooltip="Get field alt_msl from camera_feedback message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_camera\l_feedback_get_alt_rel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a7b886acf6f7ed6b82eac1174c74a039f",tooltip="Get field alt_rel from camera_feedback message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_camera\l_feedback_get_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a04ab5a820fe575df23084beb8f374c68",tooltip="Get field roll from camera_feedback message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_camera\l_feedback_get_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a2f901d81527c17081f9001877c0714f5",tooltip="Get field pitch from camera_feedback message. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mavlink_msg_camera\l_feedback_get_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a68bdec98c4113e195be742bd8f5865a8",tooltip="Get field yaw from camera_feedback message. "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mavlink_msg_camera\l_feedback_get_foc_len",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#ae2b53b9c830aabb616b18abbbffd6482",tooltip="Get field foc_len from camera_feedback message. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="mavlink_msg_camera\l_feedback_get_img_idx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a93220094dbbdf2071f464981112942cc",tooltip="Get field img_idx from camera_feedback message. "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mavlink_msg_camera\l_feedback_get_target\l_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a49c2ed506f28a18ddfab46f2897b5b74",tooltip="Get field target_system from camera_feedback message. "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="mavlink_msg_camera\l_feedback_get_cam_idx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a3d818621191fd4da12be3c595dc71b43",tooltip="Get field cam_idx from camera_feedback message. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="mavlink_msg_camera\l_feedback_get_flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__camera__feedback_8h.html#a2156ac1e44215c995a66ac899a55eab5",tooltip="Get field flags from camera_feedback message. "];
+}

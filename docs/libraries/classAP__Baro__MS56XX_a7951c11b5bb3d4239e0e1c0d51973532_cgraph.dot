@@ -1,0 +1,20 @@
+digraph "AP_Baro_MS56XX::accumulate"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Baro_MS56XX::accumulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Baro_MS56XX::_timer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Baro__MS56XX.html#a5d88be68c0df4f9aa14b7c4e60f1b897"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_HAL::Scheduler::\lmicros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Scheduler.html#add46d722bfb08a16f220e63591654e46"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_SerialBus::sem_take\l_nonblocking",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialBus.html#aa6f2ea7a630df154230bb6dd24adc541"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_SerialBus::read\l_24bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialBus.html#a8eb397dd152e865e82ee5b3c5a392f5f"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_SerialBus::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialBus.html#a4575e6b5994f69a9cbba8d11272c85eb"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_SerialBus::sem_give",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__SerialBus.html#a5f00921cf638834d5d6aabfbed6461f6"];
+}

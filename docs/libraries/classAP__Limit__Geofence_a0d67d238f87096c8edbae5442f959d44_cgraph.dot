@@ -1,0 +1,30 @@
+digraph "AP_Limit_Geofence::AP_Limit_Geofence"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Limit_Geofence::\lAP_Limit_Geofence",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Param::setup_object\l_defaults",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Param.html#a5f6dcfce1c0a79cf5bd81283e22f3201"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Param::set_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Param.html#acd4b14f793c37f162e298761d2155ca6"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Param::get_default\l_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Param.html#a1f6efebd94bc8bfd16db8d73ad3018c6"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Limit_Geofence::\lupdate_boundary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Limit__Geofence.html#a77c37ae99a57f9c81b807ccac09827af"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="AP_Limit_Geofence::\lget_fence_point_with_index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Limit__Geofence.html#a64d8110312a6805ddc3ccd7a80c1b961"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_Limit_Geofence::\lfence_total",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Limit__Geofence.html#a09fd9ba1f1f37b116d9c5268f8fc602c"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="StorageAccess::read\l_uint32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classStorageAccess.html#af10e9fa6cda0cb973243e4852c9d16c6"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="StorageAccess::read\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classStorageAccess.html#ab2a8575d541549a15645edc360fdaa91"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="pgm_read_word",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a9fc333349fa71fdc21a2d5152c5e23a2"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="pgm_read_byte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da"];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="AP_HAL::Storage::read\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__HAL_1_1Storage.html#a1c3b1e80b0bec7d4bacd3ecbefb3b3f3"];
+}

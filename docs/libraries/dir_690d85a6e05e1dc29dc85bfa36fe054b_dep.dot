@@ -1,0 +1,11 @@
+digraph "libraries/AP_Navigation" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_690d85a6e05e1dc29dc85bfa36fe054b [shape=box, label="AP_Navigation", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_690d85a6e05e1dc29dc85bfa36fe054b.html"];
+  }
+  dir_df3f4256615fd4197927a84a019a8bd8 [shape=box label="AP_Common" fillcolor="white" style="filled" color="red" URL="dir_df3f4256615fd4197927a84a019a8bd8.html"];
+  dir_690d85a6e05e1dc29dc85bfa36fe054b->dir_df3f4256615fd4197927a84a019a8bd8 [headlabel="1", labeldistance=1.5 headhref="dir_000116_000030.html"];
+}

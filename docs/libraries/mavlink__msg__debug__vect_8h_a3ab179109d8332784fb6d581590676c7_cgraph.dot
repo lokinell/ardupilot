@@ -1,0 +1,20 @@
+digraph "mavlink_msg_debug_vect_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_debug_vect\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_debug_vect\l_get_time_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__debug__vect_8h.html#aebff20f0d065c5393ddc5329cc325f36",tooltip="Get field time_usec from debug_vect message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_debug_vect\l_get_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__debug__vect_8h.html#aabe73afc904f130b361aa081cea2c5d6",tooltip="Get field x from debug_vect message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_debug_vect\l_get_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__debug__vect_8h.html#ad1c64062c0e45855319446bae77c4e04",tooltip="Get field y from debug_vect message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_debug_vect\l_get_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__debug__vect_8h.html#ac572d01aa1ea90ee8a0362529118e90f",tooltip="Get field z from debug_vect message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_debug_vect\l_get_name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__debug__vect_8h.html#a4430cd2623ca64d7c3c5876665a7a52f",tooltip="Send a debug_vect message. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="_MAV_RETURN_char_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#a12ebb16564718cc14d12b46458bbb290"];
+}

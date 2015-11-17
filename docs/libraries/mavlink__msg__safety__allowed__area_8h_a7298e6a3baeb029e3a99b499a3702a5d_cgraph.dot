@@ -1,0 +1,22 @@
+digraph "mavlink_msg_safety_allowed_area_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_safety\l_allowed_area_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_safety\l_allowed_area_get_p1x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#a7da848f412b93422335110f2af6409a0",tooltip="Get field p1x from safety_allowed_area message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_safety\l_allowed_area_get_p1y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#a5985f6ee8f1bb6988a6a69a0d8f79efa",tooltip="Get field p1y from safety_allowed_area message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_safety\l_allowed_area_get_p1z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#a6bf678d0068ca89ce527365cb4394263",tooltip="Get field p1z from safety_allowed_area message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_safety\l_allowed_area_get_p2x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#a023efae9c42172a55f0129768630e6ca",tooltip="Get field p2x from safety_allowed_area message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_safety\l_allowed_area_get_p2y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#abaa576cf077c6179ae3a1a385a164420",tooltip="Get field p2y from safety_allowed_area message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_safety\l_allowed_area_get_p2z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#aeb7c4bf8480455620231e8d7810ccb4a",tooltip="Get field p2z from safety_allowed_area message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_safety\l_allowed_area_get_frame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__safety__allowed__area_8h.html#a7e67176ef92bcfde51824b59ca2f54a0",tooltip="Send a safety_allowed_area message. "];
+}

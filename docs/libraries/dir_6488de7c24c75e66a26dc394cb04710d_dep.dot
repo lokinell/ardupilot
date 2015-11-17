@@ -1,0 +1,9 @@
+digraph "libraries/AP_HAL/examples/AnalogIn" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f7f5157e56f55124705528a97fcdff61 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_f7f5157e56f55124705528a97fcdff61.html"]
+  dir_6488de7c24c75e66a26dc394cb04710d [shape=box, label="AnalogIn", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6488de7c24c75e66a26dc394cb04710d.html"];
+  }
+}

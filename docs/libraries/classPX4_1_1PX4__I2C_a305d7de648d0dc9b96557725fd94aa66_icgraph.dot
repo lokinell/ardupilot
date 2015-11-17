@@ -1,0 +1,20 @@
+digraph "PX4::PX4_I2C::do_transfer"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PX4::PX4_I2C::do_transfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PX4::PX4I2CDriver::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#ac75f66ee2feafd9f1c29805fb5f30cf3"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PX4::PX4I2CDriver::\lreadRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#aa7ae7af6e1a4a5854bd0459ef6d7f0e5"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PX4::PX4I2CDriver::\lreadRegisters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#aa398ac3820fc249169a76a2871d21ff4"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PX4::PX4I2CDriver::\lwrite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#a2ddc80fb44ab88cee0601f7796eed253"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PX4::PX4I2CDriver::\lwriteRegisters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#a80bdbc74b6b69fe5a49bf4a9454c7078"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="PX4::PX4I2CDriver::\lwriteRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPX4_1_1PX4I2CDriver.html#a608404a7dbef16edd6b4189689014c93"];
+}

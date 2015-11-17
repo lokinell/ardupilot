@@ -1,0 +1,22 @@
+digraph "mavlink_msg_attitude_target_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_attitude\l_target_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_attitude\l_target_get_time_boot_ms",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a2dccac06e077e0091c201245c3c14e51",tooltip="Send a attitude_target message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_attitude\l_target_get_q",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a0a2573b7b25c1bf79b56d26e6ca6b11d",tooltip="Get field q from attitude_target message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_attitude\l_target_get_body_roll_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a1a520e52f7e642883ff32eb1d4e74aff",tooltip="Get field body_roll_rate from attitude_target message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_attitude\l_target_get_body_pitch_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a6d1d81605db75e891d77d59f4d5d1388",tooltip="Get field body_pitch_rate from attitude_target message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_attitude\l_target_get_body_yaw_rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a5e4b3f2cb54fc9ebbf7001ed3c74b29e",tooltip="Get field body_yaw_rate from attitude_target message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_attitude\l_target_get_thrust",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#ac81d99e6d8cdf7c2967b81a505942acd",tooltip="Get field thrust from attitude_target message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_attitude\l_target_get_type_mask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__attitude__target_8h.html#a31452b5b7c5c6dbe913e64fbe290a09b",tooltip="Get field type_mask from attitude_target message. "];
+}

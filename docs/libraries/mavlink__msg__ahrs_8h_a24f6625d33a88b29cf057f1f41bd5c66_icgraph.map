@@ -1,0 +1,6 @@
+<map id="mavlink_msg_ahrs_get_accel_weight" name="mavlink_msg_ahrs_get_accel_weight">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs_8h.html#a48571b5e50fbba4a201fe03dc96b6329" title="Decode a ahrs message into a struct. " alt="" coords="212,12,395,37"/>
+<area shape="rect" id="node3" href="$ardupilotmega_2testsuite_8h.html#aa6892a55bb6a312967d765e9f7e551a0" title="mavlink_test_ahrs" alt="" coords="443,12,572,37"/>
+<area shape="rect" id="node4" href="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d" title="mavlink_test_ardupilotmega" alt="" coords="620,12,808,37"/>
+<area shape="rect" id="node5" href="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759" title="mavlink_test_all" alt="" coords="856,12,972,37"/>
+</map>

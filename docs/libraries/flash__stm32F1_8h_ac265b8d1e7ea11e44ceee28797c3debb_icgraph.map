@@ -1,0 +1,5 @@
+<map id="FLASH_GetStatus" name="FLASH_GetStatus">
+<area shape="rect" id="node2" href="$flash__stm32F1_8h.html#a32f1f24182bcef29414d7b59c1669595" title="Waits for a Flash operation to complete or a TIMEOUT to occur. " alt="" coords="184,31,386,56"/>
+<area shape="rect" id="node3" href="$flash__stm32F1_8h.html#ab10d4a1c191d1d7f5b3a3b70927e6e69" title="Erases a specified FLASH page. " alt="" coords="454,5,592,31"/>
+<area shape="rect" id="node4" href="$flash__stm32F1_8h.html#a67623617a6efb2676988073df8b08b23" title="Programs a half word at a specified address. " alt="" coords="434,55,612,80"/>
+</map>

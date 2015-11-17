@@ -1,0 +1,20 @@
+digraph "NavEKF2_core::getEulerAngles"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NavEKF2_core::getEulerAngles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Quaternion::to_euler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#ab3049efa36b211699ca03ea53970f0fd"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Quaternion::get_euler_roll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#a9ae6c42349ddc744022a4a1cf7868eb0"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Quaternion::get_euler\l_pitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#a0bfe50c332309932cd833b83f6524e5f"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="safe_asin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AP__Math_8cpp.html#a2706fd969ad73bc8ef977d964c04f4a3"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Quaternion::get_euler_yaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#a35c2a1030832728574363ed8655da625"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="AP_AHRS::get_trim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__AHRS.html#a93a3774320e331583fc6c6ac2418be21"];
+}

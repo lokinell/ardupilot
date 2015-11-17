@@ -1,0 +1,4 @@
+<map id="try_send_statustext" name="try_send_statustext">
+<area shape="rect" id="node2" href="$GCS__MAVLink_8cpp.html#a2a0fd455fd37f642e9eb67373a14b7d9" title="comm_get_txspace" alt="" coords="190,5,327,31"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Stream.html#a7028834212873394e906bcaf7f4a06b3" title="AP_HAL::Stream::txspace" alt="" coords="375,5,551,31"/>
+</map>

@@ -1,0 +1,16 @@
+digraph "AC_WPNav::get_bearing_cd"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AC_WPNav::get_bearing_cd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AC_WPNav::get_loiter\l_bearing_to_target",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a7f711c7661c335417cbcc28f9546688c",tooltip="get_loiter_bearing_to_target - get bearing to loiter target in centi-degrees "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AC_WPNav::get_wp_bearing\l_to_destination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#aaf51adb38cdaf72ffa54d2a03a151cfd",tooltip="get_bearing_to_destination - get bearing to next waypoint in centi-degrees "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AC_WPNav::set_wp_origin\l_and_destination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#a5b055923b08502c96c71a9e186020b42",tooltip="set_wp_origin_and_destination - set origin and destination waypoints using position vectors (distance..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AC_WPNav::set_wp_destination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAC__WPNav.html#aac204111a3f01e04d5b8165f03db223e",tooltip="set_wp_destination waypoint using position vector (distance from home in cm) "];
+}

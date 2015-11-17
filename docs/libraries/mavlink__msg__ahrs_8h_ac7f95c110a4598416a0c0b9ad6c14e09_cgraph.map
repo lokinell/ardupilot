@@ -1,0 +1,9 @@
+<map id="mavlink_msg_ahrs_encode_chan" name="mavlink_msg_ahrs_encode_chan">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs_8h.html#ab4dc81fc85188d1843d8a82d3b4de3e5" title="Pack a ahrs message on a channel. " alt="" coords="273,93,478,119"/>
+<area shape="rect" id="node3" href="$mavlink__helpers_8h.html#aa66131138fc02101dcc73b4b556ab422" title="Finalize a MAVLink message with channel assignment. " alt="" coords="526,93,739,119"/>
+<area shape="rect" id="node4" href="$mavlink__helpers_8h.html#ac006d308067f48514ca5c0cf0b046c28" title="mavlink_get_channel\l_status" alt="" coords="792,5,938,44"/>
+<area shape="rect" id="node5" href="$checksum_8h.html#ab4264eb7b9e22aabb5cc3191bce35f4c" title="Calculates the X.25 checksum on a byte buffer. " alt="" coords="815,68,915,93"/>
+<area shape="rect" id="node7" href="$checksum_8h.html#ade2bbc31cd3b5b6d839556f56de61957" title="Accumulate the X.25 CRC by adding one char at a time. " alt="" coords="991,119,1106,144"/>
+<area shape="rect" id="node8" href="$checksum_8h.html#abcbaa800e8fcbcdf9bb48168657fbefd" title="Accumulate the X.25 CRC by adding an array of bytes. " alt="" coords="787,169,943,195"/>
+<area shape="rect" id="node6" href="$checksum_8h.html#aee738f6e20d31b027afdd966c79befae" title="Initiliaze the buffer for the X.25 CRC. " alt="" coords="1017,68,1080,93"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "Quaternion::to_vector312"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Quaternion::to_vector312",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Quaternion::rotation\l_matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQuaternion.html#afb7132c9c69a984a40be950a17effeaa",tooltip="-*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Matrix3::to_euler312",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMatrix3.html#abd9cba5416890b2470e3e0f44c314c2a"];
+}

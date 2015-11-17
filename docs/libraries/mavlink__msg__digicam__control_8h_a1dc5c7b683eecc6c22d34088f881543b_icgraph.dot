@@ -1,0 +1,18 @@
+digraph "mavlink_msg_digicam_control_get_shot"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_digicam\l_control_get_shot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_digicam\l_control_decode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__digicam__control_8h.html#a555bdf370d83bb7e910c6bdf7e37ecbc",tooltip="Decode a digicam_control message into a struct. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Camera::control_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Camera.html#a27664cf70d78d5af17d66a3d715048db",tooltip="decode deprecated MavLink message that controls camera. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_test_digicam\l_control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a854f8e5b733b51170ed61a683de49fad"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_test_ardupilotmega",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#ab264d471ac2f46584f2bb580704b5e9d"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_test_all",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ardupilotmega_2testsuite_8h.html#a4cc77b6c343679298da5d3c2b4e48759"];
+}

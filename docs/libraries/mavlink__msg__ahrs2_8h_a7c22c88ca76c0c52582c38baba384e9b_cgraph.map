@@ -1,0 +1,8 @@
+<map id="mavlink_msg_ahrs2_decode" name="mavlink_msg_ahrs2_decode">
+<area shape="rect" id="node2" href="$mavlink__msg__ahrs2_8h.html#a234111adb58d99ba9cce0561ff56288e" title="Send a ahrs2 message. " alt="" coords="247,5,438,31"/>
+<area shape="rect" id="node3" href="$mavlink__msg__ahrs2_8h.html#aa30f5de95d41f489f95382eb8ef1d887" title="Get field pitch from ahrs2 message. " alt="" coords="260,55,426,93"/>
+<area shape="rect" id="node4" href="$mavlink__msg__ahrs2_8h.html#ab2fcd63e95690171fb3ffba549bd4f00" title="Get field yaw from ahrs2 message. " alt="" coords="244,117,441,143"/>
+<area shape="rect" id="node5" href="$mavlink__msg__ahrs2_8h.html#a79fc34122442f82055f2f8556f6c0f5d" title="Get field altitude from ahrs2 message. " alt="" coords="260,167,426,205"/>
+<area shape="rect" id="node6" href="$mavlink__msg__ahrs2_8h.html#a5d5e3b199049f195bef6c14beaf653e5" title="Get field lat from ahrs2 message. " alt="" coords="249,229,437,255"/>
+<area shape="rect" id="node7" href="$mavlink__msg__ahrs2_8h.html#af149240e81dda8a4d01cbf8667ca76e1" title="Get field lng from ahrs2 message. " alt="" coords="247,279,438,304"/>
+</map>

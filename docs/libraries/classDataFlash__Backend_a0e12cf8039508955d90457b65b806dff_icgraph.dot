@@ -1,0 +1,20 @@
+digraph "DataFlash_Backend::bufferspace_available"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DataFlash_Backend::\lbufferspace_available",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DataFlash_Class::bufferspace\l_available",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Class.html#a44d696d04d974d4666bca5b0657b7f64"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DFMessageWriter_DFLogStart\l::process",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDFMessageWriter__DFLogStart.html#a81d7ab192bff2616b7649f3d4bdf7ca7"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DataFlash_Backend::\lWriteMoreStartupMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#af17a5022c4e47cfdd56c1a5887e85632"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DataFlash_Backend::\lpush_log_blocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#af5ccb067107a1ee7289ec208b5bc3bae"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="DataFlash_Backend::\lWriteBlockCheckStartupMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Backend.html#a82784dcb330ac456bbd1d3333b7c5769"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="DataFlash_Block::WritePrioritised\lBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataFlash__Block.html#aeb4df7ca0d756fa0f7e6d5e172b35658"];
+}

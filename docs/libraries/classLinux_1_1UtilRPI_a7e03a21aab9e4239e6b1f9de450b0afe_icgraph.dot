@@ -1,0 +1,12 @@
+digraph "Linux::UtilRPI::get_rpi_version"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::UtilRPI::get\l_rpi_version",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::GPIO_RPI::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1GPIO__RPI.html#af23d85b6f658a699b46e8ad1f9a23a93"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::RCInput_RPI\l::RCInput_RPI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RCInput__RPI.html#a0ba3e900dfd44058c2d24ab3ae8c4cc6"];
+}

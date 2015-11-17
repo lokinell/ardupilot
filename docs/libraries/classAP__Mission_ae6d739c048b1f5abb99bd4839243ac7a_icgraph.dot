@@ -1,0 +1,14 @@
+digraph "AP_Mission::get_current_nav_cmd"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_Mission::get_current\l_nav_cmd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="APM_OBC::check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPM__OBC.html#abcd546549be8688ab9cd0c46147dc077"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GCS_MAVLINK::handle\l_mission_request",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#a3904d7894979bcbdc58083f39b1aa8da"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GCS_MAVLINK::handle\l_mission_set_current",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGCS__MAVLINK.html#ad4e76e7f27bc999e806416e24aa10f26"];
+}

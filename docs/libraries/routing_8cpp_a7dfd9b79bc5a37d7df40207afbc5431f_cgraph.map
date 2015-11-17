@@ -1,0 +1,9 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1Print.html#ad337ce3f7977411b7d34d47a51e5737e" title="AP_HAL::Print::println" alt="" coords="107,31,258,56"/>
+<area shape="rect" id="node6" href="$classGCS__MAVLINK.html#afaf4b53bc2f64b4fb6bd1fe729b2cef3" title="GCS_MAVLINK::init" alt="" coords="113,83,253,108"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1Print.html#acfe80773011eb17dfb52c2fba517a093" title="AP_HAL::Print::print" alt="" coords="510,5,651,31"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1Print.html#a169b128f9e22f0c15883768f580541a2" title="AP_HAL::Print::println" alt="" coords="307,31,458,56"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="702,5,845,31"/>
+<area shape="rect" id="node7" href="$classGCS__MAVLINK.html#af5e92e687223f8a102363b90f325e612" title="GCS_MAVLINK::reset\l_cli_timeout" alt="" coords="306,80,459,119"/>
+<area shape="rect" id="node8" href="$classAP__HAL_1_1Scheduler.html#a26b68339fc68a562d8d3a1238d0ec8c1" title="AP_HAL::Scheduler::\lmillis" alt="" coords="507,80,654,119"/>
+</map>

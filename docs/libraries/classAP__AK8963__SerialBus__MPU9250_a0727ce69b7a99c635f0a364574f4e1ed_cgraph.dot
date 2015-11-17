@@ -1,0 +1,10 @@
+digraph "AP_AK8963_SerialBus_MPU9250::get_semaphore"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_AK8963_SerialBus\l_MPU9250::get_semaphore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AuxiliaryBus::get_semaphore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAuxiliaryBus.html#acde2ddbc6cc8925c1914012d1d585873"];
+}

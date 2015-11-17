@@ -1,0 +1,12 @@
+digraph "mavlink_msg_battery2_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_battery2\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_battery2\l_get_voltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery2_8h.html#abb37336feaa0d57be8491133108fbabc",tooltip="Send a battery2 message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_battery2\l_get_current_battery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__battery2_8h.html#a00bc2ac4e876121633b9145b8a0599a0",tooltip="Get field current_battery from battery2 message. "];
+}

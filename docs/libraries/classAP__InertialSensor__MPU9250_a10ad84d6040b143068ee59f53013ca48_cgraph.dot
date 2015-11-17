@@ -1,0 +1,10 @@
+digraph "AP_InertialSensor_MPU9250::get_auxiliary_bus"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_InertialSensor_MPU9250\l::get_auxiliary_bus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_MPU9250_BusDriver\l::has_auxiliary_bus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__MPU9250__BusDriver.html#a465978c9ebf74c29c2aef96301e83d16"];
+}

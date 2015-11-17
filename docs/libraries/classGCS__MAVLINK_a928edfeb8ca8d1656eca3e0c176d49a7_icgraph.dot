@@ -1,0 +1,17 @@
+digraph "GCS_MAVLINK::send_to_components"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GCS_MAVLINK::send_to\l_components",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AP_Camera::configure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Camera.html#a2ceac45cdd6c13d66052c8168fff689c"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AP_Camera::control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Camera.html#a7c7aa23d1a71db5345bb11899bbb8f31"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="AP_Camera::control_msg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Camera.html#a27664cf70d78d5af17d66a3d715048db",tooltip="decode deprecated MavLink message that controls camera. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="AP_Camera::trigger_pic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAP__Camera.html#a74372e2b8e5d3cd3b464f2ef417cb0f6"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

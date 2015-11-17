@@ -1,0 +1,14 @@
+digraph "Linux::Storage::_storage_create"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::Storage::_storage\l_create",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::Storage::_storage_open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Storage.html#adf6fc2369946746d00bb2a7f86410258"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::Storage::read\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Storage.html#a61138ade2a50e5731b493f84e7316879"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::Storage::write\l_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Storage.html#a353a4b0d50191bb04405a1f62b0cbe7b"];
+}

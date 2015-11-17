@@ -1,0 +1,12 @@
+<map id="multiread" name="multiread">
+<area shape="rect" id="node2" href="$classAP__HAL_1_1RCInput.html#a0b019ac5120129c29cdb239576694a85" title="AP_HAL::RCInput::new\l_input" alt="" coords="131,5,291,44"/>
+<area shape="rect" id="node3" href="$classAP__HAL_1_1RCInput.html#a078fd7e6d2e6a899009ec674a8e03498" title="AP_HAL::RCInput::read" alt="" coords="130,68,292,93"/>
+<area shape="rect" id="node4" href="$classAP__HAL_1_1UARTDriver.html#a65c7824b8877f7a2f79365c8ffae8f56" title="AP_HAL::UARTDriver\l::printf" alt="" coords="135,117,287,156"/>
+<area shape="rect" id="node5" href="$classAP__HAL_1_1UARTDriver.html#aa8abfb6d6641299472c29ac1edde559f" title="AP_HAL::UARTDriver\l::vprintf" alt="" coords="340,117,492,156"/>
+<area shape="rect" id="node6" href="$print__vprintf_8cpp.html#a473b9349f4b086b552a21eb8fe057016" title="print_vprintf" alt="" coords="540,124,631,149"/>
+<area shape="rect" id="node7" href="$classAP__HAL_1_1Print.html#acc65391952a43334f8f5c9bef341f501" title="AP_HAL::Print::write" alt="" coords="679,25,822,51"/>
+<area shape="rect" id="node8" href="$ftoa__engine_8cpp.html#a1c28234da8f20b43c85890d4bb452947" title="ftoa_engine" alt="" coords="705,75,796,100"/>
+<area shape="rect" id="node9" href="$AP__Progmem_8h.html#a1514e0408e036062b4af844baaf567da" title="pgm_read_byte" alt="" coords="693,124,807,149"/>
+<area shape="rect" id="node10" href="$utoa__invert_8cpp.html#a34926f552460b47c414ec4d83b32815c" title="ulltoa_invert" alt="" coords="704,173,797,199"/>
+<area shape="rect" id="node11" href="$utoa__invert_8cpp.html#a5d99bba8e697c1e11da489d88fca8559" title="ultoa_invert" alt="" coords="705,223,795,248"/>
+</map>

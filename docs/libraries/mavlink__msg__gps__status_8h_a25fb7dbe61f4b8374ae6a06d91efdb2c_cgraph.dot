@@ -1,0 +1,26 @@
+digraph "mavlink_msg_gps_status_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_gps_status\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_gps_status\l_get_satellites_visible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#a46e630b6ba9cdf45bf6eee11128f835d",tooltip="Send a gps_status message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_gps_status\l_get_satellite_prn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#a0606e8042bf697caefb7f8e9ef44c8d3",tooltip="Get field satellite_prn from gps_status message. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="_MAV_RETURN_uint8_t\l_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$protocol_8h.html#a0577ed5da38b4eed5472e27dc94026c3"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_gps_status\l_get_satellite_used",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#a928deb3be859bc008ecd0e47e4ca5b1d",tooltip="Get field satellite_used from gps_status message. "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_gps_status\l_get_satellite_elevation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#aacda1c972d2e5666c44830160249a42a",tooltip="Get field satellite_elevation from gps_status message. "];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_gps_status\l_get_satellite_azimuth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#a70192016b196a55d28ce63b4be4a029e",tooltip="Get field satellite_azimuth from gps_status message. "];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_gps_status\l_get_satellite_snr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__gps__status_8h.html#a4f5e35b7d3079e6c8f3f356fd100a213",tooltip="Get field satellite_snr from gps_status message. "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

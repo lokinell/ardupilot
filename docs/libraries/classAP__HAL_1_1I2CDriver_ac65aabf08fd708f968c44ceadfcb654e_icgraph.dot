@@ -1,0 +1,12 @@
+digraph "AP_HAL::I2CDriver::ignore_errors"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AP_HAL::I2CDriver::\lignore_errors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ToshibaLED_I2C::hw_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classToshibaLED__I2C.html#ab4c128ad9e8774de9a9a7714d5d15041"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NavioLED_I2C::hw_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNavioLED__I2C.html#ab5b4acc02c35ce1888079283bdc06393"];
+}

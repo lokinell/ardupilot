@@ -1,0 +1,22 @@
+digraph "mavlink_msg_vibration_decode"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mavlink_msg_vibration\l_decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mavlink_msg_vibration\l_get_time_usec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#a7be81f29081068699cf48b10e1814227",tooltip="Send a vibration message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mavlink_msg_vibration\l_get_vibration_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#afbfa63430a50d63b86b2705122be791d",tooltip="Get field vibration_x from vibration message. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mavlink_msg_vibration\l_get_vibration_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#a31f23324753a9f0be7c1f74ae232dbdc",tooltip="Get field vibration_y from vibration message. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mavlink_msg_vibration\l_get_vibration_z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#ac6ff870b2cf44d76c632b4ab11bea5d0",tooltip="Get field vibration_z from vibration message. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mavlink_msg_vibration\l_get_clipping_0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#af934cbe4469cb09ba539a40b2fc23304",tooltip="Get field clipping_0 from vibration message. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mavlink_msg_vibration\l_get_clipping_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#ade8cb9a70cc114413854805e4f30ac48",tooltip="Get field clipping_1 from vibration message. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mavlink_msg_vibration\l_get_clipping_2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mavlink__msg__vibration_8h.html#af6019b50112c738454a4cbddaa7bf2d6",tooltip="Get field clipping_2 from vibration message. "];
+}

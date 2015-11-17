@@ -1,0 +1,15 @@
+digraph "libraries/Filter/ModeFilter.h"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="libraries/Filter/ModeFilter.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="inttypes.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FilterClass.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$FilterClass_8h.html",tooltip="A pure virtual interface class. "];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FilterWithBuffer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$FilterWithBuffer_8h.html",tooltip="A filter with a buffer. This is implemented separately to the base Filter class to get around restric..."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

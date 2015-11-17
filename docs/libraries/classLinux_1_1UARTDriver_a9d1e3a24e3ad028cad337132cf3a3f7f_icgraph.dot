@@ -1,0 +1,19 @@
+digraph "Linux::UARTDriver::_write_pending_bytes"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Linux::UARTDriver::\l_write_pending_bytes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Linux::UARTDriver::\l_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1UARTDriver.html#a0518ce1498288dc92caf6bec9ed99b1b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Linux::SPIUARTDriver\l::_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1SPIUARTDriver.html#a25fbec9378c29b768394458954027ac5"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Linux::RPIOUARTDriver\l::_timer_tick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1RPIOUARTDriver.html#ab5553bf130bd1b133d8c03fd67b769be"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Linux::Scheduler::\l_uart_thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a599c62f8da5b055f5c3aca38b39de583"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Linux::Scheduler::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLinux_1_1Scheduler.html#a58e61fba523c82d8c0f7f26f4e1b0ff8"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
